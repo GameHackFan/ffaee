@@ -1,0 +1,29 @@
+The enemies are represented by a 16 bytes data
+
+
+TS =  Trigger Spawn. Camera Position to trigger
+      the enemy spawn (Level Offset + TS).
+PX =  Spawn Position X (Level Offset + PX).
+PY =  Spawn Position Y.
+ID =  ID of the enemy.
+TY =  Unknown. Might be the type of the object?
+PO =  Posture of the enemy.
+CL =  Color / Pallet. It also change the name of the
+      enemy to match the color.
+OB =  Offensive Behavior. The bigger the value, more
+      aggressive the enemy will be.
+DB =  Deffensive Behavior. The bigger the value, more
+      aggressive the enemy will be.
+SP =  Spawn Flag.
+      00 force the enemy to spawn for 1 or 2 players.
+      01 force the enemy to spawn for 2 players only.
+HP =  Health + Power. The bigger the value, more 
+      health the enemy will have and more power he
+      will have in his attacks.
+
+
+TS TS PX PX PY PY ID TY PO CL OB DB	SP HP 
+70 00 10 02 40 00 00 02 02 00 00 00 00 00
+
+
+
