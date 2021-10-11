@@ -1,6 +1,6 @@
 const objectFallTypeStrategy = 
 [
-  "knifeFalling", "muramasaFalling", "ironPipeFalling"
+	"knifeFalling", "muramasaFalling", "ironPipeFalling"
 ];
 
 

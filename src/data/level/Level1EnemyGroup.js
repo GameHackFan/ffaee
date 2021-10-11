@@ -10,9 +10,9 @@ const level1EnemyGroup =
     screenPositionEnd: 550,
     walkablePositionYTop: 64,
     walkablePositionYBottom: 16,
-    levelEditorLimitStart: -96,  // -192 + 96
+    levelEditorLimitStart: -96,			// -192 + 96
     levelEditorLimitEnd: 600,    
-    levelEditorShiftX: 396,      // 492 - 96
+    levelEditorShiftX: 396,					// 492 - 96
     defaultAmount: 5,
     maxAmount: 15,
     forbiddenEnemyLists: ["chandelierList"]
@@ -31,7 +31,7 @@ const level1EnemyGroup =
     addEmptyBytes: true,
     levelEditorLimitStart: 600,
     levelEditorLimitEnd: 1200,
-    levelEditorShiftX: 396,      // 492 - 96
+    levelEditorShiftX: 396,					// 492 - 96
     defaultAmount: 6,
     maxAmount: 15,
     forbiddenEnemyLists: ["chandelierList"]
@@ -52,7 +52,7 @@ const level1EnemyGroup =
     mustHaveSpawnDelayTime: true,
     levelEditorLimitStart: 816,
     levelEditorLimitEnd: 1200,
-    levelEditorShiftX: 396,      // 492 - 96
+    levelEditorShiftX: 396,					// 492 - 96
     defaultAmount: 5,
     maxAmount: 20,
     specialProfile: "lockGroupStrategy",
@@ -76,7 +76,7 @@ const level1EnemyGroup =
     addEmptyBytes: true,
     levelEditorLimitStart: 1424,
     levelEditorLimitEnd: 1954,
-    levelEditorShiftX: -1124,      // 492 - 1616
+    levelEditorShiftX: -1124,					// 492 - 1616
     defaultAmount: 6,
     maxAmount: 20,
     forbiddenPositionRanges: ["outsideLeft"],
@@ -98,13 +98,12 @@ const level1EnemyGroup =
     mustHaveSpawnDelayTime: true,
     levelEditorLimitStart: 1570,
     levelEditorLimitEnd: 1954,
-    levelEditorShiftX: -1124,      // 492 - 1616
+    levelEditorShiftX: -1124,					// 492 - 1616
     defaultAmount: 4,
     maxAmount: 20,
     specialProfile: "lockGroupStrategy",
     forbiddenPositionRanges: ["outsideRight"],
-    forbiddenEnemyLists: ["mustSpawnRightList",
-        "staticObjectList"]
+    forbiddenEnemyLists: ["mustSpawnRightList", "staticObjectList"]
   },
 
 
@@ -120,12 +119,11 @@ const level1EnemyGroup =
     walkablePositionYBottom: 16,
     levelEditorLimitStart: 2112,
     levelEditorLimitEnd: 2608,
-    levelEditorShiftX: -1812,      // 492 - 2304
+    levelEditorShiftX: -1812,					// 492 - 2304
     defaultAmount: 3,
-    maxAmount: 9,  // 10, but 1 space for 1 extra boss
+    maxAmount: 9,											// 10, but 1 space for 1 extra boss
     forbiddenPositionRanges: ["outsideLeft"],
-    forbiddenEnemyLists: ["chandelierList",
-        "mustSpawnLeftList"]
+    forbiddenEnemyLists: ["chandelierList", "mustSpawnLeftList"]
   },
   group5:
   {
@@ -141,13 +139,12 @@ const level1EnemyGroup =
     addEmptyBytes: true,
     levelEditorLimitStart: 2624,
     levelEditorLimitEnd: 3008,
-    levelEditorShiftX: -1812,      // 492 - 2304
+    levelEditorShiftX: -1812,					// 492 - 2304
     defaultAmount: 3,
-    maxAmount: 9,  // 10, but 1 space for 1 extra boss
+    maxAmount: 9,											// 10, but 1 space for 1 extra boss
     extraBoss: "damnd",
     forbiddenPositionRanges: ["outsideRight"],
-    forbiddenEnemyLists: ["chandelierList",
-        "mustSpawnRightList"]
+    forbiddenEnemyLists: ["chandelierList", "mustSpawnRightList"]
   },
 
 
@@ -166,7 +163,7 @@ const level1EnemyGroup =
     mustHaveSpawnDelayTime: true,
     levelEditorLimitStart: 2528,
     levelEditorLimitEnd: 3008,
-    levelEditorShiftX: -1812,      // 492 - 2304
+    levelEditorShiftX: -1812,					// 492 - 2304
     defaultAmount: 4,
     maxAmount: 20,
     specialProfile: "lockGroupStrategy",
@@ -189,7 +186,7 @@ const level1EnemyGroup =
     mustHaveSpawnDelayTime: true,
     levelEditorLimitStart: 2528,
     levelEditorLimitEnd: 3008,
-    levelEditorShiftX: -1812,      // 492 - 2304
+    levelEditorShiftX: -1812,					// 492 - 2304
     defaultAmount: 6,
     maxAmount: 20,
     specialProfile: "lockGroupStrategy",

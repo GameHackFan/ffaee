@@ -1,6 +1,6 @@
 const goodFoodFallTypeStrategy = 
 [
-  "barbecueFalling", "steakFalling", "chickenFalling"
+	"barbecueFalling", "steakFalling", "chickenFalling"
 ];
 
 

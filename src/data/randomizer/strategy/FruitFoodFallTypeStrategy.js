@@ -1,7 +1,7 @@
 const fruitFoodFallTypeStrategy = 
 [
-  "bananaFalling", "pineappleFalling", "appleFalling",
-  "orangeFalling", "grapesFalling"
+	"bananaFalling", "pineappleFalling", "appleFalling",
+	"orangeFalling", "grapesFalling"
 ];
 
 

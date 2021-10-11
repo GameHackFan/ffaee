@@ -1,197 +1,197 @@
 const enemyPartialFallTypeStrategy = 
 [
-  // ID 0
+	// ID 0
 
-  "bred", "bredCrouch1", "bredCrouch2",
-  "bredCrouch3", "bredCrouch4",
+	"bred", "bredCrouch1", "bredCrouch2",
+	"bredCrouch3", "bredCrouch4",
 
 
-  "dug", "dugCrouch1", "dugCrouch2",
-  "dugCrouch3", "dugCrouch4",
+	"dug", "dugCrouch1", "dugCrouch2",
+	"dugCrouch3", "dugCrouch4",
 
 
-  "jake", "jakeCrouch1", "jakeCrouch2",
-  "jakeCrouch3", "jakeCrouch4",
+	"jake", "jakeCrouch1", "jakeCrouch2",
+	"jakeCrouch3", "jakeCrouch4",
 
 
-  "simons", "simonsCrouch1", "simonsCrouch2",
-  "simonsCrouch3", "simonsCrouch4",
+	"simons", "simonsCrouch1", "simonsCrouch2",
+	"simonsCrouch3", "simonsCrouch4",
 
 
-  "drumcanBredKickRandom5",
-  
-  "drumcanDugKickRandom6",
-  
-  "drumcanJakeKickRandom7",
-  
-  "drumcanSimonsKickRandom10",
-  "drumcanSimonsKickRandom10",
+	"drumcanBredKickRandom5",
+	
+	"drumcanDugKickRandom6",
+	
+	"drumcanJakeKickRandom7",
+	
+	"drumcanSimonsKickRandom10",
+	"drumcanSimonsKickRandom10",
 
 
-  // ID 1
+	// ID 1
 
-  "j", "jIdle", "jCrouch", "j", "jIdle", 
+	"j", "jIdle", "jCrouch", "j", "jIdle", 
 
 
-  "twoP", "twoPIdle", "twoPCrouch", "twoP", "twoPIdle",
+	"twoP", "twoPIdle", "twoPCrouch", "twoP", "twoPIdle",
 
 
-  "j", "jIdle", "jCrouch", "j", "jIdle", 
+	"j", "jIdle", "jCrouch", "j", "jIdle", 
 
 
-  "twoP", "twoPIdle", "twoPCrouch", "twoP", "twoPIdle",
+	"twoP", "twoPIdle", "twoPCrouch", "twoP", "twoPIdle",
 
 
-  "twoP", "j", "twoP", "j", "twoP", 
+	"twoP", "j", "twoP", "j", "twoP", 
 
 
-  // ID 2
+	// ID 2
 
-  "axl", "axlCrouch", "axl", "axlCrouch", "axl",
+	"axl", "axlCrouch", "axl", "axlCrouch", "axl",
 
 
-  "slash", "slashCrouch", "slash", "slashCrouch",
-  "slash",
+	"slash", "slashCrouch", "slash", "slashCrouch",
+	"slash",
 
 
-  "axl", "axlCrouch", "axl", "axlCrouch", "axl",
+	"axl", "axlCrouch", "axl", "axlCrouch", "axl",
 
 
-  "slash", "slashCrouch", "slash", "slashCrouch",
-  "slash",
+	"slash", "slashCrouch", "slash", "slashCrouch",
+	"slash",
 
 
-  "slash", "axl", "slash", "axl", "slash",
+	"slash", "axl", "slash", "axl", "slash",
 
 
-  // ID 3
+	// ID 3
 
-  "andoreJr",
-  "andoreJrChestAttack", "andoreJrJumpAttack",
-  "andoreJrChestAttack", 
+	"andoreJr",
+	"andoreJrChestAttack", "andoreJrJumpAttack",
+	"andoreJrChestAttack", 
 
-  "andoreJrFallingFast", 
+	"andoreJrFallingFast", 
 
 
-  "andore",
-  "andoreChestAttack", "andoreJumpAttack",
-  "andoreChestAttack", 
+	"andore",
+	"andoreChestAttack", "andoreJumpAttack",
+	"andoreChestAttack", 
 
-  "andoreFallingFast", 
+	"andoreFallingFast", 
 
 
-  "gAndore",
-  "gAndoreChestAttack", "gAndoreJumpAttack",
-  "gAndoreChestAttack", 
+	"gAndore",
+	"gAndoreChestAttack", "gAndoreJumpAttack",
+	"gAndoreChestAttack", 
 
-  "gAndoreFallingFast", 
+	"gAndoreFallingFast", 
 
 
-  "uAndore",
-  "uAndoreChestAttack", "uAndoreJumpAttack",
-  "uAndoreChestAttack", 
+	"uAndore",
+	"uAndoreChestAttack", "uAndoreJumpAttack",
+	"uAndoreChestAttack", 
 
-  "uAndoreFallingFast", 
+	"uAndoreFallingFast", 
 
 
-  "fAndore",
-  "fAndoreChestAttack", "fAndoreJumpAttack",
-  "fAndoreChestAttack", 
-  
-  "fAndoreFallingFast", 
+	"fAndore",
+	"fAndoreChestAttack", "fAndoreJumpAttack",
+	"fAndoreChestAttack", 
+	
+	"fAndoreFallingFast", 
 
 
-  // ID 4
+	// ID 4
 
-  "gOriber", "gOriberCrouch", "gOriberHeadbutt",
-  "gOriber", "gOriberHeadbutt",
-  
+	"gOriber", "gOriberCrouch", "gOriberHeadbutt",
+	"gOriber", "gOriberHeadbutt",
+	
 
-  "billBull", "billBullCrouch", "billBullHeadbutt",
-  "billBull", "billBullHeadbutt",
+	"billBull", "billBullCrouch", "billBullHeadbutt",
+	"billBull", "billBullHeadbutt",
 
 
-  "wongWho", "wongWhoCrouch", "wongWhoHeadbutt",
-  "wongWho", "wongWhoHeadbutt",
+	"wongWho", "wongWhoCrouch", "wongWhoHeadbutt",
+	"wongWho", "wongWhoHeadbutt",
 
 
-  "gOriber", "gOriberHeadbutt", "gOriberHeadbutt",
+	"gOriber", "gOriberHeadbutt", "gOriberHeadbutt",
 
 
-  "billBull", "billBullHeadbutt", "billBullHeadbutt",
+	"billBull", "billBullHeadbutt", "billBullHeadbutt",
 
 
-  "wongWho", "wongWhoHeadbutt",
-  "wongWho", "wongWhoHeadbutt",
+	"wongWho", "wongWhoHeadbutt",
+	"wongWho", "wongWhoHeadbutt",
 
 
-  // ID 5
+	// ID 5
 
-  "hollyWood", "hollyWoodMolotov",
+	"hollyWood", "hollyWoodMolotov",
 
-  "hollyWoodFalling", "hollyWoodFallingFast",
-  "hollyWoodFallingFast",
+	"hollyWoodFalling", "hollyWoodFallingFast",
+	"hollyWoodFallingFast",
 
 
-  "elGado", "elGadoMolotov",
+	"elGado", "elGadoMolotov",
 
-  "elGadoFalling", "elGadoFallingFast",
-  "elGadoFallingFast",
+	"elGadoFalling", "elGadoFallingFast",
+	"elGadoFallingFast",
 
 
-  "hollyWood", "hollyWoodMolotov",
+	"hollyWood", "hollyWoodMolotov",
 
-  "hollyWoodFalling", "hollyWoodFallingFast",
-  "hollyWoodFallingFast",
+	"hollyWoodFalling", "hollyWoodFallingFast",
+	"hollyWoodFallingFast",
 
 
-  "elGado", "elGadoMolotov",
+	"elGado", "elGadoMolotov",
 
-  "elGadoFalling", "elGadoFallingFast",
-  "elGadoFallingFast",
+	"elGadoFalling", "elGadoFallingFast",
+	"elGadoFallingFast",
 
 
-  "hollyWoodMolotov",
+	"hollyWoodMolotov",
 
-  "hollyWoodFallingFast",
+	"hollyWoodFallingFast",
 
 
-  "elGado", "elGadoMolotov",
+	"elGado", "elGadoMolotov",
 
-  "elGadoFallingFast",
+	"elGadoFallingFast",
 
 
-  // ID 6
+	// ID 6
 
-  "roxy", "roxyCrouch",
-  "roxyFrontflipLeft", "roxyFrontflipRight",
+	"roxy", "roxyCrouch",
+	"roxyFrontflipLeft", "roxyFrontflipRight",
 
-  "roxyFalling",
+	"roxyFalling",
 
 
-  "poison", "poisonCrouch",
-  "poisonFrontflipLeft", "poisonFrontflipRight",
+	"poison", "poisonCrouch",
+	"poisonFrontflipLeft", "poisonFrontflipRight",
 
-  "poisonFalling", 
+	"poisonFalling", 
 
 
-  "roxy", "roxyCrouch",
-  "roxyFrontflipLeft", "roxyFrontflipRight",
+	"roxy", "roxyCrouch",
+	"roxyFrontflipLeft", "roxyFrontflipRight",
 
-  "roxyFalling",
+	"roxyFalling",
 
 
-  "poison", "poisonCrouch",
-  "poisonFrontflipLeft", "poisonFrontflipRight",
+	"poison", "poisonCrouch",
+	"poisonFrontflipLeft", "poisonFrontflipRight",
 
-  "poisonFalling", 
+	"poisonFalling", 
 
 
-  "roxyFrontflipLeft", "roxyFrontflipRight",
+	"roxyFrontflipLeft", "roxyFrontflipRight",
 
-  
-  "poison",
-  "poisonFrontflipLeft", "poisonFrontflipRight"
+	
+	"poison",
+	"poisonFrontflipLeft", "poisonFrontflipRight"
 ];
 
 

@@ -1,114 +1,114 @@
 .textfield
 {
-  border-radius: 0;
-  border-width: 1px;
-  border-style: solid;
+	border-radius: 0;
+	border-width: 1px;
+	border-style: solid;
 
-  padding: 2px;
+	padding: 2px;
 
-  color: white;
-  border-color: white;
-  background-color: #202020B0;
+	color: white;
+	border-color: white;
+	background-color: #202020B0;
 }
 
 
 .buttonSolid > input, buttonLight > input
 {
-  display: none;
+	display: none;
 }
 
 .buttonSolid, .buttonLight:hover,
 .buttonLight:disabled
 {
-  border-radius: 0;
-  border-width: 1px;
-  border-style: solid;
-  color: white;
-  border-color: #202020;
-  background-color: #202020;
+	border-radius: 0;
+	border-width: 1px;
+	border-style: solid;
+	color: white;
+	border-color: #202020;
+	background-color: #202020;
 }
 
 .buttonLight, .buttonSolid:hover,
 .buttonSolid:disabled 
 {
-  border-radius: 0;
-  border-width: 1px;
-  border-style: solid;
-  background-color: rgba(0, 0, 0, 0);
-  border-color: #202020;
-  color: #202020;
+	border-radius: 0;
+	border-width: 1px;
+	border-style: solid;
+	background-color: rgba(0, 0, 0, 0);
+	border-color: #202020;
+	color: #202020;
 }
 
 .buttonSolid:active
 {
-  border-radius: 0;
-  border-width: 1px;
-  border-style: solid;
-  color: white;
-  border-color: #202020;
-  background-color: #202020;
+	border-radius: 0;
+	border-width: 1px;
+	border-style: solid;
+	color: white;
+	border-color: #202020;
+	background-color: #202020;
 }
 
 .buttonLight:active
 {
-  border-radius: 0;
-  border-width: 1px;
-  border-style: solid;
-  background-color: rgba(0, 0, 0, 0);
-  border-color: #202020;
-  color: #202020;
+	border-radius: 0;
+	border-width: 1px;
+	border-style: solid;
+	background-color: rgba(0, 0, 0, 0);
+	border-color: #202020;
+	color: #202020;
 }
 
 .buttonSolid:focus, .buttonLight:focus,
 .textfield:focus
 {
-  outline: none;
-  box-shadow: none;
+	outline: none;
+	box-shadow: none;
 }
 
 .hidden
 {
-  display: none !important;
+	display: none !important;
 }
 
 .rowLinedFex
 {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .colLinedFlex
 {
-  display: flex;
-  flex-direction: row;
+	display: flex;
+	flex-direction: row;
 }
 
 .root
 {
-  height: 100%;
-}
-
-body
-{
-  height: 100%;
-  min-width: 1000px;
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont,     
-    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-    "Helvetica Neue", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: #2A3547;
+	height: 100%;
 }
 
 html
 {
-  height: 100%;
+	height: 100%;
+}
+
+body
+{
+	height: 100%;
+	min-width: 1000px;
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont,     
+		"Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+		"Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: #2A3547;
 }
 
 code
 {
-  font-family: source-code-pro, Menlo, Monaco,
-    Consolas, "Courier New", monospace;
+	font-family: source-code-pro, Menlo, Monaco,
+		Consolas, "Courier New", monospace;
 }

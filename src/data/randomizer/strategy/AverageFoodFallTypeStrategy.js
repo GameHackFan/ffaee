@@ -1,7 +1,7 @@
 const averageFoodFallTypeStrategy = 
 [
-  "hamburgerFalling", "hotdogFalling", "pizzaFalling",
-  "curryFalling", "sushiFalling"
+	"hamburgerFalling", "hotdogFalling", "pizzaFalling",
+	"curryFalling", "sushiFalling"
 ];
 
 

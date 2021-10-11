@@ -213,7 +213,7 @@ const drumcanKickTypeByteMap =
 			"0A", "0A", "8F", "02", "00", "01", "00", "FF"],
 
 
-  // Dug Kicking
+	// Dug Kicking
 
 	drumcanDugKickBarbecue: [
 			"RR", "RR", "RR", "RR", "RR", "RR",
@@ -428,7 +428,7 @@ const drumcanKickTypeByteMap =
 			"0A", "0A", "8F", "02", "01", "01", "00", "FF"],
 
 
-  // Jake Kicking
+	// Jake Kicking
 
 	drumcanJakeKickBarbecue: [
 			"RR", "RR", "RR", "RR", "RR", "RR",
@@ -643,7 +643,7 @@ const drumcanKickTypeByteMap =
 			"0A", "0A", "8F", "02", "02", "01", "00", "FF"],
 
 
-  // Simons Kicking
+	// Simons Kicking
 
 	drumcanSimonsKickBarbecue: [
 			"RR", "RR", "RR", "RR", "RR", "RR",

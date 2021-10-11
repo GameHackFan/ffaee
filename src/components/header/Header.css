@@ -1,64 +1,64 @@
 .header
 {
-  background-color: #202020;
+	background-color: #202020;
 
-  margin: 0px;
-  padding: 0px;
+	margin: 0px;
+	padding: 0px;
 
-  min-height: 128px;
-  max-height: 128px;
+	min-height: 128px;
+	max-height: 128px;
 }
 
 .header > div
 {
-  min-width: 100%;
-  color: whitesmoke;
-  font-size: 1.5em;
+	min-width: 100%;
+	color: whitesmoke;
+	font-size: 1.5em;
 
-  margin-bottom: auto;
-  margin-top: auto;
+	margin-bottom: auto;
+	margin-top: auto;
 }
 
 .header > div > div
 {
-  margin-left: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-right: 40px;
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 40px;
 }
 
 .header > div > div > img
 {
-  min-width: auto;
-  max-width: auto;
-  min-height: 98px;
-  max-height: 98px;
+	min-width: auto;
+	max-width: auto;
+	min-height: 98px;
+	max-height: 98px;
 
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: 8px;
-  margin-right: 8px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 8px;
+	margin-right: 8px;
 }
 
 .ffaeeLogo
 {
-  min-width: 245px;
-  max-width: 245px;
-  min-height: 98px;
-  max-height: 98px;
+	min-width: 245px;
+	max-width: 245px;
+	min-height: 98px;
+	max-height: 98px;
 
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: 40px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 40px;
 }
 
 .header > div > label
 {
-  color: #f6a427;
-  font-size: 2em;
-  font-weight: bold;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: 12px;
-  margin-right: 12px;
+	color: #f6a427;
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 12px;
+	margin-right: 12px;
 }

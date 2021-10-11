@@ -1,69 +1,69 @@
 import enemyTypeStrategy from
-    "./strategy/EnemyTypeStrategy";
+		"./strategy/EnemyTypeStrategy";
 import enemyPartialFallTypeStrategy from
-    "./strategy/EnemyPartialFallTypeStrategy";
+		"./strategy/EnemyPartialFallTypeStrategy";
 import enemyNoIdleTypeStrategy from
-    "./strategy/EnemyNoIdleTypeStrategy";
+		"./strategy/EnemyNoIdleTypeStrategy";
 import enemyNoFallTypeStrategy from
-    "./strategy/EnemyNoFallTypeStrategy";
+		"./strategy/EnemyNoFallTypeStrategy";
 import enemyFallTypeStrategy from
-    "./strategy/EnemyFallTypeStrategy";
+		"./strategy/EnemyFallTypeStrategy";
 
 import goodFoodTypeStrategy from
-    "./strategy/GoodFoodTypeStrategy";
+		"./strategy/GoodFoodTypeStrategy";
 import averageFoodTypeStrategy from
-    "./strategy/AverageFoodTypeStrategy";
+		"./strategy/AverageFoodTypeStrategy";
 import fruitFoodTypeStrategy from
-    "./strategy/FruitFoodTypeStrategy";
+		"./strategy/FruitFoodTypeStrategy";
 import badFoodTypeStrategy from
-    "./strategy/BadFoodTypeStrategy";
+		"./strategy/BadFoodTypeStrategy";
 import anyFoodTypeStrategy from
-    "./strategy/AnyFoodTypeStrategy";
-    
+		"./strategy/AnyFoodTypeStrategy";
+		
 import goodFoodFallTypeStrategy from
-    "./strategy/GoodFoodFallTypeStrategy";
+		"./strategy/GoodFoodFallTypeStrategy";
 import averageFoodFallTypeStrategy from
-    "./strategy/AverageFoodFallTypeStrategy";
+		"./strategy/AverageFoodFallTypeStrategy";
 import fruitFoodFallTypeStrategy from
-    "./strategy/FruitFoodFallTypeStrategy";
+		"./strategy/FruitFoodFallTypeStrategy";
 import badFoodFallTypeStrategy from
-    "./strategy/BadFoodFallTypeStrategy";
+		"./strategy/BadFoodFallTypeStrategy";
 import anyFoodFallTypeStrategy from
-    "./strategy/AnyFoodFallTypeStrategy";
+		"./strategy/AnyFoodFallTypeStrategy";
 
 import objectTypeStrategy from
-    "./strategy/ObjectTypeStrategy";
+		"./strategy/ObjectTypeStrategy";
 import objectFallTypeStrategy from
-    "./strategy/ObjectFallTypeStrategy";
+		"./strategy/ObjectFallTypeStrategy";
 
 import flameTypeStrategy from
-    "./strategy/FlameTypeStrategy";
+		"./strategy/FlameTypeStrategy";
 
 
 const randomizerEnemyStrategy = 
 {
-  enemies: enemyTypeStrategy,
-  enemiesPartialFall: enemyPartialFallTypeStrategy,
-  enemiesNoIdle: enemyNoIdleTypeStrategy,
-  enemiesNoFall: enemyNoFallTypeStrategy,
-  enemiesFall: enemyFallTypeStrategy,
+	enemies: enemyTypeStrategy,
+	enemiesPartialFall: enemyPartialFallTypeStrategy,
+	enemiesNoIdle: enemyNoIdleTypeStrategy,
+	enemiesNoFall: enemyNoFallTypeStrategy,
+	enemiesFall: enemyFallTypeStrategy,
 
-  goodFood: goodFoodTypeStrategy,
-  averageFood: averageFoodTypeStrategy,
-  fruitFood: fruitFoodTypeStrategy,
-  badFood: badFoodTypeStrategy,
-  anyFood:  anyFoodTypeStrategy,
+	goodFood: goodFoodTypeStrategy,
+	averageFood: averageFoodTypeStrategy,
+	fruitFood: fruitFoodTypeStrategy,
+	badFood: badFoodTypeStrategy,
+	anyFood:  anyFoodTypeStrategy,
 
-  goodFoodFall: goodFoodFallTypeStrategy,
-  averageFoodFall: averageFoodFallTypeStrategy,
-  fruitFoodFall: fruitFoodFallTypeStrategy,
-  badFoodFall: badFoodFallTypeStrategy,
-  anyFoodFall:  anyFoodFallTypeStrategy,
+	goodFoodFall: goodFoodFallTypeStrategy,
+	averageFoodFall: averageFoodFallTypeStrategy,
+	fruitFoodFall: fruitFoodFallTypeStrategy,
+	badFoodFall: badFoodFallTypeStrategy,
+	anyFoodFall:  anyFoodFallTypeStrategy,
 
-  objects: objectTypeStrategy,
-  objectFall: objectFallTypeStrategy,
+	objects: objectTypeStrategy,
+	objectFall: objectFallTypeStrategy,
 
-  flames: flameTypeStrategy
+	flames: flameTypeStrategy
 }
 
 

@@ -1,10 +1,10 @@
 const playerHealthMap = 
 {
-  allPlayers:
-  {
-    label: "All Players",
-    defaultValue: 144
-  }
+	allPlayers:
+	{
+		label: "All Players",
+		defaultValue: 144
+	}
 }
 
 

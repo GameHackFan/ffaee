@@ -213,7 +213,7 @@ const drumcanTypeByteMap =
 			"01", "0A", "8F", "02", "00", "00", "00", "FF"],
 
 
-  // Rolling Right
+	// Rolling Right
 
 	drumcanRollingRightBarbecue: [
 			"RR", "RR", "RR", "RR", "RR", "RR",
@@ -428,7 +428,7 @@ const drumcanTypeByteMap =
 			"0A", "0A", "8F", "02", "00", "00", "00", "FF"],
 
 
-  // Rolling Left
+	// Rolling Left
 
 	drumcanRollingLeftBarbecue: [
 			"RR", "RR", "RR", "RR", "RR", "RR",

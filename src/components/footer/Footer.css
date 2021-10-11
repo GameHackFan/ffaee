@@ -1,25 +1,38 @@
 .footer
 {
-  background-color: #202020;
+	background-color: #202020;
 
-  margin: 0px;
-  padding: 0px;
+	margin: 0px;
+	padding: 0px;
 
-  min-height: 90px;
-  max-height: 90px;
+	min-height: 90px;
+	max-height: 90px;
 
-  margin-top: auto;
-  margin-left: auto;
+	margin-top: auto;
 }
 
-.footer > label
+.footer > div
 {
-  color: #f6a427;
-  font-weight: bold;
-  font-size: 1.4em;
+	margin-top: auto;
+	margin-bottom: auto;
+	min-width: 100%;
+}
 
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: 12px;
+.footer label, .footer a
+{
+	color: #f6a427;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+.footer a
+{
+	margin-left: 12px;
+	margin-right: auto;
+}
+
+.footer label
+{
+	margin-left: auto;
+	margin-right: 12px;
 }

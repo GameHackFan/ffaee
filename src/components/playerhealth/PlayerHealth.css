@@ -1,29 +1,29 @@
 .playerHealth > div > div:last-child
 {
-  margin-top: 24px;
+	margin-top: 24px;
 }
 
 .playerHealth button:first-child
 {
-  margin-right: 12px;
+	margin-right: 12px;
 }
 
 .playerHealth button:first-child
 {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .playerHealth .buttonSolid > input
 {
-  display: none;
+	display: none;
 }
 
 .playerHealth > .warning
 {
-  margin-top: 12px;
-  margin-bottom: 12px;
-  text-align: center;
-  display: block;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	text-align: center;
+	display: block;
 }
 
 
