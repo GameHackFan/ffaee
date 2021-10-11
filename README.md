@@ -9,7 +9,7 @@ Version 0.2 Changes:
 - Created an assembly code to handle the Andore Sub Bosses color pallete.
 - Created the AndoreColorImprovementPatch.
 - G. Andore now uses Jake's color pallete, U. Andores uses Bred's color pallete, F. Andore uses an unknown pallete (Haggar's ?).
-- Forced the Level Editor and the Seed Randomizer to apply the AndoreColorImprovementPatch.
+- Forced the Seed Randomizer to apply the AndoreColorImprovementPatch.
 - Renamed NormalRandomProfile to MidRandomProfile. Mid has less than 5 letters and fits better in the title screen.
 - Renamed SavageRandomProfile to WildRandomProfile. Wild has less than 5 letters and fits better in the title screen.
 - Minor changes on how much enemies spawn on Easy, Mid and Hard.
