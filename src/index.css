@@ -1,10 +1,13 @@
 .textfield
 {
-	border-radius: 0;
+	border-radius: 4px;
 	border-width: 1px;
 	border-style: solid;
 
-	padding: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
 
 	color: white;
 	border-color: white;
@@ -20,7 +23,7 @@
 .buttonSolid, .buttonLight:hover,
 .buttonLight:disabled
 {
-	border-radius: 0;
+	border-radius: 4px;
 	border-width: 1px;
 	border-style: solid;
 	color: white;
@@ -31,7 +34,7 @@
 .buttonLight, .buttonSolid:hover,
 .buttonSolid:disabled 
 {
-	border-radius: 0;
+	border-radius: 4px;
 	border-width: 1px;
 	border-style: solid;
 	background-color: rgba(0, 0, 0, 0);
@@ -41,7 +44,7 @@
 
 .buttonSolid:active
 {
-	border-radius: 0;
+	border-radius: 4px;
 	border-width: 1px;
 	border-style: solid;
 	color: white;
@@ -51,7 +54,7 @@
 
 .buttonLight:active
 {
-	border-radius: 0;
+	border-radius: 4px;
 	border-width: 1px;
 	border-style: solid;
 	background-color: rgba(0, 0, 0, 0);

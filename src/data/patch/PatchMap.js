@@ -3,6 +3,13 @@ import levelExpansionPatch from "./LevelExpansionPatch";
 import extraBossPatch from "./ExtraBossPatch";
 
 import andoreColorImprovementPatch from "./AndoreColorImprovementPatch";
+import guyColorImprovementPatch from "./GuyColorImprovementPatch";
+
+import playerHealthPatch from "./PlayerHealthPatch";
+import levelEditorTextPatch from "./LevelEditorTextPatch";
+import randomizerTextPatch from "./RandomizerTextPatch";
+import lockMaxTimeImprovementPatch from "./LockMaxTimeImprovementPatch";
+
 
 import originalBossHelperTimeDelayPatch from
 		"./OriginalBossHelperTimeDelayPatch";
@@ -12,13 +19,6 @@ import type2BossHelperTimeDelayPatch from
 		"./Type2BossHelperTimeDelayPatch";
 import type3BossHelperTimeDelayPatch from
 		"./Type3BossHelperTimeDelayPatch";
-
-		
-import lockMaxTimeImprovementPatch from
-		"./LockMaxTimeImprovementPatch";
-import playerHealthPatch from "./PlayerHealthPatch";
-import levelEditorTextPatch from "./LevelEditorTextPatch";
-import randomizerTextPatch from "./RandomizerTextPatch";
 
 
 const patchMap = 
@@ -125,8 +125,8 @@ const patchMap =
 						"is loaded in the same position as the " +
 						"palletes used by the fat enemies. If they " +
 						"are placed outside the Ring, they will use " +
-						"the pallete of the fat guys and it is not a " +
-						"good match, resulting in a bugged Andore. " +
+						"the pallete of the fat enemies and it is not " +
+						"a good match, resulting in a bugged Andore. " +
 						"This patches forces those Andores to use " +
 						"other palletes, most from Bred Type enemies, " +
 						"which are a better match. This patch is used " +
@@ -134,6 +134,25 @@ const patchMap =
 		patch: andoreColorImprovementPatch,
 		show: true
 	},
+	guyColorImprovementPatch:
+	{
+		label:	"Guy Color Improvement Patch",
+		text:		"Most of the palletes used by Guy palletes in " +
+						"Final Fight 30th Anniversary Edition has a " + 
+						"brown color not matching the color of his " + 
+						"boots. I think it was done like that because " + 
+						"that same color is used on his forehead near " +
+						"his hair and other palces near his skin, which " + 
+						"is weird to have a color that is not beige or " + 
+						"brown, but it I think it is even weirder if " + 
+						"he has a blue or green or whatever different " + 
+						"color costume with a massive brown in the middle " + 
+						"of his boots. So this patch improves the color " +
+						"of his boots and the places it also affects, and " + 
+						"for me it looks better than the default palletes.",
+		patch: guyColorImprovementPatch,
+		show: true
+	},	
 	randomizerTextPatch:
 	{
 		label:	"Randomizer Title Screen Patch",
