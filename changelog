@@ -1,3 +1,10 @@
+Version 0.4 Changes:
+- Added support to HBMame ROM (Load an HBMame ROM, select HBMame on ROM Type and generate your ROM).
+- Created a DefaultTextPatch.
+- Added the DefaultTextPatch to the PatchMap.
+- Forced DefaultTextPatch to be applied when generating a ROM if no other text patch was applied before.
+
+
 Version 0.3:
 - Created GuyColorImprovementPatch to improve some colors for his palletes.
 - Added GuyColorImprovementPatch to the PatchMap.

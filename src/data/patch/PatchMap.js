@@ -8,6 +8,7 @@ import guyColorImprovementPatch from "./GuyColorImprovementPatch";
 import playerHealthPatch from "./PlayerHealthPatch";
 import levelEditorTextPatch from "./LevelEditorTextPatch";
 import randomizerTextPatch from "./RandomizerTextPatch";
+import defaultTextPatch from "./DefaultTextPatch";
 import lockMaxTimeImprovementPatch from "./LockMaxTimeImprovementPatch";
 
 
@@ -152,7 +153,18 @@ const patchMap =
 						"for me it looks better than the default palletes.",
 		patch: guyColorImprovementPatch,
 		show: true
-	},	
+	},
+	playerHealthPatch:
+	{
+		label:	"Player Health Patch",
+		text:		"This patch contains the indexes and the " + 
+						"amount of bytes needed to edit the " +
+						"players health. This patch is used by " +
+						"the Seed Randomizer and the Player " +
+						"Health Editor.",
+		patch: playerHealthPatch,
+		show: false
+	},
 	randomizerTextPatch:
 	{
 		label:	"Randomizer Title Screen Patch",
@@ -169,15 +181,14 @@ const patchMap =
 		patch: levelEditorTextPatch,
 		show: false
 	},
-	playerHealthPatch:
+	defaultTextPatch:
 	{
-		label:	"Player Health Patch",
-		text:		"This patch contains the indexes and the " + 
-						"amount of bytes needed to edit the " +
-						"players health. This patch is used by " +
-						"the Seed Randomizer and the Player " +
-						"Health Editor.",
-		patch: playerHealthPatch,
+		label:	"Default Title Screen Patch",
+		text:		"Title screen text patch for anything " +
+						"else besides the Seed Randomizer and " +
+						"the Level Editor. Used if no text " +
+						"was applied.",
+		patch: defaultTextPatch,
 		show: false
 	}
 }

@@ -3,7 +3,9 @@ import ManagerComponent from './ManagerComponent';
 
 import editorService from '../../service/EditorService';
 import fileService from "../../service/FileService";
-import romService from "../../service/ROMService";
+import editorManagerService from '../../service/EditorManagerService';
+
+import editorManagerData from '../../data/replace/EditorManagerData';
 
 
 class Manager extends Component
@@ -12,6 +14,7 @@ class Manager extends Component
 	{
 		super(props);
 		this.state = {};
+		this.onWindowSelectorChanged = this.onWindowSelectorChanged.bind(this);
 		this.handleChange = this.handleChange.bind(this);
 		this.onLoadROMFileChange = this.onLoadROMFileChange.bind(this);
 		this.onCloneROMClick = this.onCloneROMClick.bind(this);
@@ -25,7 +28,7 @@ class Manager extends Component
 
 		if(extras && extras.actionSuccessful)
 		{
-			romService.setROM(nextProps.actionData);
+			editorManagerService.convertAndSetRom(nextProps.actionData);
 			editorService.forceComponentToUpdateByKey("app");
 			delete nextProps.actionExtras.actionSuccessful;
 		}
@@ -35,7 +38,8 @@ class Manager extends Component
 
 	handleChange(event)
 	{
-		editorService.openWindow(event.target.value);
+		const {name, value} = event.target;
+		this.setState({[name]: value});
 	}
 
 	onLoadROMFileChange(event)
@@ -55,7 +59,7 @@ class Manager extends Component
 
 		try
 		{
-			romService.cloneROM();
+			editorManagerService.cloneROM();
 			extras.successMessage = "ROM cloned!";
 			editorService.forceComponentToUpdateByKey("app");
 		}
@@ -71,10 +75,11 @@ class Manager extends Component
 
 	onGenerateROMClick(event)
 	{
+		const ck = this.state.converterKey;
 		const extras = {};
 		extras.successCallback = this.downloadGeneratedROM;
 		extras.errorCallback = this.props.onActionResult;
-		extras.fileObject = romService.getGeneratedROM();
+		extras.fileObject = editorManagerService.generateROM(ck);
 		extras.errorMessage = "Problems ziping the generated ROM!";
 
 		try
@@ -95,6 +100,11 @@ class Manager extends Component
 		}
 	}
 
+	onWindowSelectorChanged(event)
+	{
+		editorService.openWindow(event.target.value);
+	}
+
 	downloadGeneratedROM(extras)
 	{
 		this.setState({generatingROM: false});
@@ -108,7 +118,10 @@ class Manager extends Component
 	{
 		return (
 			<ManagerComponent
+				romTypeMap={editorManagerData.romTypeMap}
+				converterKey={this.state.converterKey}
 				handleChange={this.handleChange}
+				onWindowSelectorChanged={this.onWindowSelectorChanged}
 				requestFile={editorService.requestFile}
 				generatingROM={this.state.generatingROM}
 				onCloneROMClick={this.onCloneROMClick}

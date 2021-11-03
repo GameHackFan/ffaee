@@ -1,3 +1,13 @@
+.manager > .windowContentLine > label
+{
+	min-width: 126px;
+}
+
+.manager > .windowContentLine > select
+{
+	min-width: 146px;
+}
+
 .manager > div:nth-last-child(2)
 {
 	margin-top: 24px;
