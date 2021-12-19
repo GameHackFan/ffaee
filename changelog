@@ -1,3 +1,12 @@
+Version 0.5 Changes:
+- Created EnemySpawnImprovementPatch. It removes a validation that was bugging the enemy spawning.
+- Added EnemySpawnImprovementPatch to the PatchMap.
+- Forced Level Editor and Randomizer to apply EnemySpawnImprovementPatch patch.
+- Changed F. Andore's pallete to Simons's pallete (He was actually using P3's pallete that was haggar's by default but it could change to Guy's or Cody's leading to a bugged pallete).
+- Minor changes.
+- Minor fixes.
+
+
 Version 0.4 Changes:
 - Added support to HBMame ROM (Load an HBMame ROM, select HBMame on ROM Type and generate your ROM).
 - Created a DefaultTextPatch.

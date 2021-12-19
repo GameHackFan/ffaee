@@ -15,10 +15,59 @@ Overwrite:		2CCFA with jump code.
 Compare:		A6 + $13 (contains the enemy ID) with 03 (Andore Type ID)
 
 
-FF8FE0:			First Enemy Memory Data
+FF8568:			Player 1 Memory Data
+
+FF86E8:			Normal Enemy Memory Range Start
+FF8FE8:			Normal Enemy Memory Range End
+
+
 FF8FFA:			Enemy ID		(Bred type, J type, Axl Type, Andore Type, etc).
 FF8FFC:			Sub Enemy ID	(Andore Jr, Andore, G Andore, U Andore, F Andore).
-FF9000:			HP related
-FF9002:			HP related
-FF9004:			HP related
-FF9017:			Pallete, Good Ones: 02 (Haggar's?), 0E (Bred), 10 (Dug), 1A (Jake), 1B (Simons)
+
+FF9017:			Pallete, 0E (Bred), 10 (Dug), 1A (Jake), 1B (Simons)
+
+xxxx00:			Enemy Active Flag
+xxxx12:			Enemy Type and ID
+xxxx18:			Enemy HP related
+xxxx1A:			Enemy HP related
+xxxx1C:			Enemy HP related
+XXXX02:			204 Rolento runs and throws grenades, 206 Edi E. runs and shoots, Sodom as 202 moves.
+xxxxA4:			0 Damnd didn't whistle, 2 Damnd did 1 whistle, 4 Damnd did 2 whistles.
+
+FF9A68:			Boss Memory Data
+
+
+03ED44:			Damnd Whistle?
+0099DE:			 
+006190:			Enemy Spawn
+005DF8:			Enemy Spawn
+040AFA:			Forces damnd to a specific x position.
+
+
+Force damnd to never whistle
+Boss pointer A6 + $A4 force it to be 4 (0 he didn't whistle, 2 he did 1 whistle, 4 he did 2 whistles)
+
+
+FFFF8000		4F12
+FFFFCF12
+FFFFCEF6
+
+
+607A
+6190
+5C6C
+
+
+Fix enemy spawn bug, outside lock, replace 61BA, MOVE.W A4 to D2, check if D2 has 86E8, if yes, check if 
+
+
+
+
+
+3E6E
+220E8
+3E94
+
+
+
+1690E pallete circle.

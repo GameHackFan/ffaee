@@ -317,6 +317,7 @@ class RandomizerService
 
 	applyRandomizer = () =>
 	{
+		romService.applyPatch(patchMap.enemySpawnImprovementPatch.patch);
 		romService.applyPatch(patchMap.andoreColorImprovementPatch.patch);
 		romService.applyPatch(patchMap.guyColorImprovementPatch.patch);
 		romService.applyPatch(patchMap.levelExpansionPatch.patch);

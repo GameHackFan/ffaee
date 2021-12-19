@@ -5,7 +5,7 @@ const restInPainRandomProfile =
 	{
 		enemiesPartialFall:
 		{
-			randomMinAmount: 8,
+			randomMinAmount: 9,
 			randomMaxAmount: 12
 		},
 		goodFood:
@@ -38,7 +38,7 @@ const restInPainRandomProfile =
 	{
 		enemiesNoIdle:
 		{
-			randomMinAmount: 8,
+			randomMinAmount: 9,
 			randomMaxAmount: 12
 		},
 		averageFood:
@@ -69,7 +69,7 @@ const restInPainRandomProfile =
 	{
 		enemiesFall:
 		{
-			randomMinAmount: 8,
+			randomMinAmount: 9,
 			randomMaxAmount: 12
 		}
 	},
@@ -77,7 +77,7 @@ const restInPainRandomProfile =
 	{
 		enemiesPartialFall:
 		{
-			randomMinAmount: 8,
+			randomMinAmount: 9,
 			randomMaxAmount: 12
 		},
 		goodFood:

@@ -18,6 +18,7 @@
 	JMP					$18CC											; Jumps back to where it stopped in the original code.
 
 
+
 ; After the last line (JMP) you need to add the text code for the randomizer or the level editor.
 ; For the level editor, add the hex below:
 

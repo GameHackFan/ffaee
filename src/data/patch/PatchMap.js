@@ -2,6 +2,7 @@
 import levelExpansionPatch from "./LevelExpansionPatch";
 import extraBossPatch from "./ExtraBossPatch";
 
+import enemySpawnImprovementPatch from "./EnemySpawnImprovementPatch";
 import andoreColorImprovementPatch from "./AndoreColorImprovementPatch";
 import guyColorImprovementPatch from "./GuyColorImprovementPatch";
 
@@ -12,18 +13,34 @@ import defaultTextPatch from "./DefaultTextPatch";
 import lockMaxTimeImprovementPatch from "./LockMaxTimeImprovementPatch";
 
 
-import originalBossHelperTimeDelayPatch from
-		"./OriginalBossHelperTimeDelayPatch";
-import type1BossHelperTimeDelayPatch from
-		"./Type1BossHelperTimeDelayPatch";
-import type2BossHelperTimeDelayPatch from
-		"./Type2BossHelperTimeDelayPatch";
-import type3BossHelperTimeDelayPatch from
-		"./Type3BossHelperTimeDelayPatch";
+import originalBossHelperTimeDelayPatch from "./OriginalBossHelperTimeDelayPatch";
+import type1BossHelperTimeDelayPatch from "./Type1BossHelperTimeDelayPatch";
+import type2BossHelperTimeDelayPatch from "./Type2BossHelperTimeDelayPatch";
+import type3BossHelperTimeDelayPatch from "./Type3BossHelperTimeDelayPatch";
 
 
 const patchMap = 
 {
+	enemySpawnImprovementPatch:
+	{
+		label:	"Enemy Spawn Improvement Patch",
+		text:		"This patch removes a very pointless " +
+						"validation that was bugging the enemy " +
+						"spawn. Enemies spawning were limited to " + 
+						"1F (31), so if more than that spawns, it " + 
+						"would lead for more than half of the " + 
+						"enemy types to stop spawning (some enemy " + 
+						"types were spawning anyways), when enemies " +
+						"die, the counter also drops by 1, which " +
+						"sometimes could result in 0 being subtracted " +
+						"by 1 resulting in FF (255), which was being " +
+						"checked as an unsigned value by the " + 
+						"forbiding the enemy to spawn. This Patch " + 
+						"is used by the Level Editor and the Seed " + 
+						"Randomizer.",
+		patch: enemySpawnImprovementPatch,
+		show: true	
+	},
 	levelExpansionPatch:
 	{
 		label:	"Level Expansion Patch",

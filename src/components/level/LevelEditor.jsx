@@ -94,7 +94,8 @@ class LevelEditor extends Component
 	{
 		const {level, enemyGroup, enemyId} = this.state;
 		levelEditorService.removeEnemy(level, enemyGroup, enemyId);
-		this.setState({enemyId: "none"});
+		let newId = Math.max(0, enemyId - 1);
+		this.setState({enemyId: newId});
 	}
 
 	onRefreshImageClick(event)
