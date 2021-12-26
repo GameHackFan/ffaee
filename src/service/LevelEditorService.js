@@ -66,6 +66,9 @@ class LevelEditorService
 
 	applyData = () =>
 	{
+		romService.applyPatch(patchMap.lifebarImprovementPatch.patch);
+		romService.applyPatch(patchMap.lifebarImprovementCallerPatch.patch);
+		romService.applyPatch(patchMap.lockImprovementPatch.patch);
 		romService.applyPatch(patchMap.enemySpawnImprovementPatch.patch);
 		romService.applyPatch(patchMap.andoreColorImprovementPatch.patch);
 		romService.applyPatch(patchMap.levelExpansionPatch.patch);

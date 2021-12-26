@@ -317,6 +317,13 @@ class RandomizerService
 
 	applyRandomizer = () =>
 	{
+		romService.applyPatch(
+				patchMap.enemyHealthImprovementCallerPatch.patch);
+		romService.applyPatch(patchMap.enemyHealthImprovementPatch.patch);
+		romService.applyPatch(patchMap.lifebarImprovementPatch.patch);
+		romService.applyPatch(patchMap.lifebarImprovementCallerPatch.patch);
+		romService.applyPatch(patchMap.lockImprovementPatch.patch);
+		romService.applyPatch(patchMap.playerHealthPatch.patch);
 		romService.applyPatch(patchMap.enemySpawnImprovementPatch.patch);
 		romService.applyPatch(patchMap.andoreColorImprovementPatch.patch);
 		romService.applyPatch(patchMap.guyColorImprovementPatch.patch);

@@ -1,11 +1,14 @@
-00 = Character Default
+00 = P1 Pallete, Default Pallete
 01 = P2 Pallete
 02 = P3 Pallete
-03 = ?
-04 = ?
-05 = ?
-06 = ?
-07 = ?
+03 = Knife, Muramasa, Pipe (When used by a player)
+04 = Barbecue, Steak, Chicken, Hamburger, Hotdog, Pizza, Curry, Sushi,
+		 Banana, Pineapple, Orange, Grape, Beer (Red), Beer (Green), Gum (Green)
+		 Emerald, Topaz, Radio, Napkin
+05 = Apple, Soft Drink (Coke), Diamond, Pearl
+06 = Pipe, Soft Drink (Pepsi), Whiskey, Beer, Gold Bar, Ruby, Necklace
+		 Watch, Dollar, Yen Bill, Yen Coin, Hat, Hammer
+07 = Shining Effect
 08 = El Gado
 09 = Holly Wood
 0A = Roxy
@@ -13,29 +16,73 @@
 0C = Andore Jr.
 0D = Andore
 0E = Bred
-0F = ?
+0F = Tel Booth
 10 = Dug
-11 = ?
-12 = G. Oriber
-13 = Wong Who
-14 = Bill Bull
+11 = Jessica
+12 = G. Oriber, G. Andore
+13 = Wong Who, U. Andore
+14 = Bill Bull, F. Andore
 15 = Two P.
 16 = J
 17 = Axl
 18 = Slash
-19 = Axl's Alpha Pallete?
+19 = Axl Alpha?
 1A = Jake
 1B = Simons
-1C = ?
-1D = ?
-1E = ?
-1F = Boss
+1C = Flame
+1D = Rolento's Elevator (Unused?).
+1E = Drumcan, Glass Panel
+1F = Stage Boss
 
+
+New
+19 = Damnd Extra 1, (40320)
+1D = Edi E. Extra 1, (403A0)
+10 = Dug, Abigail Extra 1
 
 
 
 262880
 
 
+4023C, 131358	
+4063C, 131870
+40A3C, 132382
+40E3C, 132894
 
-Holly Wood Can Use Slash's Pallete
+4123C, 133406
+4163C, 133918
+41A3C, 134430
+41E3C, 134942
+
+4223C, 135454
+4263C, 135966
+
+
+403B0
+407B0
+40BB0
+40FB0
+
+413B0
+417B0
+41BB0
+41FB0
+
+423B0
+427B0
+
+429B0
+431F0
+
+
+363072
+
+274912
+274928
+
+
+
+
+40320
+403A0

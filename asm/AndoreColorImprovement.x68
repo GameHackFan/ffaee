@@ -2,7 +2,7 @@
 * Title:				FFAEE Andore Color Improvement
 * Written by:		GameHackFan
 * Date:					
-* Description:	
+* Description:	Ensures
 *-----------------------------------------------------------
 	JMP					$75C00.L									; Code to jump to the new code that handles andore color pallete (replace 2CCFA).
 

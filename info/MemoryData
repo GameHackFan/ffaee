@@ -1,0 +1,54 @@
+FF80BE: Stage ID (0300 is Industrial Area)
+FF1314:	Player 1 Enemy Life Bar
+
+
+
+
+
+
+Lifebar pallete Values
+188, 187, 186, 185, 184, 183, 182, 181
+
+
+
+
+
+
+// Junk
+158B8
+158C4
+20EE
+
+Values
+
+4560
+188
+
+
+Life Bar Break Point
+5B54A, D640C, 20EE
+
+
+Write the bar
+20EE, 2106
+
+Replace
+20F0, 2108
+
+
+Bar Values
+
+D6FCA
+4EA30
+50748
+5073C
+
+
+3D41C
+40C74		
+45F74		D0
+D6EE6
+4BE50		D0
+4EA30		D0
+//
+

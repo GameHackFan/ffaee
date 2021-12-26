@@ -34,7 +34,11 @@ xxxx1C:			Enemy HP related
 XXXX02:			204 Rolento runs and throws grenades, 206 Edi E. runs and shoots, Sodom as 202 moves.
 xxxxA4:			0 Damnd didn't whistle, 2 Damnd did 1 whistle, 4 Damnd did 2 whistles.
 
-FF9A68:			Boss Memory Data
+FF9528:			Boss Memory Range Start
+FF9A68:			Boss Memory Range End
+
+FFB198:			Level Memory Data (camera position, lock, etc).
+FFCEF0:			Region with content about the objects/character list.
 
 
 03ED44:			Damnd Whistle?
@@ -53,21 +57,12 @@ FFFFCF12
 FFFFCEF6
 
 
+
+
 607A
 6190
 5C6C
-
-
-Fix enemy spawn bug, outside lock, replace 61BA, MOVE.W A4 to D2, check if D2 has 86E8, if yes, check if 
-
-
-
-
-
 3E6E
 220E8
 3E94
 
-
-
-1690E pallete circle.

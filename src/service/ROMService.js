@@ -176,7 +176,7 @@ class ROMService
 	setHexByte = (filename, byteIndex, value) =>
 	{
 		let fix = parseInt(value, 16);
-		this.setByte(byteIndex, fix);
+		this.setByte(filename, byteIndex, fix);
 	}
 
 	setBytes = (filename, byteIndex, bytes) =>

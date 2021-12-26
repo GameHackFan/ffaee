@@ -2,7 +2,11 @@
 import levelExpansionPatch from "./LevelExpansionPatch";
 import extraBossPatch from "./ExtraBossPatch";
 
+import lifebarImprovementPatch from "./LifebarImprovementPatch";
 import enemySpawnImprovementPatch from "./EnemySpawnImprovementPatch";
+import lockImprovementPatch from "./LockImprovementPatch";
+// import bossImprovementPatch from "./BossImprovementPatch";
+import enemyHealthImprovementPatch from "./EnemyHealthImprovementPatch";
 import andoreColorImprovementPatch from "./AndoreColorImprovementPatch";
 import guyColorImprovementPatch from "./GuyColorImprovementPatch";
 
@@ -27,20 +31,92 @@ const patchMap =
 		text:		"This patch removes a very pointless " +
 						"validation that was bugging the enemy " +
 						"spawn. Enemies spawning were limited to " + 
-						"1F (31), so if more than that spawns, it " + 
-						"would lead for more than half of the " + 
-						"enemy types to stop spawning (some enemy " + 
-						"types were spawning anyways), when enemies " +
-						"die, the counter also drops by 1, which " +
-						"sometimes could result in 0 being subtracted " +
-						"by 1 resulting in FF (255), which was being " +
-						"checked as an unsigned value by the " + 
-						"forbiding the enemy to spawn. This Patch " + 
-						"is used by the Level Editor and the Seed " + 
-						"Randomizer.",
+						"to some specific value, so if more than " + 
+						"that spawns, it would lead for more than " +
+						"half of the enemy types to stop spawning " +
+						"(some enemy types were spawning anyways), " +
+						"when enemies die, the counter also drops " + 
+						"by 1, which sometimes could result in 0 " + 
+						"being subtracted by 1 resulting in FF " +
+						"(255), which was being checked as an " +
+						"unsigned value by the forbiding the enemy " +
+						"to spawn. This Patch is used by the Level " +
+						"Editor and the Seed Randomizer.",
 		patch: enemySpawnImprovementPatch,
 		show: true	
 	},
+	lifebarImprovementPatch:
+	{
+		label:	"Lifebar Improvement Patch",
+		text:		"Ensures every lifebar will support more " + 
+						"than the original yellow color, it also " + 
+						"ensures every life bar will have exactly " + 
+						"145 points. This patch must be used " + 
+						"together with Lifebar Improvement Caller " +
+						"Patch. This patch is used by the Seed " + 
+						"Randomizer.",
+		patch: lifebarImprovementPatch.patch1,
+		show: true
+	},
+	lifebarImprovementCallerPatch:
+	{
+		label:	"Lifebar Improvement Caller Patch",
+		text:		"This patch ensures the Lifebar " + 
+						"Improvement Patch will be executed by " + 
+						"the game. This patch must be used " + 
+						"together with Lifebar Improvement Patch. " + 
+						"This patch is used by the Seed Randomizer.",
+		patch: lifebarImprovementPatch.patch2,
+		show: true
+	},
+	enemyHealthImprovementPatch:
+	{
+		label:	"Enemy Health Improvement Patch",
+		text:		"Increases the HP of all enemy characters " + 
+						"All bosses except Belger have 300 points " +  
+						"increment, enemies with less than 176 HP " + 
+						"will have 100 points increment and th rest " + 
+						"will have 70 points increment. This patch " +
+						"must be used together with Enemy Health " + 
+						"Improvement Caller Patch. This patch is " + 
+						"used by the Seed Randomizer.",
+		patch: enemyHealthImprovementPatch.patch1,
+		show: true
+	},
+	enemyHealthImprovementCallerPatch:
+	{
+		label:	"Enemy Health Improvement Caller Patch",
+		text:		"This patch ensures the Enemy Health " + 
+						"Improvement Patch will be executed by " + 
+						"the game. This patch must be used " + 
+						"together with Enemy Health Improvement " +
+						"Patch. This patch is used by the Seed " + 
+						"Randomizer.",
+		patch: enemyHealthImprovementPatch.patch2,
+		show: true
+	},
+	lockImprovementPatch:
+	{
+		label:	"Lock Improvement Patch",
+		text:		"This patch changes the way the game " + 
+						"handles the lock, it now checks if there " + 
+						"are no enemies in the screen anymore and " + 
+						"if the time delay to spawn the next enemy " +
+						"is too high, which means it is not a time " + 
+						"delay, which also means there are no more " +
+						"enemies to spawn. This patch is used by " +
+						"the Level Editor and the Seed Randomizer.",
+		patch: lockImprovementPatch,
+		show: true
+	},
+	// TODO: Write the text here
+	// bossImprovementPatch:
+	// {
+	// 	label:	"Boss Improvement Patch",
+	// 	text:		"",
+	// 	patch: bossImprovementPatch,
+	// 	show: false
+	// },
 	levelExpansionPatch:
 	{
 		label:	"Level Expansion Patch",
@@ -174,13 +250,12 @@ const patchMap =
 	playerHealthPatch:
 	{
 		label:	"Player Health Patch",
-		text:		"This patch contains the indexes and the " + 
-						"amount of bytes needed to edit the " +
-						"players health. This patch is used by " +
+		text:		"This patch increases the player's health " + 
+						"from 144 to 288. This patch is used by " +
 						"the Seed Randomizer and the Player " +
 						"Health Editor.",
 		patch: playerHealthPatch,
-		show: false
+		show: true
 	},
 	randomizerTextPatch:
 	{

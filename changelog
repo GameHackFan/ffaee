@@ -1,3 +1,16 @@
+Version 0.6 Changes:
+- Updated PlayerHealthPatch, it better handle the increase of the HP of the players.
+- Created LifebarImprovementPatch. It handles better the lifebar progress.
+- Created EnemyHealthImprovementPatch. It increases by 300 the HP of bosses, by 100 enemies with less than 160 HP and by 70 all the others.
+- Created LockImprovementPatch. Locks now instead of checking if all the enemies from it were killed to release, it now checks if all the enemies were read by the game and if the enemy list is empty, improving massively the way it works, now you have to kill every enemy after you reach a lock, you can only leave enemies behind if the time of the lock expires.
+- Updated LockMaxTimeImprovementPatch. Max time increased from 40 seconds to 4 minutes.
+- Added the new patches to the PatchMap.
+- Forced the Randomizer to apply all the new and updated patches.
+- Forced the Level Editor to apply the LifebarImprovementPatch and the LockImprovementPatch.
+- Minor changes.
+- Minor fixes.
+
+
 Version 0.5 Changes:
 - Created EnemySpawnImprovementPatch. It removes a validation that was bugging the enemy spawning.
 - Added EnemySpawnImprovementPatch to the PatchMap.
