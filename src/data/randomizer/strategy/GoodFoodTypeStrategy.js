@@ -59,8 +59,8 @@ const goodFoodTypeStrategy =
 	"chandelierChicken",
 
 
-	"billboardBarbecue", "billboardSteak",
-	"billboardChicken",
+	"billboard2Barbecue", "billboard2Steak",
+	"billboard2Chicken",
 
 
 	"freightBarbecue", "freightSteak", "freightChicken",
@@ -87,8 +87,8 @@ const goodFoodTypeStrategy =
 	"chandelierChicken",
 
 
-	"billboardBarbecue", "billboardSteak",
-	"billboardChicken",
+	"billboard2Barbecue", "billboardSteak",
+	"billboard2Chicken",
 
 
 	"freightBarbecue", "freightSteak", "freightChicken",

@@ -7,14 +7,14 @@ const level6EnemyGroup =
 		startPosition: 507490,
 		endPosition: 510893,
 		screenPositionStart: 100,
-		screenPositionEnd: 450,
+		screenPositionEnd: 500,
 		walkablePositionYTop: 64,
 		walkablePositionYBottom: 16,
 		levelEditorLimitStart: -192,		// -192 + 0
-		levelEditorLimitEnd: 450,
+		levelEditorLimitEnd: 700,
 		levelEditorShiftX: 492,					// 492 - 0
 		defaultAmount: 7,
-		maxAmount: 20,
+		maxAmount: 25,
 		forbiddenEnemyLists: ["chandelierList"]
 	},
 	group2:
@@ -23,15 +23,15 @@ const level6EnemyGroup =
 		background: "level6A",
 		startPosition: 507490,
 		endPosition: 510893,
-		screenPositionStart: 460,
-		screenPositionEnd: 900,
+		screenPositionStart: 600,
+		screenPositionEnd: 1000,
 		walkablePositionYTop: 64,
 		walkablePositionYBottom: 16,
-		levelEditorLimitStart: 450, 
-		levelEditorLimitEnd: 900,
+		levelEditorLimitStart: 500, 
+		levelEditorLimitEnd: 1150,
 		levelEditorShiftX: 492,					// 492 - 0
 		defaultAmount: 9,
-		maxAmount: 30,
+		maxAmount: 25,
 		forbiddenEnemyLists: ["chandelierList"]
 	},
 	group3:
@@ -40,7 +40,7 @@ const level6EnemyGroup =
 		background: "level6A",
 		startPosition: 507490,
 		endPosition: 510893,
-		screenPositionStart: 910,
+		screenPositionStart: 1300,
 		screenPositionEnd: 1400,
 		walkablePositionYTop: 48,
 		walkablePositionYBottom: 16,
@@ -48,7 +48,7 @@ const level6EnemyGroup =
 		levelEditorLimitEnd: 1728,
 		levelEditorShiftX: 492,					// 492 - 0
 		defaultAmount: 9,
-		maxAmount: 30,
+		maxAmount: 25,
 		forbiddenPositionRanges:["outsideRight"],
 		forbiddenEnemyLists: ["mustSpawnRightList"]
 	},
@@ -83,13 +83,13 @@ const level6EnemyGroup =
 		background: "level6B",
 		startPosition: 507490,
 		endPosition: 510893,
-		screenPositionStart: 1700,
-		screenPositionEnd: 2220,
+		screenPositionStart: 1750,
+		screenPositionEnd: 2200,
 		walkablePositionYTop: 48,
 		walkablePositionYBottom: 16,
 		walkablePositionForceShift: 2048,
 		levelEditorLimitStart: 1496,			// -192 + 1536 + 152
-		levelEditorLimitEnd: 2240,
+		levelEditorLimitEnd: 2400,
 		levelEditorShiftX: -1044,					// 492 - 1536
 		defaultAmount: 4,
 		maxAmount: 30,
@@ -101,16 +101,16 @@ const level6EnemyGroup =
 		background: "level6B",
 		startPosition: 507490,
 		endPosition: 510893,
-		screenPositionStart: 2240,
-		screenPositionEnd: 2780,
+		screenPositionStart: 2250,
+		screenPositionEnd: 2650,
 		walkablePositionYTop: 48,
 		walkablePositionYBottom: 16,
 		walkablePositionForceShift: 2048,
-		levelEditorLimitStart: 2240,
-		levelEditorLimitEnd: 2800,
+		levelEditorLimitStart: 2200,
+		levelEditorLimitEnd: 2850,
 		levelEditorShiftX: -1044,					// 492 - 1536
 		defaultAmount: 11,
-		maxAmount: 30,
+		maxAmount: 25,
 		forbiddenEnemyLists: ["chandelierList"]
 	},
 	group6:
@@ -119,16 +119,16 @@ const level6EnemyGroup =
 		background: "level6B",
 		startPosition: 507490,
 		endPosition: 510893,
-		screenPositionStart: 2800,
-		screenPositionEnd: 3200,
+		screenPositionStart: 2700,
+		screenPositionEnd: 3100,
 		walkablePositionYTop: 48,
 		walkablePositionYBottom: 16,
 		walkablePositionForceShift: 2048,
-		levelEditorLimitStart: 2800,
+		levelEditorLimitStart: 2650,
 		levelEditorLimitEnd: 3394,
 		levelEditorShiftX: -1044,					// 492 - 1536
 		defaultAmount: 3,
-		maxAmount: 20,
+		maxAmount: 25,
 		forbiddenEnemyLists: ["chandelierList"]
 	},
 	lockGroup2:
@@ -152,7 +152,7 @@ const level6EnemyGroup =
 		defaultAmount: 11,
 		maxAmount: 40,
 		specialProfile: "lockGroupStrategy",
-		forbiddenEnemyLists: ["chandelierList"]
+		forbiddenEnemyLists: ["chandelierList", "staticObjectList"]
 	},
 
 
@@ -162,16 +162,16 @@ const level6EnemyGroup =
 		background: "level6B",
 		startPosition: 507490,
 		endPosition: 510893,
-		screenPositionStart: 3400,
-		screenPositionEnd: 4100,
+		screenPositionStart: 3430,
+		screenPositionEnd: 3800,
 		walkablePositionYTop: 48,
 		walkablePositionYBottom: 16,
 		walkablePositionForceShift: 2048,
 		levelEditorLimitStart: 3394,
-		levelEditorLimitEnd: 4110,
+		levelEditorLimitEnd: 4000,
 		levelEditorShiftX: -1044,					// 492 - 1536
-		defaultAmount: 12,
-		maxAmount: 40,
+		defaultAmount: 9,
+		maxAmount: 25,
 		forbiddenEnemyLists: ["chandelierList"]
 	},
 	group8:
@@ -180,17 +180,35 @@ const level6EnemyGroup =
 		background: "level6B",
 		startPosition: 507490,
 		endPosition: 510893,
-		screenPositionStart: 4120,
-		screenPositionEnd: 4600,
+		screenPositionStart: 3800,
+		screenPositionEnd: 4200,
+		walkablePositionYTop: 48,
+		walkablePositionYBottom: 16,
+		walkablePositionForceShift: 2048,
+		levelEditorLimitStart: 3750,
+		levelEditorLimitEnd: 4400,
+		levelEditorShiftX: -1044,					// 492 - 1536
+		defaultAmount: 9,
+		maxAmount: 30,
+		forbiddenEnemyLists: ["chandelierList"]
+	},
+	group9:
+	{
+		label: "Enemy Group 9",
+		background: "level6B",
+		startPosition: 507490,
+		endPosition: 510893,
+		screenPositionStart: 4200,
+		screenPositionEnd: 4550,
 		walkablePositionYTop: 48,
 		walkablePositionYBottom: 16,
 		walkablePositionForceShift: 2048,
 		endBytes: ["FF", "FF"],
-		levelEditorLimitStart: 4110,
+		levelEditorLimitStart: 4150,
 		levelEditorLimitEnd: 4928,
 		levelEditorShiftX: -1044,					// 492 - 1536
-		defaultAmount: 14,
-		maxAmount: 40,
+		defaultAmount: 8,
+		maxAmount: 25,
 		forbiddenPositionRanges:["outsideRight"],
 		forbiddenEnemyLists: ["chandelierList", "mustSpawnRightList"]
 	},
@@ -221,39 +239,56 @@ const level6EnemyGroup =
 	},
 
 
-	group9:
-	{
-		label: "Enemy Group 9",
-		background: "level6C",
-		startPosition: 512974,
-		endPosition: 517229,
-		screenPositionStart: 5250,
-		screenPositionEnd: 5890,
-		walkablePositionYTop: 64,
-		walkablePositionYBottom: 16,
-		walkablePositionForceShift: 2048,
-		levelEditorLimitStart: 4944,			// -192 + 5136
-		levelEditorLimitEnd: 5900,
-		levelEditorShiftX: -4644,					// 492 - 5136
-		defaultAmount: 7,
-		maxAmount: 50
-	},
 	group10:
 	{
 		label: "Enemy Group 10",
 		background: "level6C",
 		startPosition: 512974,
 		endPosition: 517229,
-		screenPositionStart: 5900,
-		screenPositionEnd: 6640,
+		screenPositionStart: 5300,
+		screenPositionEnd: 5650,
 		walkablePositionYTop: 64,
 		walkablePositionYBottom: 16,
 		walkablePositionForceShift: 2048,
-		levelEditorLimitStart: 5900,
+		levelEditorLimitStart: 4944,			// -192 + 5136
+		levelEditorLimitEnd: 5850,
+		levelEditorShiftX: -4644,					// 492 - 5136
+		defaultAmount: 8,
+		maxAmount: 35
+	},
+	group11:
+	{
+		label: "Enemy Group 11",
+		background: "level6C",
+		startPosition: 512974,
+		endPosition: 517229,
+		screenPositionStart: 5650,
+		screenPositionEnd: 6050,
+		walkablePositionYTop: 64,
+		walkablePositionYBottom: 16,
+		walkablePositionForceShift: 2048,
+		levelEditorLimitStart: 5550,
+		levelEditorLimitEnd: 6250,
+		levelEditorShiftX: -4644,					// 492 - 5136
+		defaultAmount: 8,
+		maxAmount: 40
+	},
+	group12:
+	{
+		label: "Enemy Group 12",
+		background: "level6C",
+		startPosition: 512974,
+		endPosition: 517229,
+		screenPositionStart: 6050,
+		screenPositionEnd: 6400,
+		walkablePositionYTop: 64,
+		walkablePositionYBottom: 16,
+		walkablePositionForceShift: 2048,
+		levelEditorLimitStart: 5950,
 		levelEditorLimitEnd: 6650,
 		levelEditorShiftX: -4644,					// 492 - 5136
-		defaultAmount: 17,
-		maxAmount: 50
+		defaultAmount: 8,
+		maxAmount: 35
 	},
 	extraLockGroup1:
 	{
@@ -275,41 +310,44 @@ const level6EnemyGroup =
 		levelEditorShiftX: -4644,					// 492 - 5136
 		defaultAmount: 12,
 		maxAmount: 40,
-		specialProfile: "lockGroupStrategy"
+		specialProfile: "lockGroupStrategy",
+		forbiddenEnemyLists: ["staticObjectList"]
 	},
-	group11:
+
+
+	group13:
 	{
-		label: "Enemy Group 11",
+		label: "Enemy Group 13",
 		background: "level6C",
 		startPosition: 512974,
 		endPosition: 517229,
-		screenPositionStart: 6650,
-		screenPositionEnd: 7390,
+		screenPositionStart: 7000,
+		screenPositionEnd: 7450,
 		walkablePositionYTop: 64,
 		walkablePositionYBottom: 16,
 		walkablePositionForceShift: 2048,
-		levelEditorLimitStart: 6650,
-		levelEditorLimitEnd: 7400,
+		levelEditorLimitStart: 6928,
+		levelEditorLimitEnd: 7650,
 		levelEditorShiftX: -4644,					// 492 - 5136
 		defaultAmount: 5,
-		maxAmount: 50
+		maxAmount: 40
 	},
-	group12:
+	group14:
 	{
-		label: "Enemy Group 12",
+		label: "Enemy Group 14",
 		background: "level6C",
 		startPosition: 512974,
 		endPosition: 517229,
-		screenPositionStart: 7400,
-		screenPositionEnd: 8050,
+		screenPositionStart: 7500,
+		screenPositionEnd: 7950,
 		walkablePositionYTop: 64,
 		walkablePositionYBottom: 16,
 		walkablePositionForceShift: 2048,
-		levelEditorLimitStart: 7400,
+		levelEditorLimitStart: 7450,
 		levelEditorLimitEnd: 8256,
 		levelEditorShiftX: -4644,					// 492 - 5136
 		defaultAmount: 5,
-		maxAmount: 50
+		maxAmount: 40
 	},
 	lockGroup4:
 	{
@@ -331,44 +369,62 @@ const level6EnemyGroup =
 		levelEditorShiftX: -4644,					// 492 - 5136
 		defaultAmount: 12,
 		maxAmount: 40,
-		specialProfile: "lockGroupStrategy"
+		specialProfile: "lockGroupStrategy",
+		forbiddenEnemyLists: ["staticObjectList"]
 	},
 
 
-	group13:
+	group15:
 	{
-		label: "Enemy Group 13",
+		label: "Enemy Group 15",
 		background: "level6C",
 		startPosition: 512974,
 		endPosition: 517229,
-		screenPositionStart: 8270,
-		screenPositionEnd: 8850,
+		screenPositionStart: 8300,
+		screenPositionEnd: 8650,
 		walkablePositionYTop: 64,
 		walkablePositionYBottom: 16,
 		walkablePositionForceShift: 2048,
 		levelEditorLimitStart: 8256,
-		levelEditorLimitEnd: 8860,
+		levelEditorLimitEnd: 8850,
 		levelEditorShiftX: -4644,					// 492 - 5136
-		defaultAmount: 6,
-		maxAmount: 50
+		defaultAmount: 4,
+		maxAmount: 35
 	},
-	group14:
+	group16:
 	{
-		label: "Enemy Group 14",
+		label: "Enemy Group 16",
 		background: "level6C",
 		startPosition: 512974,
 		endPosition: 517229,
-		screenPositionStart: 8860,
+		screenPositionStart: 8650,
+		screenPositionEnd: 9000,
+		walkablePositionYTop: 64,
+		walkablePositionYBottom: 16,
+		walkablePositionForceShift: 2048,
+		levelEditorLimitStart: 8600,
+		levelEditorLimitEnd: 9200,
+		levelEditorShiftX: -4644,					// 492 - 5136
+		defaultAmount: 4,
+		maxAmount: 40
+	},
+	group17:
+	{
+		label: "Enemy Group 17",
+		background: "level6C",
+		startPosition: 512974,
+		endPosition: 517229,
+		screenPositionStart: 9000,
 		screenPositionEnd: 9350,
 		walkablePositionYTop: 64,
 		walkablePositionYBottom: 16,
 		walkablePositionForceShift: 2048,
 		endBytes: ["FF", "FF"],
-		levelEditorLimitStart: 8860,
+		levelEditorLimitStart: 8950,
 		levelEditorLimitEnd: 9648,
 		levelEditorShiftX: -4644,					// 492 - 5136
-		defaultAmount: 6,
-		maxAmount: 50,
+		defaultAmount: 4,
+		maxAmount: 35,
 		forbiddenPositionRanges:["outsideRight"],
 		forbiddenEnemyLists: ["mustSpawnRightList"]
 	},
@@ -398,31 +454,31 @@ const level6EnemyGroup =
 	},
 
 
-	group15:
+	group18:
 	{
-		label: "Enemy Group 15",
+		label: "Enemy Group 18",
 		background: "level6D",
 		startPosition: 519292,
 		endPosition: 521279,
 		screenPositionStart: 10130,
-		screenPositionEnd: 10640,
+		screenPositionEnd: 10630,
 		walkablePositionYTop: 64,
 		walkablePositionYBottom: 16,
 		walkablePositionForceShift: 2048,
 		levelEditorLimitStart: 9792,			// -192 + 9984
-		levelEditorLimitEnd: 10650,
+		levelEditorLimitEnd: 10850,
 		levelEditorShiftX: -9492,					// 492 - 9984
 		defaultAmount: 16,
-		maxAmount: 40
+		maxAmount: 35
 	},
-	group16:
+	group19:
 	{
-		label: "Enemy Group 16",
+		label: "Enemy Group 19",
 		background: "level6D",
 		startPosition: 519292,
 		endPosition: 521279,
-		screenPositionStart: 10650,
-		screenPositionEnd: 11250,
+		screenPositionStart: 10680,
+		screenPositionEnd: 11150,
 		walkablePositionYTop: 64,
 		walkablePositionYBottom: 16,
 		walkablePositionForceShift: 2048,
@@ -430,7 +486,7 @@ const level6EnemyGroup =
 		levelEditorLimitEnd: 11456,
 		levelEditorShiftX: -9492,					// 492 - 9984
 		defaultAmount: 14,
-		maxAmount: 40
+		maxAmount: 35
 	},
 	lockGroup6:
 	{
@@ -452,43 +508,44 @@ const level6EnemyGroup =
 		levelEditorShiftX: -9492,					// 492 - 9984
 		defaultAmount: 12,
 		maxAmount: 40,
-		specialProfile: "lockGroupStrategy"
+		specialProfile: "lockGroupStrategy",
+		forbiddenEnemyLists: ["staticObjectList"]
 	},
 
 
-	group17:
+	group20:
 	{
-		label: "Enemy Group 17",
+		label: "Enemy Group 20",
 		background: "level6D",
 		startPosition: 519292,
 		endPosition: 521279,
-		screenPositionStart: 11460,
-		screenPositionEnd: 11970,
+		screenPositionStart: 11500,
+		screenPositionEnd: 11900,
 		walkablePositionYTop: 64,
 		walkablePositionYBottom: 16,
 		walkablePositionForceShift: 2048,
 		levelEditorLimitStart: 11456,
-		levelEditorLimitEnd: 11980,
+		levelEditorLimitEnd: 12100,
 		levelEditorShiftX: -9492,					// 492 - 9984
 		defaultAmount: 5,
-		maxAmount: 20
+		maxAmount: 25
 	},
-	group18:
+	group21:
 	{
-		label: "Enemy Group 18",
+		label: "Enemy Group 21",
 		background: "level6D",
 		startPosition: 519292,
 		endPosition: 521279,
-		screenPositionStart: 11980,
-		screenPositionEnd: 12520,
+		screenPositionStart: 11900,
+		screenPositionEnd: 12250,
 		walkablePositionYTop: 64,
 		walkablePositionYBottom: 16,
 		walkablePositionForceShift: 2048,
-		levelEditorLimitStart: 11980,
+		levelEditorLimitStart: 11850,
 		levelEditorLimitEnd: 12530,
 		levelEditorShiftX: -9492,					// 492 - 9984
 		defaultAmount: 2,
-		maxAmount: 30
+		maxAmount: 25
 	},
 	lockGroup7:
 	{
@@ -510,17 +567,18 @@ const level6EnemyGroup =
 		levelEditorShiftX: -9492,					// 492 - 9984
 		defaultAmount: 12,
 		maxAmount: 40,
-		specialProfile: "lockGroupStrategy"
+		specialProfile: "lockGroupStrategy",
+		forbiddenEnemyLists: ["staticObjectList"]
 	},
 
-	group19:
+	group22:
 	{
-		label: "Enemy Group 19",
+		label: "Enemy Group 22",
 		background: "level6D",
 		startPosition: 519292,
 		endPosition: 521279,
-		screenPositionStart: 12530,
-		screenPositionEnd: 12730,
+		screenPositionStart: 12540,
+		screenPositionEnd: 12780,
 		walkablePositionYTop: 64,
 		walkablePositionYBottom: 16,
 		walkablePositionForceShift: 2048,
@@ -529,9 +587,9 @@ const level6EnemyGroup =
 		levelEditorLimitEnd: 13056,
 		levelEditorShiftX: -9492,					// 492 - 9984
 		defaultAmount: 0,
-		maxAmount: 10,
+		maxAmount: 20,
 		forbiddenPositionRanges:["outsideRight"],
-		forbiddenEnemyLists: ["mustSpawnRightList"]
+		forbiddenEnemyLists: ["mustSpawnRightList", "shootingBugList"]
 	},
 
 
@@ -558,7 +616,8 @@ const level6EnemyGroup =
 		extraBoss: "belger",
 		specialProfile: "lockGroupStrategy",
 		forbiddenPositionRanges:["outsideRight"],
-		forbiddenEnemyLists: ["mustSpawnRightList", "staticObjectList"]
+		forbiddenEnemyLists: ["mustSpawnRightList",
+				"staticObjectList", "shootingBugList"]
 	},
 	bossHelperGroup2:
 	{
@@ -582,7 +641,8 @@ const level6EnemyGroup =
 		maxAmount: 20,
 		specialProfile: "lockGroupStrategy",
 		forbiddenPositionRanges:["outsideRight"],
-		forbiddenEnemyLists: ["mustSpawnRightList", "staticObjectList"]
+		forbiddenEnemyLists: ["mustSpawnRightList",
+				"staticObjectList", "shootingBugList"]
 	},
 	bossHelperGroup3:
 	{
@@ -606,7 +666,8 @@ const level6EnemyGroup =
 		maxAmount: 20,
 		specialProfile: "lockGroupStrategy",
 		forbiddenPositionRanges:["outsideRight"],
-		forbiddenEnemyLists: ["mustSpawnRightList", "staticObjectList"]
+		forbiddenEnemyLists: ["mustSpawnRightList",
+				"staticObjectList", "shootingBugList"]
 	}
 }
 

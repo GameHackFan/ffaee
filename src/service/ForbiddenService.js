@@ -13,6 +13,8 @@ import cagePalletBugList from
 		"../data/randomizer/forbidden/CagePalletBugList";
 import rolentoPalletBugList from
 		"../data/randomizer/forbidden/RolentoPalletBugList";
+import shootingBugList from
+		'../data/randomizer/forbidden/ShootingBugList';
 
 
 class ForbiddenService
@@ -25,6 +27,7 @@ class ForbiddenService
 		this.chandelierList = chandelierList;
 		this.rolentoPalletBugList = rolentoPalletBugList;
 		this.cagePalletBugList = cagePalletBugList;
+		this.shootingBugList = shootingBugList;
 	}
 
 	getValidEnemyIndexList = (enemyKeyList, forbiddenEnemyLists) =>

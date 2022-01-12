@@ -87,7 +87,7 @@ const level2EnemyGroup =
 		startPosition: 486606,
 		endPosition: 487605,
 		screenPositionStart: 1800,
-		screenPositionEnd: 2400,
+		screenPositionEnd: 2300,
 		walkablePositionYTop: 64,
 		walkablePositionYBottom: 16,
 		levelEditorLimitStart: 1788,
@@ -127,8 +127,8 @@ const level2EnemyGroup =
 		background: "level2B",
 		startPosition: 486606,
 		endPosition: 487605,
-		screenPositionStart: 2700,
-		screenPositionEnd: 3100,
+		screenPositionStart: 2750,
+		screenPositionEnd: 3150,
 		walkablePositionYTop: 64,
 		walkablePositionYBottom: 16,
 		endBytes: ["FF", "FF"],
@@ -180,7 +180,7 @@ const level2EnemyGroup =
 		endBytes: ["FF", "FF"],
 		addEmptyBytes: true,
 		levelEditorLimitStart: 3648,			// -192 + 3840
-		levelEditorLimitEnd: 4416,    
+		levelEditorLimitEnd: 4282,    
 		levelEditorShiftX: -3348,					// 492 - 3840
 		defaultAmount: 14,
 		maxAmount: 20,
@@ -193,15 +193,15 @@ const level2EnemyGroup =
 		startPosition: 488802,
 		endPosition: 489135,
 		enemyAmountOffset: -10,
-		screenPositionStart: 4224,
-		screenPositionEnd: 4224,
+		screenPositionStart: 4090,				// 4224
+		screenPositionEnd: 4090,
 		walkablePositionYTop: 80,
 		walkablePositionYBottom: 16,
 		spawnDelayTimeBytes: ["1E", "00"],
 		addEmptyBytes: true,
 		mustHaveSpawnDelayTime: true,
-		levelEditorLimitStart: 4032,
-		levelEditorLimitEnd: 4416,
+		levelEditorLimitStart: 3898,
+		levelEditorLimitEnd: 4282,				// 4416
 		levelEditorShiftX: -3348,					// 492 - 3840
 		defaultAmount: 7,
 		maxAmount: 20,

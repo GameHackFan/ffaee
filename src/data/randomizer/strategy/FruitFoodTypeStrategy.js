@@ -91,10 +91,10 @@ const fruitFoodTypeStrategy =
 	"chandelierRandom3",
 
 
-	"billboardBanana", "billboardPineapple",
-	"billboardApple", "billboardOrange",
-	"billboardGrape",
-	"billboardRandom3",
+	"billboard2Banana", "billboard2Pineapple",
+	"billboard2Apple", "billboard2Orange",
+	"billboard2Grape",
+	"billboard2Random3",
 
 
 	"freightBanana", "freightPineapple", "freightApple",
@@ -133,9 +133,9 @@ const fruitFoodTypeStrategy =
 	"chandelierRandom3",
 
 
-	"billboardBanana", "billboardPineapple",
-	"billboardApple", "billboardOrange",
-	"billboardGrape",
+	"billboard2Banana", "billboardPineapple",
+	"billboard2Apple", "billboardOrange",
+	"billboard2Grape",
 	"billboardRandom3",
 
 

@@ -1,3 +1,24 @@
+Version 0.7 Changes:
+- Added the unused Russy Billboard to the Level Editor and Seed Randomizer.
+- Fixed Molotov HollyWood and El Gado weird behavior.
+- Updated / Fixed Enemy Groups, it affects the Level Editor and Seed Randomizer, see changes A to I.
+- Change A: Added an enemy group on Stage 4 before the elevator.
+- Change B: Added an enemy group on Stage 5 before the last lock.
+- Change C: Added an enemy group on Stage 5 before Abigail.
+- Change D: Added an enemy group on Stage 6 before mansion door.
+- Change E: Added an enemy group on Stage 6 before the mansion Extra Lock 1.
+- Change F: Added an enemy group on Stage 6 before at the door to the last area.
+- Change G: Fixed the last enemy group and last lock before Sodom, both had a bugged range.
+- Change H: Updated the range of several Enemy Groups of many stages.
+- Change I: Fixed some lock enemy groups that were not behaving as intended.
+- Improved outside the screen random spawn range.
+- Removed the empty objects from the randomizer, they have the cop's bullet inside (will check later).
+- Increased the chance of weapons being dropped for the strategy that drops non food items on randomizer.
+- Forbidden Holly Wood and El Gado to spawn on 3rd and 6th boss area on randomizer, they drop knives and if 6 knives are on the ground, these bosses can't shoot.
+- Minor fixes.
+- Minor changes.
+
+
 Version 0.6 Changes:
 - Updated PlayerHealthPatch, it better handle the increase of the HP of the players.
 - Created LifebarImprovementPatch. It handles better the lifebar progress.

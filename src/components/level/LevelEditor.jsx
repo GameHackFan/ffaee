@@ -94,7 +94,7 @@ class LevelEditor extends Component
 	{
 		const {level, enemyGroup, enemyId} = this.state;
 		levelEditorService.removeEnemy(level, enemyGroup, enemyId);
-		let newId = Math.max(0, enemyId - 1);
+		let newId = Math.max(0, enemyId - 1).toString();
 		this.setState({enemyId: newId});
 	}
 

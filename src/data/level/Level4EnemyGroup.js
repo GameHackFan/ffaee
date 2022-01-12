@@ -14,7 +14,7 @@ const level4EnemyGroup =
 		levelEditorLimitEnd: 630,     
 		levelEditorShiftX: 492,					// 492 - 0
 		defaultAmount: 12,
-		maxAmount: 20,
+		maxAmount: 19,
 		specialProfile: "flameStrategy"
 	},
 	fireGroup2:
@@ -24,14 +24,14 @@ const level4EnemyGroup =
 		startPosition: 494114,
 		endPosition: 495393,
 		screenPositionStart: 630,
-		screenPositionEnd: 1210,
+		screenPositionEnd: 1150,
 		walkablePositionYTop: 112,
 		walkablePositionYBottom: 80,
 		levelEditorLimitStart: 630,
 		levelEditorLimitEnd: 1410,     
 		levelEditorShiftX: 492,					// 492 - 0
 		defaultAmount: 11,
-		maxAmount: 20,
+		maxAmount: 19,
 		specialProfile: "flameStrategy"
 	},
 	fireLockGroup1:
@@ -64,15 +64,15 @@ const level4EnemyGroup =
 		background: "level4A",
 		startPosition: 494114,
 		endPosition: 495393,
-		screenPositionStart: 1420,
-		screenPositionEnd: 2020,
+		screenPositionStart: 1500,
+		screenPositionEnd: 1900,
 		walkablePositionYTop: 64,
 		walkablePositionYBottom: 16,
 		levelEditorLimitStart: 1410,
-		levelEditorLimitEnd: 2030,     
+		levelEditorLimitEnd: 2100,     
 		levelEditorShiftX: 492,					// 492 - 0
-		defaultAmount: 12,
-		maxAmount: 20,
+		defaultAmount: 8,
+		maxAmount: 17,
 		forbiddenPositionRanges:["outsideLeft"],
 		forbiddenEnemyLists: ["chandelierList", "mustSpawnLeftList"]
 	},
@@ -104,16 +104,35 @@ const level4EnemyGroup =
 		background: "level4A",
 		startPosition: 494114,
 		endPosition: 495393,
-		screenPositionStart: 2030,
-		screenPositionEnd: 2750,
+		screenPositionStart: 1900,
+		screenPositionEnd: 2300,
 		walkablePositionYTop: 64,
 		walkablePositionYBottom: 16,
 		endBytes: ["FF", "FF"],
-		levelEditorLimitStart: 2030,
+		levelEditorLimitStart: 1850,
+		levelEditorLimitEnd: 2500,
+		levelEditorShiftX: 492,					// 492 - 0
+		defaultAmount: 8,
+		maxAmount: 18,
+		forbiddenPositionRanges:["outsideRight"],
+		forbiddenEnemyLists: ["mustSpawnRightList"]
+	},
+	group3:
+	{
+		label: "Enemy Group 3",
+		background: "level4A",
+		startPosition: 494114,
+		endPosition: 495393,
+		screenPositionStart: 2300,
+		screenPositionEnd: 2700,
+		walkablePositionYTop: 64,
+		walkablePositionYBottom: 16,
+		endBytes: ["FF", "FF"],
+		levelEditorLimitStart: 2250,
 		levelEditorLimitEnd: 3072,
 		levelEditorShiftX: 492,					// 492 - 0
-		defaultAmount: 11,
-		maxAmount: 30,
+		defaultAmount: 7,
+		maxAmount: 17,
 		forbiddenPositionRanges:["outsideRight"],
 		forbiddenEnemyLists: ["mustSpawnRightList"]
 	},
@@ -142,7 +161,7 @@ const level4EnemyGroup =
 	},
 
 
-	elevatorGroup1:
+	elevatorGroup1:		// Not in use
 	{
 		disabled: true,
 		label: "Elevator Enemy Group 1",
@@ -238,7 +257,7 @@ const level4EnemyGroup =
 		levelEditorLimitEnd: 3520,     
 		levelEditorShiftX: -2836,					// 492 - 3328
 		defaultAmount: 3,
-		maxAmount: 6,
+		maxAmount: 5,
 		specialProfile: "elevatorT3Strategy",
 		forbiddenPositionRanges:["outsideLeft", "outsideRight"],
 		forbiddenEnemyLists: ["chandelierList",
@@ -317,7 +336,7 @@ const level4EnemyGroup =
 		levelEditorLimitEnd: 3520,     
 		levelEditorShiftX: -2836,					// 492 - 3328
 		defaultAmount: 3,
-		maxAmount: 6,
+		maxAmount: 5,
 		extraBoss: "rolento",
 		specialProfile: "elevatorT3Strategy",
 		forbiddenPositionRanges:["outsideLeft", "outsideRight"],

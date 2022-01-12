@@ -28,11 +28,11 @@ const stabberTypeByteMap =
 
 	hollyWoodMolotov: [					// Default
 			"RR", "RR", "RR", "RR", "RR", "RR",
-			"08", "02", "00", "00", "RR", "RR", "00", "FF"],
+			"08", "02", "00", "00", "00", "18", "00", "FF"],
 
 	elGadoMolotov: [						// Default
 			"RR", "RR", "RR", "RR", "RR", "RR",
-			"08", "02", "00", "01", "RR", "RR", "00", "FF"]
+			"08", "02", "00", "01", "00", "18", "00", "FF"]
 }
 
 

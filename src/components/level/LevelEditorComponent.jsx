@@ -84,8 +84,8 @@ const LevelEditorComponent = (props) =>
 	let base = leeg.positionXForceShift;
 	base = base ? base : parseInt(enemy.triggerPosition);
 	base = isNaN(base) ? 0 : base;
-	let minPX = base ? (base - 90) : 0;
-	let maxPX = base ? (base + 470) : 0;
+	let minPX = base ? (base - 70) : 0;
+	let maxPX = base ? (base + 450) : 0;
 
 	return (
 		<div className="level rowLinedFlex">

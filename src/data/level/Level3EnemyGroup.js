@@ -170,8 +170,8 @@ const level3EnemyGroup =
 		background: "level3A",
 		startPosition: 491778,
 		endPosition: 492637,
-		screenPositionStart: 1700,
-		screenPositionEnd: 1930,
+		screenPositionStart: 1710,
+		screenPositionEnd: 1900,
 		walkablePositionYTop: 48,
 		walkablePositionYBottom: 16,
 		endBytes: [
@@ -192,7 +192,7 @@ const level3EnemyGroup =
 		startPosition: 491778,
 		endPosition: 492637,
 		screenPositionStart: 2100,
-		screenPositionEnd: 2650,
+		screenPositionEnd: 2550,
 		walkablePositionYTop: 48,
 		walkablePositionYBottom: 16,
 		levelEditorLimitStart: 2100,
@@ -230,7 +230,7 @@ const level3EnemyGroup =
 		background: "level3A",
 		startPosition: 491778,
 		endPosition: 492637,
-		screenPositionStart: 2850,
+		screenPositionStart: 2900,
 		screenPositionEnd: 3350,
 		walkablePositionYTop: 48,
 		walkablePositionYBottom: 16,
@@ -243,7 +243,8 @@ const level3EnemyGroup =
 		maxAmount: 23,									// 25, but 2 space for 2 extra boss
 		extraBoss: "ediE",
 		forbiddenPositionRanges:["outsideLeft"],
-		forbiddenEnemyLists: ["chandelierList", "mustSpawnLeftList"]
+		forbiddenEnemyLists: ["chandelierList",
+				"mustSpawnLeftList", "shootingBugList"]
 	},
 
 
@@ -268,8 +269,8 @@ const level3EnemyGroup =
 		maxAmount: 20,
 		specialProfile: "lockGroupStrategy",
 		forbiddenPositionRanges:["outsideRight"],
-		forbiddenEnemyLists: ["chandelierList",
-				"mustSpawnRightList", "staticObjectList"]
+		forbiddenEnemyLists: ["chandelierList", "mustSpawnRightList",
+				"staticObjectList", "shootingBugList"]
 	},
 	bossHelperGroup2:
 	{
@@ -292,8 +293,8 @@ const level3EnemyGroup =
 		maxAmount: 20,
 		specialProfile: "lockGroupStrategy",
 		forbiddenPositionRanges:["outsideRight"],
-		forbiddenEnemyLists: ["chandelierList",
-				"mustSpawnRightList", "staticObjectList"]
+		forbiddenEnemyLists: ["chandelierList", "mustSpawnRightList",
+				"staticObjectList", "shootingBugList"]
 	},
 	bossHelperGroup3:
 	{
@@ -316,8 +317,8 @@ const level3EnemyGroup =
 		maxAmount: 20,
 		specialProfile: "lockGroupStrategy",
 		forbiddenPositionRanges:["outsideRight"],
-		forbiddenEnemyLists: ["chandelierList",
-				"mustSpawnRightList", "staticObjectList"]
+		forbiddenEnemyLists: ["chandelierList", "mustSpawnRightList",
+				"staticObjectList", "shootingBugList"]
 	}
 }
 

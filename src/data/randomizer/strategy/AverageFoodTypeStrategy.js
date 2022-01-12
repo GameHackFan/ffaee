@@ -74,8 +74,8 @@ const averageFoodTypeStrategy =
 	"chandelierSushi",
 
 
-	"billboardHamburger", "billboardHotdog",
-	"billboardPizza", "billboardCurry", "billboardSushi",
+	"billboard2Hamburger", "billboard2Hotdog",
+	"billboard2Pizza", "billboard2Curry", "billboard2Sushi",
 
 
 	"freightHamburger", "freightHotdog", "freightPizza",
@@ -108,8 +108,8 @@ const averageFoodTypeStrategy =
 	"chandelierSushi",
 
 
-	"billboardHamburger", "billboardHotdog",
-	"billboardPizza", "billboardCurry", "billboardSushi",
+	"billboard2Hamburger", "billboardHotdog",
+	"billboard2Pizza", "billboardCurry", "billboard2Sushi",
 
 
 	"freightHamburger", "freightHotdog", "freightPizza",

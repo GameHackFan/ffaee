@@ -122,7 +122,7 @@ const restInPainRandomProfile =
 		enemiesFall:
 		{
 			randomMinAmount: 4,
-			randomMaxAmount: 5
+			randomMaxAmount: 4
 		},
 		averageFoodFall:
 		{

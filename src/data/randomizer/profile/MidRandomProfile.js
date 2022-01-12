@@ -122,7 +122,7 @@ const midRandomProfile =
 		enemiesFall:
 		{
 			randomMinAmount: 4,
-			randomMaxAmount: 5
+			randomMaxAmount: 4
 		},
 		goodFoodFall:
 		{

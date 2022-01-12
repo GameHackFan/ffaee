@@ -118,10 +118,10 @@ const badFoodTypeStrategy =
 	"chandelierRandom4",
 
 
-	"billboardSoftDrink1", "billboardSoftDrink2",
-	"billboardBeer1", "billboardBeer2",
-	"billboardWhisky", "billboardBeer3", "billboardGum1",
-	"billboardRandom4",
+	"billboard2SoftDrink1", "billboard2SoftDrink2",
+	"billboard2Beer1", "billboard2Beer2",
+	"billboard2Whisky", "billboard2Beer3", "billboard2Gum1",
+	"billboard2Random4",
 
 
 	"freightSoftDrink1", "freightSoftDrink2",
@@ -167,9 +167,9 @@ const badFoodTypeStrategy =
 	"chandelierRandom4",
 
 
-	"billboardSoftDrink1", "billboardSoftDrink2",
-	"billboardBeer1", "billboardBeer2",
-	"billboardWhisky", "billboardBeer3", "billboardGum1",
+	"billboard2SoftDrink1", "billboardSoftDrink2",
+	"billboard2Beer1", "billboardBeer2",
+	"billboard2Whisky", "billboardBeer3", "billboard2Gum1",
 	"billboardRandom4",
 
 

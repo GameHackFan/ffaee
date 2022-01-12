@@ -236,6 +236,7 @@ import ironPipe from "../images/object/iron_pipe.png";
 import drumcan from "../images/object/drumcan.png";
 import chandelier from "../images/object/chandelier.png";
 import billboard from "../images/object/billboard.png";
+import billboardUnused from "../images/object/billboard_unused.png";
 import freight from "../images/object/freight.png";
 import dustbin from "../images/object/dustbin.png";
 import barrel from "../images/object/barrel.png";
@@ -744,6 +745,65 @@ const imageMap =
 	billboardRandom12: billboard,
 	billboardRandom13: billboard,
 	billboardRandom14: billboard,
+
+
+	billboard2Barbecue: billboardUnused,
+	billboard2Steak: billboardUnused,
+	billboard2Chicken: billboardUnused,
+	billboard2Hamburger: billboardUnused,
+	billboard2Hotdog: billboardUnused,
+	billboard2Pizza: billboardUnused,
+	billboard2Curry: billboardUnused,
+	billboard2Sushi: billboardUnused,
+	billboard2Banana: billboardUnused,
+	billboard2Pineapple: billboardUnused,
+	billboard2Apple: billboardUnused,
+	billboard2Orange: billboardUnused,
+	billboard2Grape: billboardUnused,
+	billboard2SoftDrink1: billboardUnused,
+	billboard2SoftDrink2: billboardUnused,
+	billboard2Beer1: billboardUnused,
+	billboard2Beer2: billboardUnused,
+	billboard2Whisky: billboardUnused,
+	billboard2Beer3: billboardUnused,
+	billboard2Gum1: billboardUnused,
+
+	billboard2Diamond: billboardUnused,
+	billboard2GoldBar: billboardUnused,
+	billboard2Ruby: billboardUnused,
+	billboard2Emerald: billboardUnused,
+	billboard2Pearl: billboardUnused,
+	billboard2Topaz: billboardUnused,
+	billboard2Necklace: billboardUnused,
+	billboard2Watch: billboardUnused,
+	billboard2Dollar: billboardUnused,
+	billboard2Yen: billboardUnused,
+	billboard2YenCoin: billboardUnused,
+	billboard2Radio: billboardUnused,
+	billboard2Napkin: billboardUnused,
+	billboard2Hat: billboardUnused,
+	billboard2Hammer: billboardUnused,
+
+	billboard2Knife: billboardUnused,
+	billboard2Muramasa: billboardUnused,
+	billboard2Pipe: billboardUnused,
+
+	billboard2Empty: billboardUnused,
+
+	billboard2Random1: billboardUnused,
+	billboard2Random2: billboardUnused,
+	billboard2Random3: billboardUnused,
+	billboard2Random4: billboardUnused,
+	billboard2Random5: billboardUnused,
+	billboard2Random6: billboardUnused,
+	billboard2Random7: billboardUnused,
+	billboard2Random8: billboardUnused,
+	billboard2Random9: billboardUnused,
+	billboard2Random10: billboardUnused,
+	billboard2Random11: billboardUnused,
+	billboard2Random12: billboardUnused,
+	billboard2Random13: billboardUnused,
+	billboard2Random14: billboardUnused,
 
 
 	freightBarbecue: freight,

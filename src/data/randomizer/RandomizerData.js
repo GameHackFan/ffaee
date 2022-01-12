@@ -34,7 +34,7 @@ const randomizerData =
 		},
 		enemiesPartialFall:
 		{
-			label: "Randomize Any Normal Enemies (No To Fall)",
+			label: "Randomize Any Normal Enemies (No Any To Fall)",
 			enemyKeys: randomizerEnemyStrategy.enemiesPartialFall,
 			randomizeBehavior: true
 		},
@@ -121,8 +121,8 @@ const randomizerData =
 	},
 	positionRange:
 	{
-		outsideLeft: [-70, -80],
-		outsideRight: [450, 460],
+		outsideLeft: [-50, -60],		// -70, -80
+		outsideRight: [430, 440],		// 450, 460
 		inside: [100, 224, 240],
 		insideTop: [170, 290, 370],
 	},
