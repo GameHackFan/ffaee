@@ -15,13 +15,13 @@ const RandomizerComponent = (props) =>
 	enemyGroups = enemyGroups ? enemyGroups : {};
 	let enemyGroup = enemyGroups[props.enemyGroup];
 	enemyGroup = enemyGroup ? enemyGroup : {};
-	let randomMode = props.groupData.randomMode;
-	randomMode = randomMode ? randomMode : "random";
 
-	const groupOn = props.romReady && props.level ? true : false;
+	const hidden = {display: "none"}
+	const customOn = props.romReady && props.randomProfile === "custom";
+	const customStyle = customOn ? {} : hidden;
+	const groupOn = customOn && props.level ? true : false;
 	const editOn = groupOn && props.enemyGroup &&
 			enemyGroup.maxAmount ? true : false;
-	const hidden = {display: "none"}
 	const groupStyle = groupOn ? {} : hidden;
 	const editStyle = editOn ? {} : hidden;
 	const lockAllStyle = props.romReady ? {} : hidden;
@@ -64,23 +64,35 @@ const RandomizerComponent = (props) =>
 	Object.keys(ess).forEach((key) =>
 	{
 		let data = props.groupData[key];
-		let style = randomMode !== "custom" ? hidden : {};
+		data = data ? data : {};
+		let gui = ess[key];
 
 		fields.push(
 			<div
 				key={key}
 				className="windowContentLine colLinedFlex"
-				style={style}
 			>
-				<label>
-					{ess[key].label} <br/> 
-					Enemy Amount: 
+				<label title={gui.information}>
+					{gui.label}
 				</label>
+				<span title="Minimum Amount, must be less than the maximum.">
+					Min:
+				</span>
 				<input
 					type="text"
-					name={key}
+					name={key + "-min"}
 					className="textfield"
-					value={data ? data : ""}
+					value={data.randomMinAmount ? data.randomMinAmount : ""}
+					onChange={props.handleGroupDataChange}
+				/>
+				<span title="Maximum Amount, must be more than the minimum.">
+					Max:
+				</span>
+				<input
+					type="text"
+					name={key + "-max"}
+					className="textfield"
+					value={data.randomMaxAmount ? data.randomMaxAmount : ""}
 					onChange={props.handleGroupDataChange}
 				/>
 			</div>
@@ -90,39 +102,36 @@ const RandomizerComponent = (props) =>
 	return (
 		<div className="randomizer rowLinedFlex">
 			<label className="windowText">
-				Use this window to create a ROM with random enemies at 
-				random positions based on a "Seed" and all the strategies 
-				selected. Remember that if you inform the same "Seed" and 
-				the same values it will always generate the same ROM, but 
-				the same "Seed" with different values will generate a 
-				different ROM.
+				Use this window to create a ROM with random enemies at random 
+				positions based on a "Seed" and a profile you selected.
+				Remember that if you inform the same "Seed" and the same values 
+				it will always generate the same ROM, but the same "Seed" with 
+				different values will generate a different ROM.
 			</label>
 			<label className="windowText">
-				Inside the game, several enemies are stored together and 
-				it is being called enemy group. An enemy group contains 1 
-				or more enemies next to each other inside the ROM, You can 
-				change the amount of enemies in an enemy group, but you 
-				must add at least 1 enemy to each enemy group. Adding a lot 
-				of enemies can also cause lags or crashes. The randomizer 
-				will take care to cap the amount of enemies to avoid crashes.
+				Inside the game, several enemies are stored together and it 
+				is being called enemy group. An enemy group contains 1 or 
+				more enemies next to each other inside the ROM, You can change 
+				the amount of enemies in an enemy group, but you must add at 
+				least 1 enemy to each enemy group. Adding a lot of enemies can 
+				also cause lags or crashes. The randomizer will take care to 
+				cap the amount of enemies to avoid crashes.
 			</label>
 			<label className="windowText">
-				There are several enemy randomizer strategies, if you like a 
-				specific strategy, add 1 or more enemies for that strategy. 
-				The amount of enemies in a certain group will be the sum of 
-				all enemies passed inside all enemy strategies and the result 
-				must be at least 1. If it exceeds the maximum limit accepted 
-				for that group, the randomizer will randomly remove enemies 
-				until it reaches the maximum limit.
+				If you don't want to use the profiles available, you can select 
+				the Custom profile, it will allow you to make your own random 
+				profile base on several enemy randomizer strategies, if you 
+				like a specific strategy, add the minimum and the maximum amount 
+				of enemies for that strategy. The amount of enemies in a specific 
+				group will be the sum of all enemies passed inside all enemy 
+				strategies and the result must be at least 1. If it exceeds the 
+				maximum amount accepted for that group, the randomizer will 
+				randomly remove enemies until it reaches the maximum amount.
 			</label>
 			<label className="windowText">
-				Click Apply Randomizer without any changes and it will 
-				randomize everything.
-			</label>
-			<label className="windowText">
-				If you want the randomizer to generate a ROM and then edit it 
-				later, save a preset for the level editor and load it in the 
-				level editor instead of applying the randomizer.
+				If you want to edit the stuff made by the randomizer with the level 
+				editor, select the things you want and click Save Level Editor Preset 
+				and then load the saved preset in the Level Editor.
 			</label>
 			<label
 				className="windowErrorMessage warning"
@@ -167,7 +176,7 @@ const RandomizerComponent = (props) =>
 			</div>
 			<div
 				className="windowContentLine colLinedFlex"
-				style={lockAllStyle}
+				style={customStyle}
 			>
 				<label>Level: </label>
 				<select
@@ -199,12 +208,12 @@ const RandomizerComponent = (props) =>
 					{groupOptions}
 				</select>
 			</div>
-			<div
+			{/* <div
 				className="windowContentLine colLinedFlex"
 				style={groupStyle}
 			>
 
-			</div>
+			</div> */}
 			<div
 				className="rowLinedFlex"
 				style={editStyle}
@@ -218,10 +227,10 @@ const RandomizerComponent = (props) =>
 					<span> {enemyGroup.maxAmount} </span>
 					<label>enemy(ies) in this group.</label>
 				</div>
-				<label className="enemyGroupText">
+				{/* <label className="enemyGroupText">
 
-				</label>
-				<div
+				</label> */}
+				{/* <div
 					className="windowContentLine colLinedFlex">
 					<label>
 						Random Mode:
@@ -236,7 +245,7 @@ const RandomizerComponent = (props) =>
 						<option value="custom">Custom</option>
 						<option value="disabled">Disabled</option>
 					</select>
-				</div>
+				</div> */}
 				<div className="enemyGroup">
 					{fields}
 				</div>

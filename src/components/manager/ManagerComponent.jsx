@@ -44,11 +44,17 @@ const ManagerComponent = (props) =>
 				Here you can also load, clone and generate a ROM. 
 			</label>
 			<label className="windowText">
+				The hack author field allows you to write the name 
+				of the author of the hack, and it will be shown in 
+				the title screen of the game. This feature will not 
+				work for a seed randomized ROM.
+			</label>
+			<label className="windowText">
 				Before start editing the ROM, you need to load 
 				and clone it. After doing all the changes desired, 
 				you need to select a ROM Type and click on Generate 
 				ROM to create the .zip file of the ROM. If you don't 
-				select a ROM Type, it will generate a rom compatible 
+				select a ROM Type, it will generate a ROM compatible 
 				with FBNeo by default. Keep in mind that the process 
 				to generate a ROM is a little bit slow, so be patient 
 				and wait.
@@ -57,18 +63,29 @@ const ManagerComponent = (props) =>
 				If you applied changes made by the Seed Randomizer and 
 				the Level Editor, the byte order might change and 
 				applying more changes from those 2 windows might crash 
-				the ROM, so make sure you do all changes needed first 
+				the ROM, so make sure you do all the changes desired 
 				before applying them to the ROM. You can also clone the 
 				ROM in case you did unwanted changes, it will clone the 
 				ROM loaded and overwrite all changes made.
 			</label>
+			<div className="colLinedFlex windowContentLine">
+				<label>Hack Author: </label>
+				<input
+					name="hackAuthor"
+					className="textfield"
+					onChange={props.handleChange}
+					value={props.hackAuthor ? props.hackAuthor : ""}
+					type="text"
+				/>
+				<b>(Maximum 20 characters)</b>
+			</div>
 			<div className="colLinedFlex windowContentLine">
 				<label>Window Selector: </label>
 				<select
 					className="buttonSolid"
 					onChange={props.onWindowSelectorChanged}
 				>
-					<option key="none" value="none">
+					<option key="none" value="">
 						Select a window
 					</option>
 					{windowOptions}

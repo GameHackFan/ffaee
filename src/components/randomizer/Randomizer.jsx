@@ -16,20 +16,14 @@ class Randomizer extends Component
 		this.handleChange = this.handleChange.bind(this);
 		this.handleRandomizerDataChange =
 				this.handleRandomizerDataChange.bind(this);
-		this.handleGroupDataChange = 
-				this.handleGroupDataChange.bind(this);
-		this.onLoadPresetFileChange = 
-				this.onLoadPresetFileChange.bind(this);
-		this.onSavePresetClick = 
-				this.onSavePresetClick.bind(this);
-		this.onSaveLevelEditorPresetClick = 
+		this.handleGroupDataChange = this.handleGroupDataChange.bind(this);
+		this.onLoadPresetFileChange = this.onLoadPresetFileChange.bind(this);
+		this.onSavePresetClick = this.onSavePresetClick.bind(this);
+		this.onSaveLevelEditorPresetClick =
 				this.onSaveLevelEditorPresetClick.bind(this);
-		this.onApplyRandomizerClick = 
-				this.onApplyRandomizerClick.bind(this);
-		this.onClearChangesClick = 
-				this.onClearChangesClick.bind(this);
-		this.applyPresetFile =
-				this.applyPresetFile.bind(this);
+		this.onApplyRandomizerClick = this.onApplyRandomizerClick.bind(this);
+		this.onClearChangesClick = this.onClearChangesClick.bind(this);
+		this.applyPresetFile = this.applyPresetFile.bind(this);
 	}
 
 	shouldComponentUpdate(nextProps, nextState)
@@ -54,19 +48,15 @@ class Randomizer extends Component
 	onClearChangesClick(event)
 	{
 		randomizerService.setMainDataToDefault();
+		randomizerService.setCustomRandomProfileToDefault();
 		editorService.forceComponentToUpdateByKey("randomizer");
 	}
 
 	handleRandomizerDataChange(event)
 	{
 		const {name, value} = event.target;
-		
-		if(name === "randomMode")
-		{
-			const {level, enemyGroup} = this.state;
-			randomizerService.setRandomMode(level, enemyGroup, value);
-		}
-		else if(name === "seed")
+
+		if(name === "seed")
 			randomizerService.setSeed(value);
 		else if(name === "randomProfile")
 			randomizerService.setRandomProfile(value);
@@ -81,7 +71,21 @@ class Randomizer extends Component
 		if(level && enemyGroup)
 		{
 			const {name, value} = event.target;
-			randomizerService.updateMainData(level, enemyGroup, name, value);
+			let fields = name.split("-");
+			let strategyKey = fields[0];
+			let valueField = fields[1];
+
+			if(valueField === "min")
+			{
+				randomizerService.setEnemyGroupMinAmount(
+						level, enemyGroup, strategyKey, value);
+			}
+			else if(valueField === "max")
+			{
+				randomizerService.setEnemyGroupMaxAmount(
+						level, enemyGroup, strategyKey, value);
+			}
+
 			editorService.forceComponentToUpdateByKey("randomizer");
 		}
 	}
@@ -155,7 +159,8 @@ class Randomizer extends Component
 	render()
 	{
 		const {level, enemyGroup} = this.state;
-		const groupData = randomizerService.getMainDataGroup(level, enemyGroup);
+		const groupData = randomizerService.
+				getCustomRandomProfileEnemyGroup(level, enemyGroup);
 
 		return (
 			<RandomizerComponent

@@ -154,7 +154,7 @@ const billboardTypeByteMap =
 		
 	billboardEmpty: [
 			"RR", "RR", "RR", "RR", "RR", "RR",
-			"03", "0A", "27", "01", "00", "01", "00", "FF"],
+			"03", "0A", "FF", "01", "00", "01", "00", "FF"],			// "03", "0A", "27", "01", 
 		
 	billboardRandom1: [
 			"RR", "RR", "RR", "RR", "RR", "RR",
@@ -367,7 +367,7 @@ const billboardTypeByteMap =
 		
 	billboard2Empty: [
 			"RR", "RR", "RR", "RR", "RR", "RR",
-			"03", "0A", "27", "01", "00", "00", "00", "FF"],
+			"03", "0A", "FF", "01", "00", "00", "00", "FF"],			// "03", "0A", "27", "01", 
 		
 	billboard2Random1: [
 			"RR", "RR", "RR", "RR", "RR", "RR",

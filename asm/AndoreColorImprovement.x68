@@ -1,9 +1,10 @@
-*-----------------------------------------------------------
+*----------------------------------------------------------------------------------------------
 * Title:				FFAEE Andore Color Improvement
 * Written by:		GameHackFan
 * Date:					
-* Description:	Ensures
-*-----------------------------------------------------------
+* Description:	Forces the andores from the ring to use Bred, Jake and Simons palletes
+*----------------------------------------------------------------------------------------------
+
 	JMP					$75C00.L									; Code to jump to the new code that handles andore color pallete (replace 2CCFA).
 
 

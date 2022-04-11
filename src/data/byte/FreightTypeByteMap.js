@@ -154,7 +154,7 @@ const freightTypeByteMap =
 		
 	freightEmpty: [
 			"RR", "RR", "RR", "RR", "RR", "RR",
-			"04", "0A", "27", "01", "00", "01", "00", "FF"],
+			"04", "0A", "FF", "01", "00", "01", "00", "FF"],			// "04", "0A", "27", "01", 
 		
 	freightRandom1: [
 			"RR", "RR", "RR", "RR", "RR", "RR",

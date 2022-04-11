@@ -15,24 +15,26 @@ const HeaderComponent = (props) =>
 			style={{zoom: props.zoom}}
 		>
 			<div className="colLinedFlex">
-				<img
-					className="ffaeeLogo"
-					src={imageMap.ffaeeLogo}
-					title={logoTitle}
-				/>
 				<div className="colLinedFlex">
 					<img
-						src={imageMap.portraitGuy}
-						title="Guy"
+						className="ffaeeLogo"
+						src={imageMap.ffaeeLogo}
+						title={logoTitle}
 					/>
-					<img
-						src={imageMap.portraitCody}
-						title="Cody"
-					/>
-					<img
-						src={imageMap.portraitHaggar}
-						title="Haggar"
-					/>
+					<div className="colLinedFlex">
+						<img
+							src={imageMap.portraitGuy}
+							title="Guy"
+						/>
+						<img
+							src={imageMap.portraitCody}
+							title="Cody"
+						/>
+						<img
+							src={imageMap.portraitHaggar}
+							title="Haggar"
+						/>
+					</div>
 				</div>
 			</div>
 		</header>

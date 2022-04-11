@@ -154,7 +154,7 @@ const chandelierTypeByteMap =
 		
 	chandelierEmpty: [
 			"RR", "RR", "RR", "RR", "RR", "RR",
-			"02", "0A", "27", "00", "00", "00", "00", "FF"],
+			"02", "0A", "FF", "00", "00", "00", "00", "FF"],			// "02", "0A", "27", "00", 
 		
 	chandelierRandom1: [
 			"RR", "RR", "RR", "RR", "RR", "RR",

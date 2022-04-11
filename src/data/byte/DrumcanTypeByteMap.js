@@ -154,7 +154,7 @@ const drumcanTypeByteMap =
 		
 	drumcanEmpty: [
 			"RR", "RR", "RR", "RR", "RR", "RR",
-			"01", "0A", "27", "02", "00", "00", "00", "FF"],
+			"01", "0A", "FF", "02", "00", "00", "00", "FF"],			// "01", "0A", "27", "02", 
 		
 	drumcanRandom1: [
 			"RR", "RR", "RR", "RR", "RR", "RR",
@@ -369,7 +369,7 @@ const drumcanTypeByteMap =
 		
 	drumcanRollingRightEmpty: [
 			"RR", "RR", "RR", "RR", "RR", "RR",
-			"0A", "0A", "27", "02", "00", "00", "00", "FF"],
+			"0A", "0A", "FF", "02", "00", "00", "00", "FF"],			// "0A", "0A", "27", "02", 
 		
 	drumcanRollingRightRandom1: [
 			"RR", "RR", "RR", "RR", "RR", "RR",
@@ -584,7 +584,7 @@ const drumcanTypeByteMap =
 		
 	drumcanRollingLeftEmpty: [
 			"RR", "RR", "RR", "RR", "RR", "RR",
-			"0A", "0A", "27", "02", "00", "02", "00", "FF"],
+			"0A", "0A", "FF", "02", "00", "02", "00", "FF"],			// "0A", "0A", "27", "02", 
 		
 	drumcanRollingLeftRandom1: [
 			"RR", "RR", "RR", "RR", "RR", "RR",

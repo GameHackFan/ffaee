@@ -12,9 +12,10 @@ class EditorManagerService
 		romService.setROM(rom);
 	}
 
-	generateROM = (converterKey) =>
+	generateROM = (converterKey, hackAuthor) =>
 	{
 		this.addDefaultTextIfNoText();
+		romService.addHackAuthor(hackAuthor);
 		let rom = romService.getGeneratedROM();
 		let cm = editorManagerData[converterKey];
 

@@ -148,7 +148,27 @@ class ROMService
 			throw new Error(m);
 		}
 	}
-	
+
+	addHackAuthor = (hackAuthor) =>
+	{
+		let checkBytes = this.getAuthorByteIndex();
+		let filename = "ff-23m.8h";
+		let checkIndex = this.indexOfBytes(filename, checkBytes, "hex", 482978);
+
+		if(checkIndex > -1)
+		{
+			let byteIndex = checkIndex + checkBytes.length;
+			let ha = hackAuthor ? hackAuthor.trim() : null;
+			ha = ha ? ha : "Unknown author";
+			ha = "************ " + ha + " ************";
+			let remove = (ha.length - 20) / 2;
+			ha = ha.substring(remove, ha.length - remove);
+			ha = ha.length > 20 ? ha.substring(0, 20) : ha;
+			let hexBytes = romService.convertStringToROMBytes(ha);
+			this.setBytes(filename, byteIndex, hexBytes, "hex");
+		}
+	}
+
 	setROM = (rom) =>
 	{
 		this.rom = rom;
@@ -165,6 +185,24 @@ class ROMService
 				this.convertHexArrayToByteArray(bytes) : bytes;
 	}
 
+	getDecimal = (filename, byteIndex, amount, def) =>
+	{
+		let bytes = this.getBytes(filename, byteIndex, amount);
+		
+		if(bytes && bytes.length > 0)
+		{
+			let decimal = 0;
+			bytes.forEach((byte, index) =>
+			{
+				decimal += (byte << (index * 8))
+			});
+
+			return decimal;
+		}
+
+		return def;
+	}
+
 	setByte = (filename, byteIndex, value) =>
 	{
 		let fileBytes = this.generatedROM[filename];
@@ -179,21 +217,24 @@ class ROMService
 		this.setByte(filename, byteIndex, fix);
 	}
 
-	setBytes = (filename, byteIndex, bytes) =>
+	setBytes = (filename, byteIndex, bytes, byteFormat) =>
 	{
-		let fileBytes = this.generatedROM[filename];
-		bytes.forEach((byte, index) => fileBytes[byteIndex + index] = byte);
+		if(byteIndex > -1)
+		{
+			let fbs = this.getBytesAsDecimal(bytes, byteFormat);
+			let fileBytes = this.generatedROM[filename];
+			fbs.forEach((byte, index) => fileBytes[byteIndex + index] = byte);
+		}
 	}
 
 	getByte = (filename, byteIndex) =>
 	{
-		return this.generatedROM[filename][byteIndex];
+		return this.getFileBytes(filename)[byteIndex];
 	}
 
 	getBytes = (filename, byteIndex, amount) =>
 	{
-		return this.generatedROM[filename].slice(
-				byteIndex, byteIndex + amount);
+		return this.getFileBytes(filename).slice(byteIndex, byteIndex + amount);
 	}
 	
 	indexOfBytes = (filename, bytes, byteFormat, startIndex) =>
@@ -246,6 +287,14 @@ class ROMService
 		this.romReady = false;
 	}
 
+	getFileBytes = (filename) =>
+	{
+		let gr = this.generatedROM ? this.generatedROM : {};
+		let fileBytes = gr[filename];
+		return fileBytes ? fileBytes : [];
+	}
+
+
 	isROMReady = () =>
 	{
 		return this.romReady;
@@ -259,6 +308,14 @@ class ROMService
 			"20", "50", "54", "53", "52", "41", "00", "54",
 			"50", "00", "4F", "20", "20", "52", "50", "32",
 			"53", "20", "41", "54", "54", "52", "00", "2E"
+		];
+	}
+
+	getAuthorByteIndex = () =>
+	{
+		return [
+			"48", "00", "63", "61", "20", "6B", "75", "41",
+			"68", "74", "72", "6F", "20", "3A"
 		];
 	}
 }

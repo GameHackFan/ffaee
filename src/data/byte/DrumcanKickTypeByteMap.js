@@ -154,7 +154,7 @@ const drumcanKickTypeByteMap =
 		
 	drumcanBredKickEmpty: [
 			"RR", "RR", "RR", "RR", "RR", "RR",
-			"0A", "0A", "27", "02", "00", "01", "00", "FF"],
+			"0A", "0A", "FF", "02", "00", "01", "00", "FF"],			// "0A", "0A", "27", "02", 
 		
 	drumcanBredKickRandom1: [
 			"RR", "RR", "RR", "RR", "RR", "RR",
@@ -369,7 +369,7 @@ const drumcanKickTypeByteMap =
 		
 	drumcanDugKickEmpty: [
 			"RR", "RR", "RR", "RR", "RR", "RR",
-			"0A", "0A", "27", "02", "01", "01", "00", "FF"],
+			"0A", "0A", "FF", "02", "01", "01", "00", "FF"],			// "0A", "0A", "27", "02", 
 		
 	drumcanDugKickRandom1: [
 			"RR", "RR", "RR", "RR", "RR", "RR",
@@ -584,7 +584,7 @@ const drumcanKickTypeByteMap =
 		
 	drumcanJakeKickEmpty: [
 			"RR", "RR", "RR", "RR", "RR", "RR",
-			"0A", "0A", "27", "02", "02", "01", "00", "FF"],
+			"0A", "0A", "FF", "02", "02", "01", "00", "FF"],			// "0A", "0A", "27", "02", 
 		
 	drumcanJakeKickRandom1: [
 			"RR", "RR", "RR", "RR", "RR", "RR",
@@ -799,7 +799,7 @@ const drumcanKickTypeByteMap =
 		
 	drumcanSimonsKickEmpty: [
 			"RR", "RR", "RR", "RR", "RR", "RR",
-			"0A", "0A", "27", "02", "03", "01", "00", "FF"],
+			"0A", "0A", "FF", "02", "03", "01", "00", "FF"],			// "0A", "0A", "27", "02", 
 		
 	drumcanSimonsKickRandom1: [
 			"RR", "RR", "RR", "RR", "RR", "RR",

@@ -2,6 +2,8 @@
 import levelExpansionPatch from "./LevelExpansionPatch";
 import extraBossPatch from "./ExtraBossPatch";
 
+import featuresAndFixesPatch1 from "./FeaturesAndFixesPatch1";
+import featuresAndFixesPatch2 from "./FeaturesAndFixesPatch2";
 import lifebarImprovementPatch from "./LifebarImprovementPatch";
 import enemySpawnImprovementPatch from "./EnemySpawnImprovementPatch";
 import lockImprovementPatch from "./LockImprovementPatch";
@@ -25,6 +27,28 @@ import type3BossHelperTimeDelayPatch from "./Type3BossHelperTimeDelayPatch";
 
 const patchMap = 
 {
+	featuresAndFixesPatch1:
+	{
+		label:	"Features and Fixes Patch 1",
+		text:		"This patch bring features anf bug fixes. " + 
+						"It fixes the bug that doesn't allow P1 to " + 
+						"select the same character as P2, fixes the " + 
+						"immortal bug that happens with Holly Wood, " + 
+						"El Gado and Rolento. This patch is used by " + 
+						"the Level Editor and the Seed Randomizer.",
+		patch: featuresAndFixesPatch1,
+		show: true
+	},
+	featuresAndFixesPatch2:
+	{
+		label:	"Features and Fixes Patch 2",
+		text:		"This patch bring features and bug fixes. " + 
+						"It fixes haggar dynamite scene. This " + 
+						"patch is used by the Level Editor and " + 
+						"the Seed Randomizer.",
+		patch: featuresAndFixesPatch2,
+		show: true
+	},
 	enemySpawnImprovementPatch:
 	{
 		label:	"Enemy Spawn Improvement Patch",

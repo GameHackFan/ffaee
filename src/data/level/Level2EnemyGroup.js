@@ -230,6 +230,7 @@ const level2EnemyGroup =
 		defaultAmount: 0,
 		maxAmount: 18,										// 20, but 2 space for 2 extra boss
 		extraBoss: "sodom",
+		bossSpawnFirst: false,
 		specialProfile: "ringStrategy",
 		forbiddenPositionRanges:["outsideLeft", "outsideRight"],
 		forbiddenEnemyLists: ["mustSpawnLeftList",

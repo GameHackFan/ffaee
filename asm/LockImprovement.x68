@@ -1,9 +1,9 @@
-*-----------------------------------------------------------
+*----------------------------------------------------------------------------------------------
 * Title:				FFAEE Lock Improvement
 * Written by:		GameHackFan
 * Date:					
-* Description:	
-*-----------------------------------------------------------
+* Description:	Ensures the lock will release only after all enemies are killed.
+*----------------------------------------------------------------------------------------------
 
 	JMP					$75BA0.L									; Code to jump to the new code that handles andore color pallete (replace 5DB2).
 

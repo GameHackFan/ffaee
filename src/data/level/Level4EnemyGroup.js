@@ -338,6 +338,7 @@ const level4EnemyGroup =
 		defaultAmount: 3,
 		maxAmount: 5,
 		extraBoss: "rolento",
+		bossSpawnFirst: false,
 		specialProfile: "elevatorT3Strategy",
 		forbiddenPositionRanges:["outsideLeft", "outsideRight"],
 		forbiddenEnemyLists: ["chandelierList",

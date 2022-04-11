@@ -5,7 +5,6 @@ import editorService from '../../service/EditorService';
 import fileService from "../../service/FileService";
 import romService from "../../service/ROMService";
 import levelEditorService from "../../service/LevelEditorService";
-// import levelEditorEnemies from '../../data/level/LevelEditorEnemies';
 
 
 class LevelEditor extends Component

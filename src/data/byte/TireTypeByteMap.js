@@ -154,7 +154,7 @@ const tireTypeByteMap =
 		
 	tireEmpty: [
 			"RR", "RR", "RR", "RR", "RR", "RR",
-			"07", "0A", "27", "01", "00", "01", "00", "FF"],
+			"07", "0A", "FF", "01", "00", "01", "00", "FF"],			// "07", "0A", "27", "01", 
 		
 	tireRandom1: [
 			"RR", "RR", "RR", "RR", "RR", "RR",

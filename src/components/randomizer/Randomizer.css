@@ -5,6 +5,7 @@
 
 .randomizer .enemyGroupText
 {
+	margin-top: 24px;
 	margin-bottom: 24px;
 }
 
@@ -24,19 +25,25 @@
 	margin-bottom: auto;
 }
 
-.enemyGroup > .windowContentLine > label
+.randomizer .enemyGroup > .windowContentLine > label
 {
-	min-width: 50%;
+	min-width: 240px;
+}
+
+.randomizer .enemyGroup .windowContentLine span
+{
+	min-width: 50px;
+	margin-left: 20px;
+}
+
+.randomizer .enemyGroup .windowContentLine input
+{
+	max-width: 40px;
 }
 
 .randomizer > div:last-child
 {
 	margin-top: 16px;
-}
-
-.randomizer > div:nth-last-child(2)
-{
-	margin-top: 24px;
 }
 
 .randomizer > div:last-child > *

@@ -5,8 +5,8 @@ const extraBossData =
 		0:
 		{
 			enemyKey: "damnd",
-			triggerPosition: 2600,		// 2800    
-			positionX: 2969,
+			triggerPosition: 2304,		// 2800    
+			positionX: 2968,
 			positionY: 64,
 			offensiveBehavior: 255,
 			defensiveBehavior: 0
@@ -14,8 +14,8 @@ const extraBossData =
 		1:
 		{
 			enemyKey: "damnd",
-			triggerPosition: 2600,		// 2800
-			positionX: 2970,
+			triggerPosition: 2304,		// 2800
+			positionX: 2968,
 			positionY: 64,
 			offensiveBehavior: 0,
 			defensiveBehavior: 255

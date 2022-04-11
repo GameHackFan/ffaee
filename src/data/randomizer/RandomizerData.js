@@ -5,6 +5,10 @@ import level4EnemyGroup from "../level/Level4EnemyGroup";
 import level5EnemyGroup from "../level/Level5EnemyGroup";
 import level6EnemyGroup from "../level/Level6EnemyGroup";
 
+
+import customRandomProfile from "./profile/CustomRandomProfile";
+import kindRandomProfile from "./profile/KindRandomProfile";
+import weakRandomProfile from "./profile/WeakRandomProfile";
 import easyRandomProfile from "./profile/EasyRandomProfile";
 import midRandomProfile from "./profile/MidRandomProfile";
 import hardRandomProfile from "./profile/HardRandomProfile";
@@ -18,104 +22,124 @@ const randomizerData =
 {
 	randomProfile:
 	{
+		kind: kindRandomProfile,
+		weak: weakRandomProfile,
 		easy: easyRandomProfile,
 		mid: midRandomProfile,
 		hard: hardRandomProfile,
 		wild: wildRandomProfile,
 		restInPain: restInPainRandomProfile,
+		custom: customRandomProfile
 	},
 	enemyStrategy:
 	{
 		enemies:
 		{
-			label: "Randomize Any Normal Enemies",
+			label: "Any Enemy",
+			information: "Any enemy that is not a boss.",
 			enemyKeys: randomizerEnemyStrategy.enemies,
 			randomizeBehavior: true
 		},
 		enemiesPartialFall:
 		{
-			label: "Randomize Any Normal Enemies (No Any To Fall)",
+			label: "Any Enemy (No Jump)",
+			information: "Any enemy, but they won't enter the screen jumping like in elevator.",
 			enemyKeys: randomizerEnemyStrategy.enemiesPartialFall,
 			randomizeBehavior: true
 		},
 		enemiesNoIdle:
 		{
-			label: "Randomize Any Normal Enemies (No Idle)",
+			label: "Any Enemy (No Idle)",
+			information: "Any enemy, but they won't be on idle posture.",
 			enemyKeys: randomizerEnemyStrategy.enemiesNoIdle,
 			randomizeBehavior: true
 		},
 		enemiesNoFall:
 		{
-			label: "Randomize Any Normal Enemies (No Fall)",
+			label: "Any Enemy (No Fall)",
+			information: "Any enemy, but they won't enter the screen jumping or falling.",
 			enemyKeys: randomizerEnemyStrategy.enemiesNoFall,
 			randomizeBehavior: true
 		},
 		enemiesFall:
 		{
-			label: "Randomize Any Normal Enemies (Fall Only)",
+			label: "Any Enemy (Fall Only)",
+			information: "Any enemy, but only the ones jumping and falling.",
 			enemyKeys: randomizerEnemyStrategy.enemiesFall
 		},
 
 		goodFood:
 		{
-			label: "Randomize Good Food Only",
+			label: "Good Food (Objects)",
+			information: "Any object with barbecue, chicken or stake.",
 			enemyKeys: randomizerEnemyStrategy.goodFood
 		},
 		averageFood:
 		{
-			label: "Randomize Average Food Only",
+			label: "Average Food (Objects)",
+			information: "Any object with hamburger, hotdog, pizza, curry or sushi.",
 			enemyKeys: randomizerEnemyStrategy.averageFood
 		},
 		fruitFood:
 		{
-			label: "Randomize Fruit Food Only",
+			label: "Fruit Food (Objects)",
+			information: "Any object with banana, pineapple, apple, orange or grape.",
 			enemyKeys: randomizerEnemyStrategy.fruitFood
 		},
 		badFood:
 		{
-			label: "Randomize Bad Food Only",
+			label: "Bad Food (Objects)",
+			information: "Any object with soft drink 1-2, beer 1-2-3, whisky or gum.",
 			enemyKeys: randomizerEnemyStrategy.badFood
 		},
 		anyFood:
 		{
-			label: "Randomize Any Food",
+			label: "Any Food (Objects)",
+			information: "Any object with any food.",
 			enemyKeys: randomizerEnemyStrategy.anyFood
 		},
 
 		goodFoodFall:
 		{
-			label: "Randomize Good Food Only (Falling)",
+			label: "Good Food (Falling)",
+			information: "Barbecue, chicken or stake falling.",
 			enemyKeys: randomizerEnemyStrategy.goodFoodFall
 		},
 		averageFoodFall:
 		{
-			label: "Randomize Average Food Only (Falling)",
+			label: "Average Food (Falling)",
+			information: "Hamburger, hotdog, pizza, curry or sushi falling.",
 			enemyKeys: randomizerEnemyStrategy.averageFoodFall
 		},
 		fruitFoodFall:
 		{
-			label: "Randomize Fruit Food Only (Falling)",
+			label: "Fruit Food (Falling)",
+			information: "Banana, pineapple, apple, orange or grape falling.",
 			enemyKeys: randomizerEnemyStrategy.fruitFoodFall
 		},
 		badFoodFall:
 		{
-			label: "Randomize Bad Food Only (Falling)",
+			label: "Bad Food (Falling)",
+			information: "Soft drink 1-2, beer 1-2-3, whisky or gum falling.",
 			enemyKeys: randomizerEnemyStrategy.badFoodFall
 		},
 		anyFoodFall:
 		{
-			label: "Randomize Any Food (Falling)",
+			label: "Any Food (Falling)",
+			information: "Any food falling.",
 			enemyKeys: randomizerEnemyStrategy.anyFoodFall
 		},
 
 		objects:
 		{
-			label: "Randomize Objects with Weapon / Empty Only",
+			label: "Any Item (Objects)",
+			information: "Any object with knife, iron pipe, muramasa, empty or with any treasure.",
 			enemyKeys: randomizerEnemyStrategy.objects,
 		},
 		flames:
 		{
-			label: "Randomize Any Flames",
+			label: "Flames (Industrial Area)",
+			information: "Flames from the rolento stage with different duration.",
 			enemyKeys: randomizerEnemyStrategy.flames,
 		}
 	},

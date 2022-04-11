@@ -154,7 +154,7 @@ const dustbinTypeByteMap =
 		
 	dustbinEmpty: [
 			"RR", "RR", "RR", "RR", "RR", "RR",
-			"05", "0A", "27", "01", "00", "01", "00", "FF"],
+			"05", "0A", "FF", "01", "00", "01", "00", "FF"],			// "05", "0A", "27", "01", 
 		
 	dustbinRandom1: [
 			"RR", "RR", "RR", "RR", "RR", "RR",

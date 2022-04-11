@@ -3,6 +3,16 @@
 	min-width: 126px;
 }
 
+.manager b
+{
+	font-weight: bold;
+	font-size: 0.7em;
+
+	margin-left: 20px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
 .manager > .windowContentLine > select
 {
 	min-width: 146px;

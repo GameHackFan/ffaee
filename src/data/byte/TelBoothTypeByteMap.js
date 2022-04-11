@@ -154,7 +154,7 @@ const telBoothTypeByteMap =
 		
 	telBoothEmpty: [
 			"RR", "RR", "RR", "RR", "RR", "RR",
-			"08", "0A", "27", "01", "00", "01", "00", "FF"],
+			"08", "0A", "FF", "01", "00", "01", "00", "FF"],			// "08", "0A", "27", "01", 
 		
 	telBoothRandom1: [
 			"RR", "RR", "RR", "RR", "RR", "RR",

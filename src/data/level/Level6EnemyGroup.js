@@ -614,6 +614,7 @@ const level6EnemyGroup =
 		defaultAmount: 4,
 		maxAmount: 18,										// 18, but 2 space for 2 extra boss
 		extraBoss: "belger",
+		bossSpawnFirst: true,
 		specialProfile: "lockGroupStrategy",
 		forbiddenPositionRanges:["outsideRight"],
 		forbiddenEnemyLists: ["mustSpawnRightList",

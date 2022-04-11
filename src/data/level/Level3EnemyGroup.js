@@ -242,6 +242,7 @@ const level3EnemyGroup =
 		defaultAmount: 0,
 		maxAmount: 23,									// 25, but 2 space for 2 extra boss
 		extraBoss: "ediE",
+		bossSpawnFirst: false,
 		forbiddenPositionRanges:["outsideLeft"],
 		forbiddenEnemyLists: ["chandelierList",
 				"mustSpawnLeftList", "shootingBugList"]

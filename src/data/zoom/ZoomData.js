@@ -7,7 +7,7 @@ const zoomData =
 	zoom: {label: "Component Zoom Window", zoom: "1"},
 	patch:{label: "Patch Manager Window", zoom: "1"},
 	randomizer: {label: "Seed Randomizer Window", zoom: "1"},
-	// playerHealth: {label: "Player Health Editor Window", zoom: "1"},
+	health: {label: "Health Editor Window", zoom: "1"},
 	levelEditor: {label: "Level Editor Window", zoom: "1"}
 }
 

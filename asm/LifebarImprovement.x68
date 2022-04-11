@@ -1,9 +1,9 @@
-*-----------------------------------------------------------
+*----------------------------------------------------------------------------------------------
 * Title:				FFAEE Lifebar Improvement
 * Written by:		GameHackFan
 * Date:					
-* Description:	
-*-----------------------------------------------------------
+* Description:	Esnures all lifebar colors have their progress.
+*----------------------------------------------------------------------------------------------
 
 	JMP					$75B00.L									; Code to jump to the new code that handles andore color pallete (replace D6418).
 	NOP

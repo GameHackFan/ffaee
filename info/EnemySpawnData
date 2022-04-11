@@ -5,13 +5,13 @@
 
 
 
-A6:				Will hold the first byte related to the enemy.
+A6:					Will hold the first byte related to the enemy.
 A6 + $13:		Will hold the enemy ID.
 A6 + $14:		Will hold the sub enemy ID.
 A6 + $2F:		Will hold the pallete ID the enemy should use.
 
 
-Overwrite:		2CCFA with jump code.
+Overwrite:	2CCFA with jump code.
 Compare:		A6 + $13 (contains the enemy ID) with 03 (Andore Type ID)
 
 

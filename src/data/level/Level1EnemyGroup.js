@@ -143,6 +143,7 @@ const level1EnemyGroup =
     defaultAmount: 3,
     maxAmount: 9,											// 10, but 1 space for 1 extra boss
     extraBoss: "damnd",
+    bossSpawnFirst: true,
     forbiddenPositionRanges: ["outsideRight"],
     forbiddenEnemyLists: ["chandelierList", "mustSpawnRightList"]
   },

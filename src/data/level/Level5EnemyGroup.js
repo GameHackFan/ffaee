@@ -446,6 +446,7 @@ const level5EnemyGroup =
 		defaultAmount: 6,
 		maxAmount: 18,								// 20, but 2 space for 2 extra boss
 		extraBoss: "abigail",
+		bossSpawnFirst: true,
 		specialProfile: "lockGroupStrategy",
 		forbiddenPositionRanges:["outsideRight"],
 		forbiddenEnemyLists: ["chandelierList",

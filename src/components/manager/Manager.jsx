@@ -75,11 +75,12 @@ class Manager extends Component
 
 	onGenerateROMClick(event)
 	{
-		const ck = this.state.converterKey;
+		const {converterKey, hackAuthor} = this.state;
 		const extras = {};
 		extras.successCallback = this.downloadGeneratedROM;
 		extras.errorCallback = this.props.onActionResult;
-		extras.fileObject = editorManagerService.generateROM(ck);
+		extras.fileObject =
+				editorManagerService.generateROM(converterKey, hackAuthor);
 		extras.errorMessage = "Problems ziping the generated ROM!";
 
 		try
@@ -103,6 +104,7 @@ class Manager extends Component
 	onWindowSelectorChanged(event)
 	{
 		editorService.openWindow(event.target.value);
+		event.target.value = "";
 	}
 
 	downloadGeneratedROM(extras)
@@ -118,6 +120,7 @@ class Manager extends Component
 	{
 		return (
 			<ManagerComponent
+				hackAuthor={this.state.hackAuthor}
 				romTypeMap={editorManagerData.romTypeMap}
 				converterKey={this.state.converterKey}
 				handleChange={this.handleChange}

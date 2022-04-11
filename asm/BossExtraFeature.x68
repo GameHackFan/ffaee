@@ -1,9 +1,10 @@
-*-----------------------------------------------------------
+*----------------------------------------------------------------------------------------------
 * Title:				FFAEE Boss Extra Feature
 * Written by:		GameHackFan
 * Date:					
-* Description:	Not used
-*-----------------------------------------------------------
+* Description:	Not used. An attempt to bring bosses as sub-bosses.
+*----------------------------------------------------------------------------------------------
+
 	JMP					$75D20.L									; Code to jump to the new code that handles extra bosses (replace 6210).
 
 ; ORG					$75D20
@@ -59,6 +60,16 @@
 	JMP					$6216.L										; Returns back to the original code.
 
 
+; Damnd is very buggy, his AI works well only on his area
+; and his collisions too, maybe with fixes.
+; Sodom forces his swords, unless removing it, probably no.
+; Edi E. is quite clean and could be easily added. Maybe with fixes.
+; Rolento replaces some enemies pallets, so probably no.
+; Abigail replaces the stage boss pallete, can be fixed.
+; Bred Type pallete is good for him, maybe with fixes.
+; Belger is very buggy too, he works better in the place he spawns,
+; so probably no.
+; 
 ; After the last line (JMP) you need to add the color pallete ID values.
 ; The 02 value should be tested in all levels to see if it is bad or not, if not 1B).
 ;

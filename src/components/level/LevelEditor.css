@@ -1,4 +1,4 @@
-.levelDisplay
+.level .levelDisplay
 {
 	max-width: 96%;
 	max-height: 480px;
@@ -11,12 +11,12 @@
 	margin-right: auto;
 }
 
-.levelDisplay > img
+.level .levelDisplay > img
 {
 	min-height: 240px;
 }
 
-.enemyGroup span
+.level .enemyGroup span
 {
 	font-weight: bold;
 	font-size: 0.7em;
@@ -39,32 +39,32 @@
 	margin: 0;
 }
 
-.hintText
+.level .hintText
 {
 	margin-bottom: 16px;
 }
 
-.hintText > label
+.level .hintText > label
 {
 	display: block;
 }
 
-.hintText > label:not(:last-child)
+.level .hintText > label:not(:last-child)
 {
 	margin-bottom: 4px;
 }
 
-.hintText > label:first-child > b
+.level .hintText > label:first-child > b
 {
 	color: #0097ab;
 }
 
-.hintText > label:nth-child(2) > b
+.level .hintText > label:nth-child(2) > b
 {
 	color: #32cd32;
 }
 
-.hintText > label:last-child > b
+.level .hintText > label:last-child > b
 {
 	color: #cd1226;
 }
