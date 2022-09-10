@@ -1,3 +1,12 @@
+Version 0.9 Change:
+- Changed from React.js to Svelte.
+- Added a ModificationManager to better handle changes made by the user.
+- Updated the tool to support newer versions of HBMame.
+- Some bug fixes to the code in general.
+- Small changes to the UI.
+- Minor changes and fixes.
+
+
 Version 0.8 Changes:
 - Created FeaturesAndFixesPatch1, See changes A to C.
 - Change A: It fixes P1 not being allowed to pick the same character selected by P2 mid game.

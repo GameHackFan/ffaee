@@ -1,9 +1,6 @@
-const shootingBugList =
+export const shootingBugList =
 [
-	"hollyWood", "hollyWoodFalling", "hollyWoodFallingFast",
+  "hollyWood", "hollyWoodFalling", "hollyWoodFallingFast",
 
-	"elGado", "elGadoFalling", "elGadoFallingFast"
+  "elGado", "elGadoFalling", "elGadoFallingFast"
 ];
-
-
-export default shootingBugList;

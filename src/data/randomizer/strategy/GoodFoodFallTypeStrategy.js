@@ -1,7 +1,4 @@
-const goodFoodFallTypeStrategy = 
+export const goodFoodFallTypeStrategy = 
 [
-	"barbecueFalling", "steakFalling", "chickenFalling"
+  "barbecueFalling", "steakFalling", "chickenFalling"
 ];
-
-
-export default goodFoodFallTypeStrategy;

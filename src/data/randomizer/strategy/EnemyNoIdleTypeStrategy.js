@@ -1,180 +1,177 @@
-const enemyNoIdleTypeStrategy = 
+export const enemyNoIdleTypeStrategy = 
 [
-	// ID 0
+  // ID 0
 
-	"bred", "bred", "bred", "bred", 
+  "bred", "bred", "bred", "bred", 
 
 
-	"dug", "dug", "dug", "dug",
+  "dug", "dug", "dug", "dug",
 
 
-	"jake", "jake", "jake", "jake", 
+  "jake", "jake", "jake", "jake", 
 
 
-	"simons", "simons", "simons", "simons", 
+  "simons", "simons", "simons", "simons", 
 
 
-	"bred", "dug", "jake", "simons", 
+  "bred", "dug", "jake", "simons", 
 
 
-	// ID 1
+  // ID 1
 
-	"j", "j", "j", "j", 
+  "j", "j", "j", "j", 
 
 
-	"twoP", "twoP", "twoP", "twoP", 
+  "twoP", "twoP", "twoP", "twoP", 
 
 
-	"j", "j", "j", "j", 
-	
+  "j", "j", "j", "j", 
+  
 
-	"twoP", "twoP", "twoP", "twoP", 
+  "twoP", "twoP", "twoP", "twoP", 
 
 
-	"j", "twoP", "j", "twoP",
+  "j", "twoP", "j", "twoP",
 
 
-	// ID 2
+  // ID 2
 
-	"axl", "axl", "axl", "axl", 
+  "axl", "axl", "axl", "axl", 
 
 
-	"slash", "slash", "slash", "slash", 
+  "slash", "slash", "slash", "slash", 
 
 
-	"axl", "axl", "axl", "axl", 
+  "axl", "axl", "axl", "axl", 
 
 
-	"slash", "slash", "slash", "slash",
+  "slash", "slash", "slash", "slash",
 
 
-	"axl", "slash", "axl", "slash",
+  "axl", "slash", "axl", "slash",
 
 
-	// ID 3
+  // ID 3
 
-	"andoreJr",
-	"andoreJrChestAttack", "andoreJrJumpAttack",
+  "andoreJr",
+  "andoreJrChestAttack", "andoreJrJumpAttack",
 
-	"andoreJrFallingFast",
+  "andoreJrFallingFast",
 
 
-	"andore",
-	"andoreChestAttack", "andoreJumpAttack",
+  "andore",
+  "andoreChestAttack", "andoreJumpAttack",
 
-	"andoreFallingFast", 
+  "andoreFallingFast", 
 
 
-	"gAndore",
-	"gAndoreChestAttack", "gAndoreJumpAttack",
+  "gAndore",
+  "gAndoreChestAttack", "gAndoreJumpAttack",
 
-	"gAndoreFallingFast", 
+  "gAndoreFallingFast", 
 
 
-	"uAndore",
-	"uAndoreChestAttack", "uAndoreJumpAttack",
+  "uAndore",
+  "uAndoreChestAttack", "uAndoreJumpAttack",
 
-	"uAndoreFallingFast", 
+  "uAndoreFallingFast", 
 
 
-	"fAndore",
-	"fAndoreChestAttack", "fAndoreJumpAttack",
-	
-	"fAndoreFallingFast", 
+  "fAndore",
+  "fAndoreChestAttack", "fAndoreJumpAttack",
+  
+  "fAndoreFallingFast", 
 
 
-	// ID 4
+  // ID 4
 
-	"gOriber", "gOriberHeadbutt",
-	"gOriber", "gOriberHeadbutt",
+  "gOriber", "gOriberHeadbutt",
+  "gOriber", "gOriberHeadbutt",
 
 
-	"billBull", "billBullHeadbutt",
-	"billBull", "billBullHeadbutt",
+  "billBull", "billBullHeadbutt",
+  "billBull", "billBullHeadbutt",
 
 
-	"wongWho", "wongWhoHeadbutt",
-	"wongWho", "wongWhoHeadbutt",
+  "wongWho", "wongWhoHeadbutt",
+  "wongWho", "wongWhoHeadbutt",
 
 
-	"gOriber", "gOriberHeadbutt",
+  "gOriber", "gOriberHeadbutt",
 
 
-	"billBull", "billBullHeadbutt",
-	"billBullHeadbutt",
+  "billBull", "billBullHeadbutt",
+  "billBullHeadbutt",
 
 
-	"wongWho", "wongWhoHeadbutt",
-	"wongWhoHeadbutt",
+  "wongWho", "wongWhoHeadbutt",
+  "wongWhoHeadbutt",
 
 
-	// ID 5
+  // ID 5
 
-	"hollyWood", "hollyWoodMolotov",
+  "hollyWood", "hollyWoodMolotov",
 
-	"hollyWoodFalling", "hollyWoodFallingFast",
+  "hollyWoodFalling", "hollyWoodFallingFast",
 
 
-	"elGado", "elGadoMolotov",
+  "elGado", "elGadoMolotov",
 
-	"elGadoFalling", "elGadoFallingFast",
+  "elGadoFalling", "elGadoFallingFast",
 
 
-	"hollyWood", "hollyWoodMolotov",
+  "hollyWood", "hollyWoodMolotov",
 
-	"hollyWoodFalling", "hollyWoodFallingFast",
+  "hollyWoodFalling", "hollyWoodFallingFast",
 
 
-	"elGado", "elGadoMolotov",
+  "elGado", "elGadoMolotov",
 
-	"elGadoFalling", "elGadoFallingFast",
+  "elGadoFalling", "elGadoFallingFast",
 
 
-	"hollyWoodMolotov",
+  "hollyWoodMolotov",
 
-	"hollyWoodFallingFast",
+  "hollyWoodFallingFast",
 
 
-	"elGadoMolotov",
+  "elGadoMolotov",
 
-	"elGadoFallingFast",
+  "elGadoFallingFast",
 
 
-	// ID 6
+  // ID 6
 
-	"roxy", 
-	"roxyFrontflipLeft", "roxyFrontflipRight",
+  "roxy", 
+  "roxyFrontflipLeft", "roxyFrontflipRight",
 
-	"roxyFalling",
+  "roxyFalling",
 
 
-	"poison", 
-	"poisonFrontflipLeft", "poisonFrontflipRight",
+  "poison", 
+  "poisonFrontflipLeft", "poisonFrontflipRight",
 
-	"poisonFalling", 
+  "poisonFalling", 
 
 
-	"roxy", 
-	"roxyFrontflipLeft", "roxyFrontflipRight",
+  "roxy", 
+  "roxyFrontflipLeft", "roxyFrontflipRight",
 
-	"roxyFalling",
+  "roxyFalling",
 
 
-	"poison", 
-	"poisonFrontflipLeft", "poisonFrontflipRight",
+  "poison", 
+  "poisonFrontflipLeft", "poisonFrontflipRight",
 
-	"poisonFalling", 
+  "poisonFalling", 
 
 
-	"roxy", 
+  "roxy", 
 
-	"roxyFalling",
+  "roxyFalling",
 
-	
-	"poison", 
+  
+  "poison", 
 
-	"poisonFalling" 
+  "poisonFalling" 
 ];
-
-
-export default enemyNoIdleTypeStrategy;

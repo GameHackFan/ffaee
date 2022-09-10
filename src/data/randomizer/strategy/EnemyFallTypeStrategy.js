@@ -1,96 +1,93 @@
-const enemyFallTypeStrategy = 
+export const enemyFallTypeStrategy = 
 [
-	// ID 0
-	"bredSittingToFall", "bredCrouchToFall3",
+  // ID 0
+  "bredSittingToFall", "bredCrouchToFall3",
 
 
-	"dugSittingToFall", "dugCrouchToFall3",
+  "dugSittingToFall", "dugCrouchToFall3",
 
 
-	"jakeSittingToFall", "jakeCrouchToFall3",
-	"jakeCrouchToFall3",
+  "jakeSittingToFall", "jakeCrouchToFall3",
+  "jakeCrouchToFall3",
 
 
-	"simonsSittingToFall", "simonsCrouchToFall3",
-	"simonsCrouchToFall3",
+  "simonsSittingToFall", "simonsCrouchToFall3",
+  "simonsCrouchToFall3",
 
 
-	// ID 1
+  // ID 1
 
-	"jIdleToFall1", "jIdleToFall1", "jIdleToFall1",
-	"jIdleToFall1", "jIdleToFall1", 
-
-
-	"twoPIdleToFall1", "twoPIdleToFall1",
-	"twoPIdleToFall1",
-	"twoPIdleToFall1", "twoPIdleToFall1",
+  "jIdleToFall1", "jIdleToFall1", "jIdleToFall1",
+  "jIdleToFall1", "jIdleToFall1", 
 
 
-	// ID 2
-
-	"axlIdleToFall", "axlCrouchToFall1",
-	"axlIdleToFall", "axlCrouchToFall1",
-	"axlIdleToFall",
+  "twoPIdleToFall1", "twoPIdleToFall1",
+  "twoPIdleToFall1",
+  "twoPIdleToFall1", "twoPIdleToFall1",
 
 
-	"slashIdleToFall", "slashCrouchToFall1",
-	"slashIdleToFall", "slashCrouchToFall1",
-	"slashIdleToFall",
+  // ID 2
+
+  "axlIdleToFall", "axlCrouchToFall1",
+  "axlIdleToFall", "axlCrouchToFall1",
+  "axlIdleToFall",
 
 
-	// ID 3
-
-	"andoreJrFallingFast", "andoreJrIdleToFall",
-
-
-	"andoreFallingFast", "andoreIdleToFall",
+  "slashIdleToFall", "slashCrouchToFall1",
+  "slashIdleToFall", "slashCrouchToFall1",
+  "slashIdleToFall",
 
 
-	"gAndoreFallingFast", "gAndoreIdleToFall",
+  // ID 3
+
+  "andoreJrFallingFast", "andoreJrIdleToFall",
 
 
-	"uAndoreFallingFast", "uAndoreIdleToFall", 
+  "andoreFallingFast", "andoreIdleToFall",
 
 
-	"fAndoreFallingFast", "fAndoreIdleToFall", 
+  "gAndoreFallingFast", "gAndoreIdleToFall",
 
 
-	// ID 4
-
-	"gOriberIdleToFall", "gOriberIdleToFall",
-	"gOriberIdleToFall",
+  "uAndoreFallingFast", "uAndoreIdleToFall", 
 
 
-	"billBullIdleToFall", "billBullIdleToFall",
-	"billBullIdleToFall",
+  "fAndoreFallingFast", "fAndoreIdleToFall", 
 
 
-	"wongWhoIdleToFall", "wongWhoIdleToFall",
-	"wongWhoIdleToFall", "wongWhoIdleToFall",
+  // ID 4
+
+  "gOriberIdleToFall", "gOriberIdleToFall",
+  "gOriberIdleToFall",
 
 
-	// ID 5
-
-	"hollyWoodFalling", "hollyWoodFallingFast",
-	"hollyWoodFalling", "hollyWoodFallingFast",
-	"hollyWoodFallingFast",
+  "billBullIdleToFall", "billBullIdleToFall",
+  "billBullIdleToFall",
 
 
-	"elGadoFalling", "elGadoFallingFast",
-	"elGadoFalling", "elGadoFallingFast",
-	"elGadoFallingFast",
+  "wongWhoIdleToFall", "wongWhoIdleToFall",
+  "wongWhoIdleToFall", "wongWhoIdleToFall",
+
+
+  // ID 5
+
+  "hollyWoodFalling", "hollyWoodFallingFast",
+  "hollyWoodFalling", "hollyWoodFallingFast",
+  "hollyWoodFallingFast",
+
+
+  "elGadoFalling", "elGadoFallingFast",
+  "elGadoFalling", "elGadoFallingFast",
+  "elGadoFallingFast",
 
 
 
-	// ID 6
+  // ID 6
 
-	"roxyFalling", "roxyFalling", "roxyFalling",
-	"roxyFalling", "roxyFalling",
+  "roxyFalling", "roxyFalling", "roxyFalling",
+  "roxyFalling", "roxyFalling",
 
 
-	"poisonFalling", "poisonFalling", "poisonFalling", 
-	"poisonFalling", "poisonFalling"
+  "poisonFalling", "poisonFalling", "poisonFalling", 
+  "poisonFalling", "poisonFalling"
 ];
-
-
-export default enemyFallTypeStrategy;

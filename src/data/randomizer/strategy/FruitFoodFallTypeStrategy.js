@@ -1,8 +1,5 @@
-const fruitFoodFallTypeStrategy = 
+export const fruitFoodFallTypeStrategy = 
 [
-	"bananaFalling", "pineappleFalling", "appleFalling",
-	"orangeFalling", "grapesFalling"
+  "bananaFalling", "pineappleFalling", "appleFalling",
+  "orangeFalling", "grapesFalling"
 ];
-
-
-export default fruitFoodFallTypeStrategy;

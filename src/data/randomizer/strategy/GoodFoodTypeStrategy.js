@@ -1,114 +1,111 @@
-const goodFoodTypeStrategy = 
+export const goodFoodTypeStrategy = 
 [
-	"chandelierBarbecue", "chandelierSteak",
-	"chandelierChicken",
+  "chandelierBarbecue", "chandelierSteak",
+  "chandelierChicken",
 
 
-	"billboardBarbecue", "billboardSteak",
-	"billboardChicken",
+  "billboardBarbecue", "billboardSteak",
+  "billboardChicken",
 
 
-	"freightBarbecue", "freightSteak", "freightChicken",
+  "freightBarbecue", "freightSteak", "freightChicken",
 
 
-	"dustbinBarbecue", "dustbinSteak", "dustbinChicken",
+  "dustbinBarbecue", "dustbinSteak", "dustbinChicken",
 
 
-	"barrelBarbecue", "barrelSteak", "barrelChicken",
+  "barrelBarbecue", "barrelSteak", "barrelChicken",
 
 
-	"tireBarbecue", "tireSteak", "tireChicken",
+  "tireBarbecue", "tireSteak", "tireChicken",
 
 
-	"telBoothBarbecue", "telBoothSteak",
-	"telBoothChicken",
+  "telBoothBarbecue", "telBoothSteak",
+  "telBoothChicken",
 
 
-	"drumcanBarbecue", "drumcanSteak", "drumcanChicken",
+  "drumcanBarbecue", "drumcanSteak", "drumcanChicken",
 
 
-	"drumcanRollingRightBarbecue",
-	"drumcanRollingRightSteak",
-	"drumcanRollingRightChicken",
+  "drumcanRollingRightBarbecue",
+  "drumcanRollingRightSteak",
+  "drumcanRollingRightChicken",
 
 
-	"drumcanRollingLeftBarbecue",
-	"drumcanRollingLeftSteak", "drumcanRollingLeftChicken",
+  "drumcanRollingLeftBarbecue",
+  "drumcanRollingLeftSteak", "drumcanRollingLeftChicken",
 
 
-	"drumcanBredKickBarbecue", "drumcanBredKickSteak",
-	"drumcanBredKickChicken", 
+  "drumcanBredKickBarbecue", "drumcanBredKickSteak",
+  "drumcanBredKickChicken", 
 
 
-	"drumcanDugKickBarbecue", "drumcanDugKickSteak",
-	"drumcanDugKickChicken",
+  "drumcanDugKickBarbecue", "drumcanDugKickSteak",
+  "drumcanDugKickChicken",
 
 
-	"drumcanJakeKickBarbecue", "drumcanJakeKickSteak",
-	"drumcanJakeKickChicken",
+  "drumcanJakeKickBarbecue", "drumcanJakeKickSteak",
+  "drumcanJakeKickChicken",
 
 
-	"drumcanSimonsKickBarbecue", "drumcanSimonsKickSteak",
-	"drumcanSimonsKickChicken",
+  "drumcanSimonsKickBarbecue", "drumcanSimonsKickSteak",
+  "drumcanSimonsKickChicken",
 
 
-	// Since lock only allows rolling barrels
-	// it is better to increase the probability
-	// of normal barrels outside locks.
-	"chandelierBarbecue", "chandelierSteak",
-	"chandelierChicken",
+  // Since lock only allows rolling barrels
+  // it is better to increase the probability
+  // of normal barrels outside locks.
+  "chandelierBarbecue", "chandelierSteak",
+  "chandelierChicken",
 
 
-	"billboard2Barbecue", "billboard2Steak",
-	"billboard2Chicken",
+  "billboard2Barbecue", "billboard2Steak",
+  "billboard2Chicken",
 
 
-	"freightBarbecue", "freightSteak", "freightChicken",
+  "freightBarbecue", "freightSteak", "freightChicken",
 
 
-	"dustbinBarbecue", "dustbinSteak", "dustbinChicken",
+  "dustbinBarbecue", "dustbinSteak", "dustbinChicken",
 
 
-	"barrelBarbecue", "barrelSteak", "barrelChicken",
+  "barrelBarbecue", "barrelSteak", "barrelChicken",
 
 
-	"tireBarbecue", "tireSteak", "tireChicken",
+  "tireBarbecue", "tireSteak", "tireChicken",
 
 
-	"telBoothBarbecue", "telBoothSteak",
-	"telBoothChicken",
+  "telBoothBarbecue", "telBoothSteak",
+  "telBoothChicken",
 
 
-	"drumcanBarbecue", "drumcanSteak", "drumcanChicken",
+  "drumcanBarbecue", "drumcanSteak", "drumcanChicken",
 
 
-	// To increase the probability of normal barrels.
-	"chandelierBarbecue", "chandelierSteak",
-	"chandelierChicken",
+  // To increase the probability of normal barrels.
+  "chandelierBarbecue", "chandelierSteak",
+  "chandelierChicken",
 
 
-	"billboard2Barbecue", "billboardSteak",
-	"billboard2Chicken",
+  "billboard2Barbecue", "billboardSteak",
+  "billboard2Chicken",
 
 
-	"freightBarbecue", "freightSteak", "freightChicken",
+  "freightBarbecue", "freightSteak", "freightChicken",
 
 
-	"dustbinBarbecue", "dustbinSteak", "dustbinChicken",
+  "dustbinBarbecue", "dustbinSteak", "dustbinChicken",
 
 
-	"barrelBarbecue", "barrelSteak", "barrelChicken",
+  "barrelBarbecue", "barrelSteak", "barrelChicken",
 
 
-	"tireBarbecue", "tireSteak", "tireChicken",
+  "tireBarbecue", "tireSteak", "tireChicken",
 
 
-	"telBoothBarbecue", "telBoothSteak",
-	"telBoothChicken",
+  "telBoothBarbecue", "telBoothSteak",
+  "telBoothChicken",
 
 
-	"drumcanBarbecue", "drumcanSteak", "drumcanChicken"
+  "drumcanBarbecue", "drumcanSteak", "drumcanChicken"
 ];
-
-
-export default goodFoodTypeStrategy;

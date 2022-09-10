@@ -1,7 +1,8 @@
-const level1EnemyGroup =
+export const level1EnemyGroup =
 {
   group1:
   {
+    key: "group1",
     label: "Enemy Group 1",
     background: "level1A",
     startPosition: 483226,
@@ -10,15 +11,16 @@ const level1EnemyGroup =
     screenPositionEnd: 400,
     walkablePositionYTop: 64,
     walkablePositionYBottom: 16,
-    levelEditorLimitStart: -96,			// -192 + 96
+    levelEditorLimitStart: -96,      // -192 + 96
     levelEditorLimitEnd: 450,    
-    levelEditorShiftX: 396,					// 492 - 96
+    levelEditorShiftX: 396,          // 492 - 96
     defaultAmount: 5,
     maxAmount: 15,
     forbiddenEnemyLists: ["chandelierList"]
   },
   group2:
   {
+    key: "group2",
     label: "Enemy Group 2",
     background: "level1A",
     startPosition: 483226,
@@ -31,13 +33,14 @@ const level1EnemyGroup =
     addEmptyBytes: true,
     levelEditorLimitStart: 450,
     levelEditorLimitEnd: 1200,
-    levelEditorShiftX: 396,					// 492 - 96
+    levelEditorShiftX: 396,          // 492 - 96
     defaultAmount: 6,
     maxAmount: 15,
     forbiddenEnemyLists: ["chandelierList"]
   },
   lockGroup1:
   {
+    key: "lockGroup1",
     label: "Lock Enemy Group 1",
     background: "level1A",
     startPosition: 483694,
@@ -52,7 +55,7 @@ const level1EnemyGroup =
     mustHaveSpawnDelayTime: true,
     levelEditorLimitStart: 816,
     levelEditorLimitEnd: 1200,
-    levelEditorShiftX: 396,					// 492 - 96
+    levelEditorShiftX: 396,          // 492 - 96
     defaultAmount: 5,
     maxAmount: 20,
     specialProfile: "lockGroupStrategy",
@@ -64,6 +67,7 @@ const level1EnemyGroup =
 
   group3:
   {
+    key: "group3",
     label: "Enemy Group 3",
     background: "level1B",
     startPosition: 484046,
@@ -76,7 +80,7 @@ const level1EnemyGroup =
     addEmptyBytes: true,
     levelEditorLimitStart: 1424,
     levelEditorLimitEnd: 1954,
-    levelEditorShiftX: -1124,					// 492 - 1616
+    levelEditorShiftX: -1124,        // 492 - 1616
     defaultAmount: 6,
     maxAmount: 20,
     forbiddenPositionRanges: ["outsideLeft"],
@@ -84,6 +88,7 @@ const level1EnemyGroup =
   },
   lockGroup2:
   {
+    key: "lockGroup2",
     label: "Lock Enemy Group 2",
     background: "level1B",
     startPosition: 484370,
@@ -98,7 +103,7 @@ const level1EnemyGroup =
     mustHaveSpawnDelayTime: true,
     levelEditorLimitStart: 1570,
     levelEditorLimitEnd: 1954,
-    levelEditorShiftX: -1124,					// 492 - 1616
+    levelEditorShiftX: -1124,        // 492 - 1616
     defaultAmount: 4,
     maxAmount: 20,
     specialProfile: "lockGroupStrategy",
@@ -109,6 +114,7 @@ const level1EnemyGroup =
 
   group4:
   {
+    key: "group4",
     label: "Enemy Group 4",
     background: "level1C",
     startPosition: 484722,
@@ -119,14 +125,15 @@ const level1EnemyGroup =
     walkablePositionYBottom: 16,
     levelEditorLimitStart: 2112,
     levelEditorLimitEnd: 2528,
-    levelEditorShiftX: -1812,					// 492 - 2304
+    levelEditorShiftX: -1812,        // 492 - 2304
     defaultAmount: 3,
-    maxAmount: 9,											// 10, but 1 space for 1 extra boss
+    maxAmount: 9,                    // 10, but 1 space for 1 extra boss
     forbiddenPositionRanges: ["outsideLeft"],
     forbiddenEnemyLists: ["chandelierList", "mustSpawnLeftList"]
   },
   group5:
   {
+    key: "group5",
     label: "Enemy Group 5",
     background: "level1C",
     startPosition: 484722,
@@ -139,9 +146,9 @@ const level1EnemyGroup =
     addEmptyBytes: true,
     levelEditorLimitStart: 2528,
     levelEditorLimitEnd: 3008,
-    levelEditorShiftX: -1812,					// 492 - 2304
+    levelEditorShiftX: -1812,          // 492 - 2304
     defaultAmount: 3,
-    maxAmount: 9,											// 10, but 1 space for 1 extra boss
+    maxAmount: 9,                      // 10, but 1 space for 1 extra boss
     extraBoss: "damnd",
     bossSpawnFirst: true,
     forbiddenPositionRanges: ["outsideRight"],
@@ -151,6 +158,7 @@ const level1EnemyGroup =
 
   bossHelperGroup1:
   {
+    key: "bossHelperGroup1",
     label: "Boss Helper Group 1",
     background: "level1C",
     startPosition: 485048,
@@ -164,7 +172,7 @@ const level1EnemyGroup =
     mustHaveSpawnDelayTime: true,
     levelEditorLimitStart: 2528,
     levelEditorLimitEnd: 3008,
-    levelEditorShiftX: -1812,					// 492 - 2304
+    levelEditorShiftX: -1812,          // 492 - 2304
     defaultAmount: 4,
     maxAmount: 20,
     specialProfile: "lockGroupStrategy",
@@ -174,6 +182,7 @@ const level1EnemyGroup =
   },
   bossHelperGroup2:
   {
+    key: "bossHelperGroup2",
     label: "Boss Helper Group 2",
     background: "level1C",
     startPosition: 485406,
@@ -187,7 +196,7 @@ const level1EnemyGroup =
     mustHaveSpawnDelayTime: true,
     levelEditorLimitStart: 2528,
     levelEditorLimitEnd: 3008,
-    levelEditorShiftX: -1812,					// 492 - 2304
+    levelEditorShiftX: -1812,          // 492 - 2304
     defaultAmount: 6,
     maxAmount: 20,
     specialProfile: "lockGroupStrategy",
@@ -197,11 +206,10 @@ const level1EnemyGroup =
   }
 }
 
-// Level 1A:	60 00 (00 60) (96)
-// Level 1B:	50 06 (06 50) (1616)
-// Level 1C:	00 09 (09 00) (2304)
+// Level 1A:  60 00 (00 60) (96)
+// Level 1B:  50 06 (06 50) (1616)
+// Level 1C:  00 09 (09 00) (2304)
 
 // level1A    64, 16
 // level1B    64, 16
 // level1C    64, 16
-export default level1EnemyGroup;

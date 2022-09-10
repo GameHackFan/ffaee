@@ -1,0 +1,59 @@
+.header
+{
+  background-color: #202428;
+
+  margin: 0;
+  padding: 0;
+
+  min-height: 8rem;
+  max-height: 8rem;
+
+  border: 0;
+  border-bottom: 1px;
+  border-style: solid;
+  border-bottom-color: #707478;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.header div
+{
+  flex-grow: 1;
+
+  margin-top: auto;
+  margin-bottom: auto;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.header .ffaee-logo
+{
+  min-width: 15.3125rem;
+  max-width: 15.3125rem;
+  min-height: 6.125rem;
+  max-height: 6.125rem;
+
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: 1.5rem;
+}
+
+.header img:not(.ffaee-logo)
+{
+  min-width: auto;
+  max-width: auto;
+  min-height: 6.125rem;
+  max-height: 6.125rem;
+
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 0.5rem;
+}
+
+.header img:not(.ffaee-logo):last-child
+{
+  margin-right: 1.8rem;
+}

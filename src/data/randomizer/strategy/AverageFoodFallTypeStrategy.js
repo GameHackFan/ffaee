@@ -1,8 +1,5 @@
-const averageFoodFallTypeStrategy = 
+export const averageFoodFallTypeStrategy = 
 [
-	"hamburgerFalling", "hotdogFalling", "pizzaFalling",
-	"curryFalling", "sushiFalling"
+  "hamburgerFalling", "hotdogFalling", "pizzaFalling",
+  "curryFalling", "sushiFalling"
 ];
-
-
-export default averageFoodFallTypeStrategy;

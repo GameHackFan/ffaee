@@ -1,7 +1,4 @@
-const objectFallTypeStrategy = 
+export const objectFallTypeStrategy = 
 [
-	"knifeFalling", "muramasaFalling", "ironPipeFalling"
+  "knifeFalling", "muramasaFalling", "ironPipeFalling"
 ];
-
-
-export default objectFallTypeStrategy;
