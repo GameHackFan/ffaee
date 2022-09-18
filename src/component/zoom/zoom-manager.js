@@ -10,7 +10,7 @@ class ZoomManager
     const zpo = zoomService.createPresetObject();
     const json = JSON.stringify(zpo, null, "\t");
     const contentType = "text/json;charset=utf-8";
-    const filename = "ffaees_zoom_preset.json";
+    const filename = "ffaee_zoom_preset.json";
     componentService.downloadFile(json, filename, contentType);
   }
 

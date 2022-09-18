@@ -267,6 +267,7 @@ class LevelEditorService
       const tp = levelEditorEnemyGroup.screenPositionStart;
       const enemy = this.createEnemy("bred", tp);
       enemy.positionX -= 70;
+      enemy.id = 0;
       enemyGroup[0] = enemy;
     }
   }

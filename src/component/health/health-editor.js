@@ -15,7 +15,7 @@ class HealthEditor
       extras.successCallback = this.onActionResult;
       extras.errorCallback = this.onActionResult;
       extras.contentCallback = this.applyPresetFile;
-      extras.successMessage = "Damage Data preset loaded!";
+      extras.successMessage = "Character Health preset loaded!";
       extras.errorMessage = "Problems loading the preset!";
       extras.file = file;
       fileService.readTextFile(extras);

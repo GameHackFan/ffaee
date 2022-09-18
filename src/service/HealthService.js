@@ -34,24 +34,20 @@ class HealthService
 
   setHealth = (characterKey, health) =>
   {
-    const value = parseInt(health);
-
-    if(!isNaN(health) && this.hasCharacterKey(characterKey))
-      dataMap[characterKey] = value;
+    if(this.hasCharacterKey(characterKey))
+      dataMap[characterKey] = health;
   }
 
   getHealth = (characterKey) =>
   {
-    const health = parseInt(dataMap[characterKey]);
-
-    if(isNaN(health))
+    if(!(characterKey in dataMap))
     {
       const hd = healthMap[characterKey];
       const v = parseInt(romService.getByte(hd?.filename, hd?.byteIndexes[0]));
       return !isNaN(v) ? v : hd?.defaultValue;
     }
-
-    return health;
+    
+    return dataMap[characterKey];
   }
 
   applyData = () =>

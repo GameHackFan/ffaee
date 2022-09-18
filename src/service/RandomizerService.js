@@ -50,7 +50,7 @@ class RandomizerService
         const enemies = this.randomizeEnemiesForGroup(lk, egk, randomizer);
         this.randomlyRemoveEnemiesOverLimit(rdeg, enemies, randomizer);
         this.randomizeExtraBosses(enemies, rdeg, randomProfile, randomizer);
-        presetLevel[egk] = enemies.preset;
+        presetLevel[egk] = this.createFixedEnemyGroupPreset(enemies.preset);
         const key = rdeg.startPosition.toString();
         const ids = Object.keys(enemies.patch);
         const amount = ids.length;
@@ -527,6 +527,20 @@ class RandomizerService
     }
   }
 
+  createFixedEnemyGroupPreset = (enemyGroupPreset) =>
+  {
+    const fixed = {};
+    let index = 0;
+    const keys = Object.keys(enemyGroupPreset);
+    keys.sort().forEach((key) =>
+    {
+      const enemy = enemyGroupPreset[key];
+      enemy.id = index;
+      fixed[index++] = enemy;
+    });
+    return fixed;
+  }
+
   getEnemyAmount = (levelKey, enemyGroupKey, randomizedData) =>
   {
     const enemies = randomizedData.preset[levelKey][enemyGroupKey];
@@ -596,6 +610,7 @@ class RandomizerService
       custom = custom ? custom : {};
       Object.assign(randomizerData.randomProfile.custom, custom);
       const crp = randomizerData.randomProfile.custom;
+      crp.key = "custom";
       crp.label = "Custom";
       crp.rolentoGrenade1 = 1;
       crp.rolentoGrenade2 = 1;
@@ -648,6 +663,7 @@ class RandomizerService
   {
     const crp = randomizerData.randomProfile.custom;
     objectUtil.removeAllProperties(crp);
+    crp.key = "custom";
     crp.label = "Custom";
     crp.rolentoGrenade1 = 1;
     crp.rolentoGrenade2 = 1;

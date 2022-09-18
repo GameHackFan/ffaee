@@ -76,6 +76,7 @@ class EditorManager
       extras.errorCallback = this.onActionResult;
       extras.errorMessage = "Problems generating the ROM!";
       extras.fileObject = editorManagerService.generateROM(converterKey, hackAuthor);
+      componentService.callMethod("windowList", "updateActiveWindowList");
 
       if(extras.fileObject)
       {

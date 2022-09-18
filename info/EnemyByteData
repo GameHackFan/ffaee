@@ -22,7 +22,7 @@ HP =  Health + Power. The bigger the value, more
       will have in his attacks.
 
 
-TS TS PX PX PY PY ID TY PO CL OB DB	SP HP 
+TS TS PX PX PY PY ID TY PO CL OB DB SP HP 
 70 00 10 02 40 00 00 02 02 00 00 00 00 00
 
 

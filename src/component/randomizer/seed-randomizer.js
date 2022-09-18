@@ -96,6 +96,7 @@ class SeedRandomizer
   setLevelKey = (levelKey) =>
   {
     this.levelKey = levelKey;
+    this.enemyGroupKey = "";
     this.setViewData(this.getViewData());
   }
 
@@ -176,7 +177,7 @@ class SeedRandomizer
     this.requestFile = componentService.requestFile;
     this.updateZoom = props.window.updateZoom;
     this.levelKey = "";
-    this.groupKey = "";
+    this.enemyGroupKey = "";
     this.updateViewData();
   }
 }

@@ -32,7 +32,7 @@
   </div>
   <div class="patch-description window-content-line flex-i-col">
     <span class={`window-text${data.componentData.showHintText ? "" : " hidden"}`}>
-      {data.selectedPatch?.text}
+      {data.selectedPatch?.text ? data.selectedPatch.text : ""}
     </span>
   </div>
   <div class="window-content-line">

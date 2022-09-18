@@ -104,6 +104,7 @@ class LevelEditor
   setLevelKey = (levelKey) => 
   {
     this.levelKey = levelKey;
+    this.enemyGroupKey = "";
     this.enemyId = "";
     levelEditorService.createLevelImage(this.levelKey,
         this.enemyGroupKey, -1, this.setLevelAreaImage);

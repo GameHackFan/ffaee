@@ -3,11 +3,11 @@
 02 = P3 Pallete
 03 = Knife, Muramasa, Pipe (When used by a player)
 04 = Barbecue, Steak, Chicken, Hamburger, Hotdog, Pizza, Curry, Sushi,
-		 Banana, Pineapple, Orange, Grape, Beer (Red), Beer (Green), Gum (Green)
-		 Emerald, Topaz, Radio, Napkin
+     Banana, Pineapple, Orange, Grape, Beer (Red), Beer (Green), Gum (Green)
+     Emerald, Topaz, Radio, Napkin
 05 = Apple, Soft Drink (Coke), Diamond, Pearl
 06 = Pipe, Soft Drink (Pepsi), Whiskey, Beer, Gold Bar, Ruby, Necklace
-		 Watch, Dollar, Yen Bill, Yen Coin, Hat, Hammer
+     Watch, Dollar, Yen Bill, Yen Coin, Hat, Hammer
 07 = Shining Effect
 08 = El Gado
 09 = Holly Wood
@@ -45,7 +45,7 @@ New
 262880
 
 
-4023C, 131358	
+4023C, 131358
 4063C, 131870
 40A3C, 132382
 40E3C, 132894

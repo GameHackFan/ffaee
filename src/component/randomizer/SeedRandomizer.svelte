@@ -49,7 +49,7 @@
       type="text"
       class="textfield"
       value={data.seed}
-      on:input={(e) => seedRandomizer.onInputDecimal(e, "setSeed")}
+      on:input={(e) => seedRandomizer.onValueChange(e, "setSeed")}
     />
     <b>
       {`(Minimum = ${Number.MIN_SAFE_INTEGER}, `}

@@ -10,7 +10,7 @@ DB = Defensive Behavior
 SF = Spawn flag, if it should always spawn, then 0, if it should spawn only when it has 2 players, then 1.
 PO = Character Power and Health.
 
-			   
+
 TS TS PX PX PY PY ID TY PO CL OB DB SF PO
 70 00 10 02 40 00 00 02 02 00 00 00 00 00
 

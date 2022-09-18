@@ -1,37 +1,37 @@
-Level 1:		150
-Level 1A:		50 (30, [20])					
-Level 1B: 	40 (20, [20])
-Level 1C:		60 (20, [20 + 20])				
+Level 1:    150
+Level 1A:   50 (30, [20])
+Level 1B:   40 (20, [20])
+Level 1C:   60 (20, [20 + 20])
 
-Boss		= 4,
-Whistle	= 4, 4, 4, 4 
-Whistle	= 4, 4, 4, 4, 2, 2
+Boss    = 4,
+Whistle = 4, 4, 4, 4 
+Whistle = 4, 4, 4, 4, 2, 2
 
-Bytes Sum Normal:	(6 + 2 + (30 * 14) + 2 + 8),
-					(2 + (20 * 14) + 2 + 8),
-					(2 + (20 * 14) + 2 + 8)
-Bytes Sum Locked:	(24 + (20 * (14 + 2)) + 2 + 8),
-					(18 + (20 * (14 + 2)) + 2 + 8),
-					(4 + 14 + 2 + (20 * (14 + 2)),
-					(2 + 14 + 2 + (20 * (14 + 2)) + 2 + 8)
+Bytes Sum Normal: (6 + 2 + (30 * 14) + 2 + 8),
+                  (2 + (20 * 14) + 2 + 8),
+                  (2 + (20 * 14) + 2 + 8)
+Bytes Sum Locked: (24 + (20 * (14 + 2)) + 2 + 8),
+                  (18 + (20 * (14 + 2)) + 2 + 8),
+                  (4 + 14 + 2 + (20 * (14 + 2)),
+                  (2 + 14 + 2 + (20 * (14 + 2)) + 2 + 8)
 
 
 
-Level 2:	250
-Level 2A:	50 (30, [20])
-Level 2B:	110 (50, [20], 20, [20])
-Level 2C:	50 (30, [20]) 
-Level 2D:	40 (20, [20])
+Level 2:  250
+Level 2A: 50 (30, [20])
+Level 2B: 110 (50, [20], 20, [20])
+Level 2C: 50 (30, [20]) 
+Level 2D: 40 (20, [20])
 
-Bytes Sum Normal:	(8 + 2 + (30 * 14) + 2 + 8),
-					(2 + (50 * 14) + (20 * 14) + 2 + 8),
-					(2 + (30 * 14) + 2 + 8),
-					(2 + (20 * 14) + 2 + 8)
-Bytes Sum Locked:	(8 + 2 + 14 + 2 + (20 * (14 + 2)) + 2 + 8),
-					(2 + 16 + (20 * (14 + 2))),
-					(2 + 14 + 2 + (20 * (14 + 2)) + 2 + 8)
-					(2 + 16 + (20 * (14 + 2)) + 2 + 8),
-					(2 + 16 + (20 * (14 + 2)) + 2 + 8)
+Bytes Sum Normal: (8 + 2 + (30 * 14) + 2 + 8),
+                  (2 + (50 * 14) + (20 * 14) + 2 + 8),
+                  (2 + (30 * 14) + 2 + 8),
+                  (2 + (20 * 14) + 2 + 8)
+Bytes Sum Locked: (8 + 2 + 14 + 2 + (20 * (14 + 2)) + 2 + 8),
+                  (2 + 16 + (20 * (14 + 2))),
+                  (2 + 14 + 2 + (20 * (14 + 2)) + 2 + 8)
+                  (2 + 16 + (20 * (14 + 2)) + 2 + 8),
+                  (2 + 16 + (20 * (14 + 2)) + 2 + 8)
 
 830, 2562, 3378
 1384, 2556, 3232
@@ -39,36 +39,36 @@ Bytes Sum Locked:	(8 + 2 + 14 + 2 + (20 * (14 + 2)) + 2 + 8),
 
 
 
-Level 3:	230
-Level 3A:	80 (10, [20], 10, [20 + 20])
-Level 3B:	30 (10, [20])
-Level 3C:	120 (60, [20 + 20 + 20])
+Level 3:  230
+Level 3A: 80 (10, [20], 10, [20 + 20])
+Level 3B: 30 (10, [20])
+Level 3C: 120 (60, [20 + 20 + 20])
 
-Bytes Sum Normal:	(6 + 2 + (10 * 14) + (10 * 14) + 2 + 8),
-					(2 + (10 * 14) + 2 + 8),
-					(2 + (60 * 14) + 2 + 8)
-Bytes Sum Locked:	(6 + 18 + (20 * (14 + 2))),
-					(2 + 16 + (20 * (14 + 2))),
-					(2 + 14 + (20 * (14 + 2)) + 2 + 8),
-					(2 + 16 + (20 * (14 + 2)) + 2 + 8),
-					(2 + 16 + (20 * (14 + 2))),
-					(2 + 14 + (20 * (14 + 2))),
-					(2 + 14 + (20 * (14 + 2)) + 8 + 8)
+Bytes Sum Normal: (6 + 2 + (10 * 14) + (10 * 14) + 2 + 8),
+                  (2 + (10 * 14) + 2 + 8),
+                  (2 + (60 * 14) + 2 + 8)
+Bytes Sum Locked: (6 + 18 + (20 * (14 + 2))),
+                  (2 + 16 + (20 * (14 + 2))),
+                  (2 + 14 + (20 * (14 + 2)) + 2 + 8),
+                  (2 + 16 + (20 * (14 + 2)) + 2 + 8),
+                  (2 + 16 + (20 * (14 + 2))),
+                  (2 + 14 + (20 * (14 + 2))),
+                  (2 + 14 + (20 * (14 + 2)) + 8 + 8)
 
 1398, 1934
 1252, 2488
 
 
 
-Level 4:	240
-Level 4A:	180 (30, [50], 10 Top, 50, [40])
-Level 4B:	60 (40, [20])
+Level 4:  240
+Level 4A: 180 (30, [50], 10 Top, 50, [40])
+Level 4B: 60 (40, [20])
 
-Bytes Sum Normal:	(4 + 2 + (30 * 14) + (10 * 14) + (50 * 14) + 2 + 8),
-					(2 + (40 * 14) + 2 + 8)
-Bytes Sum Locked:	(6 + 16 + (50 * (14 + 2))),
-					(2 + 16 + (40 * (14 + 2)) + 2 + 8),
-					(2 + 16 + (20 * (14 + 2)) + 2 + 8),
+Bytes Sum Normal: (4 + 2 + (30 * 14) + (10 * 14) + (50 * 14) + 2 + 8),
+                  (2 + (40 * 14) + 2 + 8)
+Bytes Sum Locked: (6 + 16 + (50 * (14 + 2))),
+                  (2 + 16 + (40 * (14 + 2)) + 2 + 8),
+                  (2 + 16 + (20 * (14 + 2)) + 2 + 8),
 
 2820
 2116
@@ -76,44 +76,44 @@ Bytes Sum Locked:	(6 + 16 + (50 * (14 + 2))),
 
 
 
-Level 5:	580
-Level 5A	(80, [20 + 20], 60, [30], 60, [20 + 20 + 20], 80, [40], 80, [20 + 20 + 20])
+Level 5:  580
+Level 5A: (80, [20 + 20], 60, [30], 60, [20 + 20 + 20], 80, [40], 80, [20 + 20 + 20])
 
-Bytes Sum Normal:	(2 + 2 + (80 * 14) + (60 * 14) + (60 * 14) + (80 * 14) + (80 * 14) + 2 + 8)
-Bytes Sum Locked:	(4 + 16 + (20 * (14 + 2))),
-				 	(2 + 14 + (20 * (14 + 2))),
-					(2 + 16 + (30 * (14 + 2))),
-					(2 + 16 + (20 * (14 + 2))),
-					(2 + 14 + (20 * (14 + 2))),
-					(2 + 14 + (20 * (14 + 2))),
-					(2 + 16 + (40 * (14 + 2))),
-					(2 + 16 + (20 * (14 + 2))),
-					(2 + 14 + (20 * (14 + 2))),
-					(2 + 14 + (20 * (14 + 2)) + 8 + 8)
-
-
+Bytes Sum Normal: (2 + 2 + (80 * 14) + (60 * 14) + (60 * 14) + (80 * 14) + (80 * 14) + 2 + 8)
+Bytes Sum Locked: (4 + 16 + (20 * (14 + 2))),
+                  (2 + 14 + (20 * (14 + 2))),
+                  (2 + 16 + (30 * (14 + 2))),
+                  (2 + 16 + (20 * (14 + 2))),
+                  (2 + 14 + (20 * (14 + 2))),
+                  (2 + 14 + (20 * (14 + 2))),
+                  (2 + 16 + (40 * (14 + 2))),
+                  (2 + 16 + (20 * (14 + 2))),
+                  (2 + 14 + (20 * (14 + 2))),
+                  (2 + 14 + (20 * (14 + 2)) + 8 + 8)
 
 
-Level 6:	940
-Level 6A:	120 (80, [40])
-Level 6B:	240 (100, [40], 60, [40])
-Level 6C:	380 (200, [40], 100, [40])
-Level 6D:	260 (80, [40], 20, [40], 40, [20, 10, 10])
 
-Bytes Sum Normal:	(6 + 2 + (80 * 14) + (100 * 14) + (60 * 14) + 2 + 8),
-					(2 + (200 * 14) + (100 * 14) + 2 + 8),
-					(2 + (80 * 14) + (20 * 14) + (40 * 14) + 2 + 8),
-Bytes Sum Locked:	(6 + 2 + 16 + (40 * (14 + 2))),
-					(2 + 16 + (40 * (14 + 2))),
-					(2 + 16 + (40 * (14 + 2)) + 2 + 2 + 8),
-					(2 + 16 + (40 * (14 + 2))),
-					(2 + 16 + (40 * (14 + 2)) + 2 + 8),
 
-					(2 + 16 + (40 * (14 + 2))),
-					(2 + 16 + (40 * (14 + 2))),
-					(2 + 16 + (20 * (14 + 2))),
-					(2 + 14 + (10 * (14 + 2))),
-					(2 + 14 + (10 * (14 + 2)) + 2 + 6 + 2 + 8)
+Level 6:  940
+Level 6A: 120 (80, [40])
+Level 6B: 240 (100, [40], 60, [40])
+Level 6C: 380 (200, [40], 100, [40])
+Level 6D: 260 (80, [40], 20, [40], 40, [20, 10, 10])
+
+Bytes Sum Normal: (6 + 2 + (80 * 14) + (100 * 14) + (60 * 14) + 2 + 8),
+                  (2 + (20 * 14) + (100 * 14) + 2 + 8),
+                  (2 + (80 * 14) + (20 * 14) + (40 * 14) + 2 + 8),
+Bytes Sum Locked: (6 + 2 + 16 + (40 * (14 + 2))),
+                  (2 + 16 + (40 * (14 + 2))),
+                  (2 + 16 + (40 * (14 + 2)) + 2 + 2 + 8),
+                  (2 + 16 + (40 * (14 + 2))),
+                  (2 + 16 + (40 * (14 + 2)) + 2 + 8),
+
+                  (2 + 16 + (40 * (14 + 2))),
+                  (2 + 16 + (40 * (14 + 2))),
+                  (2 + 16 + (20 * (14 + 2))),
+                  (2 + 14 + (10 * (14 + 2))),
+                  (2 + 14 + (10 * (14 + 2)) + 2 + 6 + 2 + 8)
 
 
 
@@ -130,38 +130,38 @@ Level 1
 
 // Used only on the first lock of the level
 
-06 00:	Start of the part 1 Lock. Pointer + 0x0006
-6A 00:	Start of the part 2 Lock. Pointer + 0x006A
-BE 00:	Start of the part 3 Lock. Pointer + 0x00BE
-02 00:	Start of the Lock. 02 means the values start 2 bytes after.
+06 00:  Start of the part 1 Lock. Pointer + 0x0006
+6A 00:  Start of the part 2 Lock. Pointer + 0x006A
+BE 00:  Start of the part 3 Lock. Pointer + 0x00BE
+02 00:  Start of the Lock. 02 means the values start 2 bytes after.
 
 // Used only on the first lock of the level
 
 
-F0 03:	Camera position to trigger the screen lock.
-20 1C:	Maximum amount of frames the lock will hold.
-				After 0x1C20 (7200) frames / 120 seconds pass,
-				it doesn't matter if there are chars to kill,
-				the lock will just release. 
+F0 03:  Camera position to trigger the screen lock.
+20 1C:  Maximum amount of frames the lock will hold.
+        After 0x1C20 (7200) frames / 120 seconds pass,
+        it doesn't matter if there are chars to kill,
+        the lock will just release. 
 
-05:			Amount of enemies that needs to be killed to release the lock.
-				Only enemies spawned in the lock will be counted as a kill.
+05:     Amount of enemies that needs to be killed to release the lock.
+        Only enemies spawned in the lock will be counted as a kill.
 
-00:			?
-00:			Shows the GO icon, 00 doesn't show, 01 shows the GO icon.
-00:			?
-00:			?
-00:			?
+00:     ?
+00:     Shows the GO icon, 00 doesn't show, 01 shows the GO icon.
+00:     ?
+00:     ?
+00:     ?
 
-06 00 A6 F2:	Address of the next lock or to the end of
-							reading locks for a specific part.
+06 00 A6 F2:  Address of the next lock or to the end of
+              reading locks for a specific part.
 
-01 00:	Amount of frames to wait before executing the last 14 bytes that
-				represents an enemy. Delay to spawn an enemy. 0X0001 (Just 1 frame).
+01 00:  Amount of frames to wait before executing the last 14 bytes that
+        represents an enemy. Delay to spawn an enemy. 0X0001 (Just 1 frame).
 
 
-0A 80 ?? ?? AD AD AD AD FF 7F:	Used to loop back to a previous lock.
-?? 80 FF 7F:	Used to end reading all locks of a part.
+0A 80 ?? ?? AD AD AD AD FF 7F:  Used to loop back to a previous lock.
+?? 80 FF 7F:                    Used to end reading all locks of a part.
 
 
 Lock 1
@@ -336,7 +336,7 @@ Lock 1
 
 
 
-06 00 C8 01 0C 02											
+06 00 C8 01 0C 02
 02 00
 00 02 20 1C 0A 00 01 00 00 00 06 00 84 F6
 
@@ -372,7 +372,7 @@ Lock 2
 
 
 00 80
-E0 04 20 1C 04 00 01 00 00 00 06 00 D4 F6 01 00				Lock 2
+E0 04 20 1C 04 00 01 00 00 00 06 00 D4 F6 01 00       Lock 2
 
 01 00 C0 04 20 00 05 02 00 01 00 00 00 FF
 78 00
@@ -409,7 +409,7 @@ B4 00
 FF 7F
 
 
-Lock 4		Ring
+Lock 4    Ring
 
 02 00
 00 0F 20 1C 03 00 00 00 00 00 06 00 A6 F7 01 00
@@ -497,7 +497,7 @@ Lock 1
 04 00 88 02 02 00
 C0 04 30 2A 0A 00 01 00 00 00 06 00 D4 FA 01 00
 
-00 00 F8 05 70 00 11 0A 00 03 00 00 00 FF		// Fire
+00 00 F8 05 70 00 11 0A 00 03 00 00 00 FF   // Fire
 01 00
 00 00 00 06 58 00 11 0A 01 03 00 00 00 FF
 01 00
@@ -525,7 +525,7 @@ C0 04 30 2A 0A 00 01 00 00 00 06 00 D4 FA 01 00
 01 00
 00 00 00 05 58 00 11 0A 01 03 00 00 00 FF
 01 00
-00 00 08 05 40 00 11 0A 00 03 00 00 00 FF		// Fire  15, 12
+00 00 08 05 40 00 11 0A 00 03 00 00 00 FF   // Fire  15, 12
 01 00
 00 00 60 06 70 00 00 02 00 02 00 00 00 FF
 01 00
@@ -1029,5 +1029,5 @@ FF 7F
 
 
 
-TS TS PX PX PY PY ID TY PO CL OB DB	SP HP 
+TS TS PX PX PY PY ID TY PO CL OB DB SP HP 
 70 00 10 02 40 00 00 02 02 00 00 00 00 00

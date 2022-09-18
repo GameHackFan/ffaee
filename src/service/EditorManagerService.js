@@ -40,10 +40,7 @@ class EditorManagerService
 
   addDefaultTextIfNoText = () =>
   {
-    const bytes = editorManagerData.toolTextCheckBytes;
-    const index = romService.indexOfBytes("ff-23m.8h", bytes, "hex");
-
-    if(index < 0)
+    if(!modificationService.contains(150))
       patchService.addToModificationQueue(patchMap.defaultTextPatch.key);
   }
 

@@ -1,5 +1,5 @@
 FF80BE: Stage ID (0300 is Industrial Area)
-FF1314:	Player 1 Enemy Life Bar
+FF1314: Player 1 Enemy Life Bar
 
 
 
@@ -45,10 +45,10 @@ D6FCA
 
 
 3D41C
-40C74		
-45F74		D0
+40C74
+45F74   D0
 D6EE6
-4BE50		D0
-4EA30		D0
+4BE50   D0
+4EA30   D0
 //
 

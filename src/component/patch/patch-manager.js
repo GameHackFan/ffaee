@@ -104,7 +104,7 @@ class PatchManager
 
 const createPatchList = () =>
 {
-  return patchService.getPatchList(false);
+  return patchService.getUIPatchList(false);
 }
 
 export { PatchManager };

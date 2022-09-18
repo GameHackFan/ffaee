@@ -24,7 +24,7 @@ class PatchService
       message = "Invalid patch, it doesn't have the field 'filename'!";
 
     if(patchMap[key])
-      message = "Invalid patch, 'patchKey' conflicts with another patch in the patch map!";
+      message = "Invalid patch, 'key' conflicts with another patch in the patch map!";
 
     if(priority < 0)
       message = "Invalid patch, it must have a field 'priority' bigger than -1!";
@@ -76,7 +76,7 @@ class PatchService
     return patchMap[key];
   }
 
-  getPatchList = (hidden) =>
+  getUIPatchList = (hidden) =>
   {
     const pl = []
     const keys = Object.keys(patchMap);
