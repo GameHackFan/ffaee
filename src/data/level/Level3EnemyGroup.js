@@ -140,7 +140,7 @@ export const level3EnemyGroup =
     defaultAmount: 6,
     maxAmount: 10,
     specialProfile: "ringStrategy",
-    forbiddenPositionRanges:["outsideLeft", "outsideRight"],
+    forbiddenPositionRanges: ["outsideLeft", "outsideRight"],
     forbiddenEnemyLists: ["mustSpawnLeftList",
         "mustSpawnRightList", "cagePalletBugList"]
   },
@@ -165,7 +165,7 @@ export const level3EnemyGroup =
     defaultAmount: 3,
     maxAmount: 20,
     specialProfile: "ringLockStrategy",
-    forbiddenPositionRanges:["outsideLeft", "outsideRight"],
+    forbiddenPositionRanges: ["outsideLeft", "outsideRight"],
     forbiddenEnemyLists: ["mustSpawnLeftList", "mustSpawnRightList",
         "staticObjectList", "cagePalletBugList"]
   },
@@ -190,7 +190,7 @@ export const level3EnemyGroup =
     levelEditorShiftX: 492,          // 492 - 0
     defaultAmount: 0,
     maxAmount: 10,
-    forbiddenPositionRanges:["outsideLeft"],
+    forbiddenPositionRanges: ["outsideLeft"],
     forbiddenEnemyLists: ["mustSpawnLeftList"]
   },
   group5:
@@ -254,7 +254,7 @@ export const level3EnemyGroup =
     maxAmount: 23,                   // 25, but 2 spaces for 2 extra bosses
     extraBoss: "ediE",
     bossSpawnFirst: false,
-    forbiddenPositionRanges:["outsideLeft"],
+    forbiddenPositionRanges: ["outsideLeft"],
     forbiddenEnemyLists: ["chandelierList",
         "mustSpawnLeftList", "shootingBugList"]
   },
@@ -281,7 +281,7 @@ export const level3EnemyGroup =
     defaultAmount: 6,
     maxAmount: 20,
     specialProfile: "lockGroupStrategy",
-    forbiddenPositionRanges:["outsideRight"],
+    forbiddenPositionRanges: ["outsideRight"],
     forbiddenEnemyLists: ["chandelierList", "mustSpawnRightList",
         "staticObjectList", "shootingBugList"]
   },
@@ -306,7 +306,7 @@ export const level3EnemyGroup =
     defaultAmount: 6,
     maxAmount: 20,
     specialProfile: "lockGroupStrategy",
-    forbiddenPositionRanges:["outsideRight"],
+    forbiddenPositionRanges: ["outsideRight"],
     forbiddenEnemyLists: ["chandelierList", "mustSpawnRightList",
         "staticObjectList", "shootingBugList"]
   },
@@ -331,7 +331,7 @@ export const level3EnemyGroup =
     defaultAmount: 6,
     maxAmount: 20,
     specialProfile: "lockGroupStrategy",
-    forbiddenPositionRanges:["outsideRight"],
+    forbiddenPositionRanges: ["outsideRight"],
     forbiddenEnemyLists: ["chandelierList", "mustSpawnRightList",
         "staticObjectList", "shootingBugList"]
   }

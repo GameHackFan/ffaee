@@ -17,7 +17,8 @@ export const randomizerTextPatch =
     // Change the position of the Push Start Button text.
     "420556": ["17"],
 
-    
+
+
     // Code that prints the extra texts used by the randomizer.
     "482816":
     [
@@ -47,7 +48,7 @@ export const randomizerTextPatch =
       "1A", "13", "52", "00", "6E", "61", "6F", "64",
       "69", "6D", "65", "7A", "20", "72", "2A", "2A",
       "2A", "2A", "2A", "2A", "2A", "2A", "2A", "2A",
-      "76", "20", "2E", "30", "00", "39", "FF", "FF"
+      "76", "20", "2E", "31", "00", "30", "FF", "FF"
     ],
 
     // Seed text

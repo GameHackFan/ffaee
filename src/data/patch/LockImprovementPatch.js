@@ -8,7 +8,7 @@ export const lockImprovementPatch =
   {
     // Instruction that redirects the execution to the
     // code handles the release of the lock.
-    "23986":["F9", "4E", "07", "00", "A0", "5B"],
+    "23986": ["F9", "4E", "07", "00", "A0", "5B"],
 
 
 

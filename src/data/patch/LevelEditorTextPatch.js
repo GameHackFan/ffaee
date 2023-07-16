@@ -16,6 +16,7 @@ export const levelEditorTextPatch =
     "420556": ["17"],
 
 
+
     // Code that prints the extra texts used by the randomizer.
     "482816":
     [
@@ -46,8 +47,8 @@ export const levelEditorTextPatch =
       "64", "6F", "66", "69", "65", "69", "20", "64",
       "79", "42", "54", "20", "65", "68", "4C", "20",
       "76", "65", "6C", "65", "45", "20", "69", "64",
-      "6F", "74", "20", "72", "76", "20", "2E", "30",
-      "00", "39", "FF", "FF", "FF", "FF", "FF", "FF"
+      "6F", "74", "20", "72", "76", "20", "2E", "31",
+      "00", "30", "FF", "FF", "FF", "FF", "FF", "FF"
     ],
 
     // Hack author text

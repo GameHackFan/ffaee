@@ -1,3 +1,13 @@
+Version 1.0 Change:
+- Fixed Level Editor 4th Stage Elevator, scroll Y wasn't being shown.
+- Created DisableFriendlyFirePatch, it disables the friendly fire.
+- Created DisableAnyDropToTreasureConversionPatch, it disables any drop being converted to treasure.
+- Created GuyAndCodyThrowScoreFixPatch, it fixes the amount of points guy and cody gets when throwing enemies.
+- Forced the Seed Randomizer to apply the DisableFriendlyFirePatch, DisableAnyDropToTreasureConversionPatch and GuyAndCodyThrowScoreFixPatch patches.
+- Forced the Level Editor to apply the GuyAndCodyThrowScoreFixPatch.
+- Minor changes and fixes.
+
+
 Version 0.9 Change:
 - Changed from React.js to Svelte.
 - Added a ModificationManager to better handle changes made by the user.

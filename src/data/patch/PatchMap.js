@@ -4,6 +4,7 @@ import { extraBossPatch } from "./ExtraBossPatch";
 
 import { featuresAndFixesPatch1 } from "./FeaturesAndFixesPatch";
 import { featuresAndFixesPatch2 } from "./FeaturesAndFixesPatch";
+import { disableFriendlyFirePatch } from "./DisableFriendlyFire";
 import { lifebarImprovementPatch1 } from "./LifebarImprovementPatch";
 import { lifebarImprovementPatch2 } from "./LifebarImprovementPatch";
 import { enemySpawnImprovementPatch } from "./EnemySpawnImprovementPatch";
@@ -13,6 +14,9 @@ import { enemyHealthImprovementPatch1 } from "./EnemyHealthImprovementPatch";
 import { enemyHealthImprovementPatch2 } from "./EnemyHealthImprovementPatch";
 import { andoreColorImprovementPatch } from "./AndoreColorImprovementPatch";
 import { guyColorImprovementPatch } from "./GuyColorImprovementPatch";
+import { guyAndCodyThrowScoreFixPatch } from "./GuyAndCodyThrowScoreFixPatch";
+import { disableAnyDropToTreasureConversionPatch } from
+    "./DisableAnyDropToTreasureConversionPatch";
 
 import { playerHealthPatch } from "./PlayerHealthPatch";
 import { levelEditorTextPatch } from "./LevelEditorTextPatch";
@@ -51,6 +55,41 @@ export const patchMap =
             "patch is used by the Level Editor and " + 
             "the Seed Randomizer.",
     patch: featuresAndFixesPatch2,
+    show: true
+  },
+  disableFriendlyFirePatch:
+  {
+    key:    "disableFriendlyFirePatch",
+    label:  "Disable Friendly Fire Patch",
+    text:   "This patch disables the friendly fire between " + 
+            "players. It is an easy way to handle the hit bug " + 
+            "between players brought by Final Fight AE. This " +
+            "patch is used by the Seed Randomizer.",
+    patch: disableFriendlyFirePatch,
+    show: true
+  },
+  disableAnyDropToTreasureConversionPatch:
+  {
+    key:    "disableAnyDropToTreasureConversionPatch",
+    label:  "Disable Any Drop To Treasure Conversion Patch",
+    text:   "This patch disables any drop being converted to " + 
+            "a treasure if the player presses any direction " +
+            "or the jump button 1 frame before the drop code " + 
+            "is executed. This patch is used by the Seed " + 
+            "Randomizer.",
+    patch: disableAnyDropToTreasureConversionPatch,
+    show: true
+  },
+  guyAndCodyThrowScoreFixPatch:
+  {
+    key:    "guyAndCodyThrowScoreFixPatch",
+    label:  "Guy and Cody Throw Score Fix Patch",
+    text:   "This patch fixes the throw score Guy and Cody " + 
+            "gets when they throw an enemy. They were " + 
+            "getting 10000 instead of the correct value " + 
+            "that is 300. This patch is used by the Seed " + 
+            "Randomizer and the Level Editor.",
+    patch: guyAndCodyThrowScoreFixPatch,
     show: true
   },
   enemySpawnImprovementPatch:

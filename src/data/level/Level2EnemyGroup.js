@@ -243,7 +243,7 @@ export const level2EnemyGroup =
     extraBoss: "sodom",
     bossSpawnFirst: false,
     specialProfile: "ringStrategy",
-    forbiddenPositionRanges:["outsideLeft", "outsideRight"],
+    forbiddenPositionRanges: ["outsideLeft", "outsideRight"],
     forbiddenEnemyLists: ["mustSpawnLeftList",
         "mustSpawnRightList", "staticObjectList"]
   },

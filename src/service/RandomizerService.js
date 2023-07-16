@@ -299,9 +299,13 @@ class RandomizerService
   {
     const lmtiPatch = patchMap.lockMaxTimeImprovementPatch.patch;
     const ehicPatch = patchMap.enemyHealthImprovementCallerPatch.patch;
+    const dtcPatch = patchMap.disableAnyDropToTreasureConversionPatch.patch;
     romService.applyPatch(ehicPatch);
     romService.applyPatch(patchMap.featuresAndFixesPatch1.patch);
     romService.applyPatch(patchMap.featuresAndFixesPatch2.patch);
+    romService.applyPatch(patchMap.disableFriendlyFirePatch.patch);
+    romService.applyPatch(dtcPatch);
+    romService.applyPatch(patchMap.guyAndCodyThrowScoreFixPatch.patch);
     romService.applyPatch(patchMap.enemyHealthImprovementPatch.patch);
     romService.applyPatch(patchMap.lifebarImprovementPatch.patch);
     romService.applyPatch(patchMap.lifebarImprovementCallerPatch.patch);

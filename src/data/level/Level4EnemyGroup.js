@@ -77,7 +77,7 @@ export const level4EnemyGroup =
     levelEditorShiftX: 492,          // 492 - 0
     defaultAmount: 8,
     maxAmount: 17,
-    forbiddenPositionRanges:["outsideLeft"],
+    forbiddenPositionRanges: ["outsideLeft"],
     forbiddenEnemyLists: ["chandelierList", "mustSpawnLeftList"]
   },
   extraLockGroup1:  // TODO: Not used, but can be used.
@@ -120,7 +120,7 @@ export const level4EnemyGroup =
     levelEditorShiftX: 492,          // 492 - 0
     defaultAmount: 8,
     maxAmount: 18,
-    forbiddenPositionRanges:["outsideRight"],
+    forbiddenPositionRanges: ["outsideRight"],
     forbiddenEnemyLists: ["mustSpawnRightList"]
   },
   group3:
@@ -140,7 +140,7 @@ export const level4EnemyGroup =
     levelEditorShiftX: 492,          // 492 - 0
     defaultAmount: 7,
     maxAmount: 17,
-    forbiddenPositionRanges:["outsideRight"],
+    forbiddenPositionRanges: ["outsideRight"],
     forbiddenEnemyLists: ["mustSpawnRightList"]
   },
   lockGroup1:
@@ -164,7 +164,7 @@ export const level4EnemyGroup =
     defaultAmount: 11,
     maxAmount: 40,
     specialProfile: "lockGroupStrategy",
-    forbiddenPositionRanges:["outsideRight"],
+    forbiddenPositionRanges: ["outsideRight"],
     forbiddenEnemyLists: ["mustSpawnRightList", "staticObjectList"]
   },
 
@@ -191,7 +191,7 @@ export const level4EnemyGroup =
     defaultAmount: 3,
     maxAmount: 6,
     specialProfile: "elevatorT1Strategy",
-    forbiddenPositionRanges:["outsideLeft", "outsideRight"],
+    forbiddenPositionRanges: ["outsideLeft", "outsideRight"],
     forbiddenEnemyLists: ["chandelierList",
         "mustSpawnLeftList", "mustSpawnRightList",
         "staticObjectList", "rolentoPalletBugList"]
@@ -218,7 +218,7 @@ export const level4EnemyGroup =
     maxAmount: 6,
     extraBoss: "rolentoGrenade1",
     specialProfile: "elevatorT1Strategy",
-    forbiddenPositionRanges:["outsideLeft", "outsideRight"],
+    forbiddenPositionRanges: ["outsideLeft", "outsideRight"],
     forbiddenEnemyLists: ["chandelierList",
         "mustSpawnLeftList", "mustSpawnRightList",
         "staticObjectList", "rolentoPalletBugList"]
@@ -245,7 +245,7 @@ export const level4EnemyGroup =
     maxAmount: 6,
     extraBoss: "rolentoGrenade2",
     specialProfile: "elevatorT2Strategy",
-    forbiddenPositionRanges:["outsideLeft", "outsideRight"],
+    forbiddenPositionRanges: ["outsideLeft", "outsideRight"],
     forbiddenEnemyLists: ["chandelierList",
         "mustSpawnLeftList", "mustSpawnRightList",
         "staticObjectList", "rolentoPalletBugList"]
@@ -271,7 +271,7 @@ export const level4EnemyGroup =
     defaultAmount: 3,
     maxAmount: 5,
     specialProfile: "elevatorT3Strategy",
-    forbiddenPositionRanges:["outsideLeft", "outsideRight"],
+    forbiddenPositionRanges: ["outsideLeft", "outsideRight"],
     forbiddenEnemyLists: ["chandelierList",
         "mustSpawnLeftList", "mustSpawnRightList",
         "staticObjectList", "rolentoPalletBugList"]
@@ -298,7 +298,7 @@ export const level4EnemyGroup =
     maxAmount: 6,
     extraBoss: "rolentoGrenade3",
     specialProfile: "elevatorT1Strategy",
-    forbiddenPositionRanges:["outsideLeft", "outsideRight"],
+    forbiddenPositionRanges: ["outsideLeft", "outsideRight"],
     forbiddenEnemyLists: ["chandelierList",
         "mustSpawnLeftList", "mustSpawnRightList",
         "staticObjectList", "rolentoPalletBugList"]
@@ -324,7 +324,7 @@ export const level4EnemyGroup =
     defaultAmount: 3,
     maxAmount: 6,
     specialProfile: "elevatorT2Strategy",
-    forbiddenPositionRanges:["outsideLeft", "outsideRight"],
+    forbiddenPositionRanges: ["outsideLeft", "outsideRight"],
     forbiddenEnemyLists: ["chandelierList",
         "mustSpawnLeftList", "mustSpawnRightList",
         "staticObjectList", "rolentoPalletBugList"]
@@ -355,7 +355,7 @@ export const level4EnemyGroup =
     extraBoss: "rolento",
     bossSpawnFirst: false,
     specialProfile: "elevatorT3Strategy",
-    forbiddenPositionRanges:["outsideLeft", "outsideRight"],
+    forbiddenPositionRanges: ["outsideLeft", "outsideRight"],
     forbiddenEnemyLists: ["chandelierList",
         "mustSpawnLeftList", "mustSpawnRightList",
         "staticObjectList", "rolentoPalletBugList"]

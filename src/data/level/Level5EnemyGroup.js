@@ -16,7 +16,7 @@ export const level5EnemyGroup =
     levelEditorShiftX: 492,          // 492 - 0
     defaultAmount: 3,
     maxAmount: 20,
-    forbiddenPositionRanges:["outsideLeft"],
+    forbiddenPositionRanges: ["outsideLeft"],
     forbiddenEnemyLists: ["chandelierList", "mustSpawnLeftList"]
   },
   group2:
@@ -423,7 +423,7 @@ export const level5EnemyGroup =
     levelEditorShiftX: 492,          // 492 - 0
     defaultAmount: 9,
     maxAmount: 25,
-    forbiddenPositionRanges:["outsideRight"],
+    forbiddenPositionRanges: ["outsideRight"],
     forbiddenEnemyLists: ["chandelierList", "mustSpawnRightList"]
   },
   group15:
@@ -443,7 +443,7 @@ export const level5EnemyGroup =
     levelEditorShiftX: 492,          // 492 - 0
     defaultAmount: 9,
     maxAmount: 25,
-    forbiddenPositionRanges:["outsideRight"],
+    forbiddenPositionRanges: ["outsideRight"],
     forbiddenEnemyLists: ["chandelierList", "mustSpawnRightList"]
   },
 
@@ -471,7 +471,7 @@ export const level5EnemyGroup =
     extraBoss: "abigail",
     bossSpawnFirst: true,
     specialProfile: "lockGroupStrategy",
-    forbiddenPositionRanges:["outsideRight"],
+    forbiddenPositionRanges: ["outsideRight"],
     forbiddenEnemyLists: ["chandelierList",
         "mustSpawnRightList", "staticObjectList"]
   },
@@ -496,7 +496,7 @@ export const level5EnemyGroup =
     defaultAmount: 5,
     maxAmount: 20,
     specialProfile: "lockGroupStrategy",
-    forbiddenPositionRanges:["outsideRight"],
+    forbiddenPositionRanges: ["outsideRight"],
     forbiddenEnemyLists: ["chandelierList",
         "mustSpawnRightList", "staticObjectList"]
   },
@@ -521,7 +521,7 @@ export const level5EnemyGroup =
     defaultAmount: 4,
     maxAmount: 20,
     specialProfile: "lockGroupStrategy",
-    forbiddenPositionRanges:["outsideRight"],
+    forbiddenPositionRanges: ["outsideRight"],
     forbiddenEnemyLists: ["chandelierList",
         "mustSpawnRightList", "staticObjectList"]
   }

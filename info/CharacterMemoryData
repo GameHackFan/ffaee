@@ -16,6 +16,11 @@ Compare:    A6 + $13 (contains the enemy ID) with 03 (Andore Type ID)
 
 
 FF8568:     Player 1 Memory Data
+FF8628:     Player 2 Memory Data
+FFE6E8:     Player 3 Memory Data
+
+xxxx61.B:   Invulnerability Timer
+xxxx94.B:   Friendly Fire Invulnerability Timer
 
 FF86E8:     Normal Enemy Memory Range Start
 FF8FE8:     Normal Enemy Memory Range End

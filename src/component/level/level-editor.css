@@ -3,7 +3,6 @@
   max-width: 96%;
   max-height: 30rem;
   overflow-x: scroll;
-  overflow-y: hidden;
 
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
@@ -16,10 +15,16 @@
   min-height: 15rem;
 }
 
-.level .level-display .vertical-scroll
+.level .vertical-scroll
 {
-  overflow-y: "scroll";
+  overflow-y: scroll;
 }
+
+.level .no-vertical-scroll
+{
+  overflow-y: hidden;
+}
+
 
 .level .enemy-group .window-content-line b
 {
@@ -76,7 +81,7 @@
 
 .level .window-content-line > span
 {
-  min-width: 9.875rem;
+  min-width: 10.2rem;
 }
 
 .level > div:last-child

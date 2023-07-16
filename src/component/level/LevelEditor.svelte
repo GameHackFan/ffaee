@@ -76,7 +76,7 @@
     </select>
   </div>
   <div class={`enemy-group${data.showLevelEditArea ? "" : " hidden"}`}>
-    <div class={`level-display${data.enemyGroup.hasElevator ? " .vertical-scroll" : ""}`}>
+    <div class={`level-display ${data.enemyGroup.hasElevator ? "" : "no-"}vertical-scroll`}>
       <img src={data.levelAreaImage} alt="Current Area"/>
     </div>
     <div class="enemy-group-text">

@@ -52,7 +52,7 @@ export const level6EnemyGroup =
     levelEditorShiftX: 492,         // 492 - 0
     defaultAmount: 9,
     maxAmount: 25,
-    forbiddenPositionRanges:["outsideRight"],
+    forbiddenPositionRanges: ["outsideRight"],
     forbiddenEnemyLists: ["mustSpawnRightList"]
   },
   lockGroup1:
@@ -76,7 +76,7 @@ export const level6EnemyGroup =
     defaultAmount: 11,
     maxAmount: 40,
     specialProfile: "lockGroupStrategy",
-    forbiddenPositionRanges:["outsideRight"],
+    forbiddenPositionRanges: ["outsideRight"],
     forbiddenEnemyLists: ["mustSpawnRightList", "staticObjectList"]
   },
 
@@ -220,7 +220,7 @@ export const level6EnemyGroup =
     levelEditorShiftX: -1044,       // 492 - 1536
     defaultAmount: 8,
     maxAmount: 25,
-    forbiddenPositionRanges:["outsideRight"],
+    forbiddenPositionRanges: ["outsideRight"],
     forbiddenEnemyLists: ["chandelierList", "mustSpawnRightList"]
   },
   lockGroup3:
@@ -245,7 +245,7 @@ export const level6EnemyGroup =
     defaultAmount: 1,
     maxAmount: 40,
     specialProfile: "lockGroupStrategy",
-    forbiddenPositionRanges:["outsideRight"],
+    forbiddenPositionRanges: ["outsideRight"],
     forbiddenEnemyLists: ["chandelierList",
         "mustSpawnRightList", "staticObjectList"]
   },
@@ -447,7 +447,7 @@ export const level6EnemyGroup =
     levelEditorShiftX: -4644,       // 492 - 5136
     defaultAmount: 4,
     maxAmount: 35,
-    forbiddenPositionRanges:["outsideRight"],
+    forbiddenPositionRanges: ["outsideRight"],
     forbiddenEnemyLists: ["mustSpawnRightList"]
   },
   lockGroup5:
@@ -472,7 +472,7 @@ export const level6EnemyGroup =
     defaultAmount: 10,
     maxAmount: 40,
     specialProfile: "lockGroupStrategy",
-    forbiddenPositionRanges:["outsideRight"],
+    forbiddenPositionRanges: ["outsideRight"],
     forbiddenEnemyLists: ["mustSpawnRightList", "staticObjectList"]
   },
 
@@ -618,7 +618,7 @@ export const level6EnemyGroup =
     levelEditorShiftX: -9492,       // 492 - 9984
     defaultAmount: 0,
     maxAmount: 20,
-    forbiddenPositionRanges:["outsideRight"],
+    forbiddenPositionRanges: ["outsideRight"],
     forbiddenEnemyLists: ["mustSpawnRightList", "shootingBugList"]
   },
 
@@ -647,7 +647,7 @@ export const level6EnemyGroup =
     extraBoss: "belger",
     bossSpawnFirst: true,
     specialProfile: "lockGroupStrategy",
-    forbiddenPositionRanges:["outsideRight"],
+    forbiddenPositionRanges: ["outsideRight"],
     forbiddenEnemyLists: ["mustSpawnRightList",
         "staticObjectList", "shootingBugList"]
   },
@@ -673,7 +673,7 @@ export const level6EnemyGroup =
     defaultAmount: 3,
     maxAmount: 20,
     specialProfile: "lockGroupStrategy",
-    forbiddenPositionRanges:["outsideRight"],
+    forbiddenPositionRanges: ["outsideRight"],
     forbiddenEnemyLists: ["mustSpawnRightList",
         "staticObjectList", "shootingBugList"]
   },
@@ -699,7 +699,7 @@ export const level6EnemyGroup =
     defaultAmount: 4,
     maxAmount: 20,
     specialProfile: "lockGroupStrategy",
-    forbiddenPositionRanges:["outsideRight"],
+    forbiddenPositionRanges: ["outsideRight"],
     forbiddenEnemyLists: ["mustSpawnRightList",
         "staticObjectList", "shootingBugList"]
   }

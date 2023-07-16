@@ -1,5 +1,12 @@
-FF80BE: Stage ID (0300 is Industrial Area)
-FF1314: Player 1 Enemy Life Bar
+77A2:       Handle Character Hit
+D5B62:      Call Hit Handler Code.
+      
+
+
+FF80BE:   Stage ID (0300 is Industrial Area)
+FF1314:   Player 1 Enemy Life Bar
+
+FF8084:   In Game Debug Mode Flag (Game Difficulty Dipswitch show/hide hitboxes)
 
 
 
@@ -50,5 +57,3 @@ D6FCA
 D6EE6
 4BE50   D0
 4EA30   D0
-//
-

@@ -9,7 +9,7 @@
 
 ; ORG         $75A00
 
-                                        ; Block of code that handles the increase of the health.
+                                        ; Block of code that forces the enemy to die if his HP is negative.
   TST.W       ($18, A6)                 ; Compares 0 and ($18 + A6), the character health.
   BGE         $75A10                    ; If it is 0 or bigger, ignore the 2 lines below.
   MOVE.W      #$402, ($2, A6)           ; Stores 400 inside ($2 + A6), character action / posture id.
@@ -23,7 +23,7 @@
 
 ; ORG         $75A20
 
-                                        ; Block of code that handles the increase of the health.
+                                        ; Block of code that forces the enemy to die if his HP is negative.
   TST.W       ($18, A6)                 ; Compares 0 and ($18 + A6), the character health.
   BGE         $75A30                    ; If it is 0 or bigger, ignore the 2 lines below.
   MOVE.W      #$402, ($2, A6)           ; Stores 400 inside ($2 + A6), character action / posture id.
